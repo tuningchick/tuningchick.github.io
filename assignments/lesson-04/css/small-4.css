@@ -1,0 +1,22 @@
+/* CIT 230 Town Pages CSS */
+
+/* * is a wildcard referring to all elements. */
+* { margin: 0; box-sizing: border-box; } 
+
+body {
+	background-color: #bbb;
+}
+
+header {
+	margin: 10px auto;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
+}
+
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}

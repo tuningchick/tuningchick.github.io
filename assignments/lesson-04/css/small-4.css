@@ -30,13 +30,11 @@ header img, .headings {
 
 nav {
     margin: 5px auto;
-    background-color: white;
-    text-align: center;
     font-family: 'Lato', sans-serif;
     color: #73c058;
 }
 
-nav li {
+nav li a {
     background-color: white;
     color: #73c058;
     padding: 14px 25px;
@@ -45,6 +43,7 @@ nav li {
     margin: 5px auto;
     display: inline-block;
     vertical-align: middle;
+    max-width: 400px;
 }
 
 .selected {

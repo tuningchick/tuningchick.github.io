@@ -25,11 +25,13 @@ header img, .headings {
 .moto { 
     font-family: 'Lato', sans-serif;
     font-size: .7em;
-    text-decoration-color: antiquewhite; 
+    color: antiquewhite; 
 }
 
 nav {
     font-family: 'Lato', sans-serif;
-    vertical-align: middle;
-    margin: 5px;
+    color: #73c058;
+    margin: 5px auto;
+    background-color: antiquewhite;
+    text-align: center;
 }

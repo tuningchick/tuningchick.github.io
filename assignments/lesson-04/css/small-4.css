@@ -42,6 +42,9 @@ nav li {
     vertical-align: middle;
 }
 
+nav a {
+    text-decoration: none;
+}
 nav, .selected {
     background-color: #e5f3e0;
 }

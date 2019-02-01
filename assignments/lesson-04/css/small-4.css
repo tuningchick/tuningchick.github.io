@@ -29,12 +29,13 @@ header img, .headings {
 }
 
 nav {
+    background-color: white;
     margin: 5px auto;
     font-family: 'Lato', sans-serif;
     color: #73c058;
 }
 
-nav li a {
+nav li {
     background-color: white;
     color: #73c058;
     padding: 14px 25px;

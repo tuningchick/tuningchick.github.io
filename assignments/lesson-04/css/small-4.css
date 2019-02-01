@@ -43,7 +43,12 @@ nav li {
 }
 
 nav a {
+    background-color: white;
+    color: #73c058;
+    padding: 14px 25px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
 }
 nav, .selected {
     background-color: #e5f3e0;

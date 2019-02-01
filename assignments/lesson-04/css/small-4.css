@@ -47,6 +47,6 @@ nav li {
     vertical-align: middle;
 }
 
-nav, .selected {
+.selected {
     background-color: #e5f3e0;
 }

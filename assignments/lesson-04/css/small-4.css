@@ -4,12 +4,12 @@
 * { margin: 0; box-sizing: border-box; } 
 
 body {
-	background-color: #bbb;
+	background-color: #73c058;
 }
 
 header {
 	margin: 10px auto;
-	background-color: #fff;
+	background-color: #c2ca86;
 	border: 1px solid #bbb;
 	box-shadow: 0 0 30px #777;
 	text-align: center;
@@ -18,5 +18,6 @@ header {
 header img, .headings {
 	display: inline-block;
 	vertical-align: middle;
-	margin: 10px;
+    margin: 10px;
+    font-family: 'Roboto Slab', serif;
 }

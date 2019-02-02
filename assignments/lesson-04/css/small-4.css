@@ -39,6 +39,8 @@ nav li {
     background-color: white;
     text-decoration: none;
     text-align: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 nav a {
@@ -53,5 +55,5 @@ nav a {
 }
 
 .selected {
-    background-color: #e5f3e0;
+    background-color: #f3f5e9;
 }

@@ -35,6 +35,10 @@ nav {
     color: #73c058;
 }
 
+ul .mainnavigation {
+    list-style: none;
+}
+
 nav li {
     background-color: white;
     text-decoration: none;

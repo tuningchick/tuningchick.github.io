@@ -35,8 +35,13 @@ nav {
     color: #73c058;
 }
 
-nav a {
+nav li {
     background-color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a {
     color: #73c058;
     padding: 14px 25px;
     text-align: center;

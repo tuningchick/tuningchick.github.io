@@ -87,7 +87,7 @@ main h1 {
 /* styling weather summary aside */
 
 #summary {
-    float: left;
+    position: absolute;
 }
 
 /* Styling article image */

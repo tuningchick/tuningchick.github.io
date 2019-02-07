@@ -6,7 +6,7 @@
 body {
 	background-color: #73c058;
 }
-
+/* styling header */
 header {
 	margin: 10px auto;
 	background-color: #c2ca86;
@@ -33,6 +33,7 @@ header img, .headings {
     text-align: right; 
 }
 
+/* styling navigation menu */
 nav {
     background-color: white;
     margin: 5px auto;
@@ -69,9 +70,26 @@ nav a {
     background-color: #f3f5e9;
 }
 
+/*styling main h1 */
+main h1 {
+    text-align: center;
+    color: white;
+}
+
+/* styling weather summary image */
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;   
 }
+
+/* styling weather summary aside */
+
+#summary {
+    float: left;
+}
+
+/* Styling article image */
+
+

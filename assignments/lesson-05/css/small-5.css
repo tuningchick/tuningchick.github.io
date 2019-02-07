@@ -18,7 +18,7 @@ header {
 header h1 {
     margin-bottom: 0;
     font-family: 'Roboto Slab', serif;
-    text-shadow: 2px 2px 4px #f3f5e9;
+    text-shadow: 2px 2px 4px #777;
 }
 
 header img, .headings {
@@ -93,17 +93,21 @@ main h1 {
 #summary {
     position: absolute;
     font-family: 'Lato', sans-serif;
-    color: white;
+    background-color: #f3f5e9;
+    opacity: 0.5;
     padding-top: 4em;
     padding-left: 2em;
+
 }
 
 summary h2 {
-    padding: .3em;
+    padding: .8em;
+    color: white;
 }
 
 summary h4 {
-    padding: .2em;
+    padding: .5em;
+    color: white;
 }
 
 /* Styling article image */

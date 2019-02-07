@@ -17,20 +17,22 @@ header {
 
 header h1 {
     margin-bottom: 0;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 2px 2px 4px #f3f5e9;
 }
 
 header img, .headings {
 	display: inline-block;
 	vertical-align: middle;
     margin: 10px;
-    font-family: 'Roboto Slab', serif;
 }
 
 .motto { 
     font-family: 'Lato', sans-serif;
     font-size: .9em;
     color: white;
-    text-align: right; 
+    text-align: right;
+    text-shadow: 1px 1px 2px #777; 
 }
 
 /* styling navigation menu */
@@ -73,6 +75,7 @@ nav a {
 /*styling main h1 */
 main h1 {
     text-align: center;
+    font-family: 'Roboto Slab', serif;
     color: white;
     text-shadow: 1px 1px 2px #777;
 }

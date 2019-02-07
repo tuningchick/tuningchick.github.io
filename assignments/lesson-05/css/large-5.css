@@ -9,8 +9,14 @@ nav ul  {
     overflow: hidden;
     background-color: white;
 }
+/* position menu items to the left and add border right to menu items color #f3f5e9 */
 li {
     float: left;
+    border-right: 1px solid #f3f5e9;
+}
+/* style so there is no border on the far right */
+li:last-child {
+    border-right: none;
 }
 li a {
     display: block;
@@ -27,3 +33,5 @@ li a:hover {
 .selected {
     background-color: #f3f5e9;
 }
+
+

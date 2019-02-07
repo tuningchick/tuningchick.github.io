@@ -1,0 +1,26 @@
+@media only screen and (min-width: 992px) {
+    width: 100%;
+    max-width: 1199px;
+}
+/*navigation menu styling */
+nav ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #231f20;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #c2ca86;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* change the link color to #373334 on hover */
+li a:hover {
+    background-color: #373334;
+}

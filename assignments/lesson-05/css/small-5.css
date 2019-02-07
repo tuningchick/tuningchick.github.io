@@ -90,8 +90,17 @@ main h1 {
 #summary {
     position: absolute;
     font-family: 'Lato', sans-serif;
-    margin-bottom: auto;
-    margin-top: auto;
+    color: white;
+    padding-top: 4em;
+    padding-left: 2em;
+}
+
+summary h2 {
+    padding: .3em;
+}
+
+summary h4 {
+    padding: .2em;
 }
 
 /* Styling article image */

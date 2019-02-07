@@ -1,0 +1,66 @@
+/* CIT 230 Town Pages CSS */
+
+/* * is a wildcard referring to all elements. */
+* { margin: 0; box-sizing: border-box; } 
+
+body {
+	background-color: #73c058;
+}
+
+header {
+	margin: 10px auto;
+	background-color: #c2ca86;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
+}
+
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+    margin: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.motto { 
+    font-family: 'Lato', sans-serif;
+    font-size: .9em;
+    color: white;
+    text-align: right; 
+}
+
+nav {
+    background-color: white;
+    margin: 5px auto;
+    font-family: 'Lato', sans-serif;
+    color: #73c058;
+}
+
+nav ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+nav a {
+    color: #73c058;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px auto;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 400px;
+}
+
+.selected {
+    background-color: #f3f5e9;
+}

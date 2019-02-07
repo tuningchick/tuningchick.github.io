@@ -68,3 +68,7 @@ nav a {
 .selected {
     background-color: #f3f5e9;
 }
+
+main img {
+    width: 80%;
+}

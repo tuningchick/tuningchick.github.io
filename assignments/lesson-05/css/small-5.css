@@ -93,20 +93,21 @@ main h1 {
 #summary {
     position: absolute;
     font-family: 'Lato', sans-serif;
-    color: white;
     background-color: #f3f5e9;
     opacity: 0.5;
-    padding-top: 4em;
-    padding-left: 2em;
+    padding-top: 2em;
+    padding-left: 1em;
 
 }
 
 summary h2 {
     padding: .4em;
+    color: white;
 }
 
-summary h4 {
+summary p {
     line-height: 1.6;
+    color: white;
 }
 
 /* Styling article image */

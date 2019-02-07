@@ -74,6 +74,7 @@ nav a {
 main h1 {
     text-align: center;
     color: white;
+    text-shadow: 1px 1px 2px #777;
 }
 
 /* styling weather summary image */
@@ -91,5 +92,9 @@ main h1 {
 }
 
 /* Styling article image */
+
+article img {
+    width: 40%;
+}
 
 

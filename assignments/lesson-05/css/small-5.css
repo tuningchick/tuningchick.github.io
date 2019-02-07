@@ -89,12 +89,16 @@ main h1 {
 
 #summary {
     position: absolute;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 /* Styling article image */
 
 article img {
     width: 40%;
+    float: right;
 }
 
 

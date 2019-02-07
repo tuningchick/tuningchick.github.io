@@ -8,23 +8,23 @@ nav ul  {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #231f20;
+    background-color: white;
 }
 li {
     float: left;
 }
 li a {
     display: block;
-    color: #f3f5e9;
+    color: #73c058;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-/* change the link color to #373334 on hover */
+/* change the link color to #231f20 on hover */
 li a:hover {
-    background-color: #373334;
+    color: #231f20;
 }
 /* active page background color on menu */
 .selected {
-    background-color: #73c058;
+    background-color: #f3f5e9;
 }

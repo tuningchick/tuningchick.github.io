@@ -90,17 +90,6 @@ main h1 {
 
 /* styling weather summary aside */
 
-summary h2 {
-    padding: .4em;
-    color: white;
-}
-
-summary p {
-    line-height: 200%;
-    color: white;
-    font-size: 1.5em;
-}
-
 #summary {
     position: absolute;
     margin-top: 25px;
@@ -110,6 +99,17 @@ summary p {
     opacity: 0.5;
     box-shadow: 0 0 30px #777;
     padding: 1em .5em;
+}
+
+summary h2 {
+    padding: .4em;
+    color: white;
+}
+
+summary p {
+    line-height: 300%;
+    color: white;
+    font-size: 1.5em;
 }
 
 /* Styling article image */

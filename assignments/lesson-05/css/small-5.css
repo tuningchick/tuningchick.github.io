@@ -129,12 +129,17 @@ article {
 }
 
 article p {
-    line-height: 100%;
+    line-height: 1rem;
 }
 
 article h2 h5 {
     margin: 4px;
     padding: 2px;
+}
+
+article h5 {
+    text-align: left;
+    text-shadow: none;
 }
 
 article div {
@@ -148,6 +153,17 @@ article div {
 article img {
     width: 35%;
     float: right;
+}
+
+/* styling contact section */
+
+.section {
+    width: 90%;
+}
+
+map{
+    float: left;
+    width: 40%;
 }
 
 

@@ -136,6 +136,12 @@ article {
     font-family: 'Lato', sans-serif;
 }
 
+article div {
+    background-color: #c2ca86;
+    float: right;
+    overflow: auto;
+}
+
 article p {
     line-height: 1rem;
     margin: 5px;
@@ -153,11 +159,6 @@ article h5 {
     padding: 3px; 
 }
 
-article div {
-    background-color: #c2ca86;
-    float: right;
-    overflow: auto;
-}
 /* Styling article image */
 
 article img {
@@ -166,18 +167,18 @@ article img {
 
 /* styling contact section */
 
-.contact {
+#contact {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.contact h5 {
+#contact h5 {
     float: left;
     width: 60%;
 }
 
-.contact img {
+#contact img {
     float: right;
     width: 40%;
 }

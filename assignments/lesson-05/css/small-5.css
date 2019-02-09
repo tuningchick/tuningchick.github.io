@@ -118,6 +118,13 @@ summary p {
     display: hidden;
 }
 
+/* Styling article */
+
+article {
+    background-color: #c2ca86;
+    float: left;
+}
+
 /* Styling article image */
 
 article img {
@@ -125,8 +132,4 @@ article img {
     float: right;
 }
 
-/* Styling article */
 
-article {
-    background-color: #c2ca86;
-}

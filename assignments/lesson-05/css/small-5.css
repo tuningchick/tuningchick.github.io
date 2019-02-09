@@ -6,6 +6,10 @@
 body {
 	background-color: #73c058;
 }
+/* style h1, h2, etc */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
 /* styling header */
 header {
 	margin: 10px auto;
@@ -17,7 +21,6 @@ header {
 
 header h1 {
     margin-bottom: 0;
-    font-family: 'Roboto Slab', serif;
     text-shadow: 2px 2px 4px #777;
 }
 
@@ -75,7 +78,6 @@ nav a {
 /*styling main h1 */
 main h1 {
     text-align: center;
-    font-family: 'Roboto Slab', serif;
     color: white;
     text-shadow: 1px 1px 2px #777;
 }
@@ -122,6 +124,7 @@ summary p {
 
 article {
     background-color: #c2ca86;
+    font-family: 'Lato', sans-serif;
     float: left;
     overflow: auto;
 }

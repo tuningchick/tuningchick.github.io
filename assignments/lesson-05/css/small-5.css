@@ -158,18 +158,18 @@ article img {
 
 /* styling contact section */
 
-.section {
+.contact {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.section h5 {
+.contact h5 {
     float: left;
     width: 60%;
 }
 
-.section img {
+.contact img {
     float: right;
     width: 40%;
 }

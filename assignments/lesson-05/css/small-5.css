@@ -129,6 +129,7 @@ article {
     font-family: 'Lato', sans-serif;
     float: left;
     overflow: auto;
+    width: 65%;
 }
 
 article p {

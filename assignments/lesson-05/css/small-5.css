@@ -112,6 +112,12 @@ summary p {
     font-size: 1.5em;
 }
 
+/* 5 day forecast needs to not show in mobile view */
+
+.fiveday {
+    display: hidden;
+}
+
 /* Styling article image */
 
 article img {

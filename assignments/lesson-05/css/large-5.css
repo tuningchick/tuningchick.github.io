@@ -34,5 +34,15 @@ li a:hover {
 .selected {
     background-color: #f3f5e9;
 }
-
+/* styling the 5-day forecast */
+aside h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+table, th, td {
+    color: #f3f5e9;
+    border: 1px solid #f3f5e9;
+    background-color: #231f20; 
+}
 

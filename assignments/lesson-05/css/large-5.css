@@ -6,6 +6,8 @@
 /*current temperature style */
 
 .currenttemp {
+    display: inline-block;
+    vertical-align: middle;
     position: absolute;
     margin-top: 10px;
     margin-right: 10px;
@@ -19,15 +21,15 @@
 }
 
 .currenttemp h5 {
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .currenttemp div {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .currenttemp p {
-    font-size: .5em;
+    font-size: .8em;
 }
 /*navigation menu styling */
 nav ul  {

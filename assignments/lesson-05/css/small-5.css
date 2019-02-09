@@ -125,10 +125,7 @@ summary p {
 /* Styling article */
 
 article {
-    background-color: #c2ca86;
     font-family: 'Lato', sans-serif;
-    float: left;
-    overflow: auto;
 }
 
 article p {
@@ -137,10 +134,14 @@ article p {
 
 article h2 h5 {
     margin: 4px;
+    padding: 2px;
 }
 
 article div {
     width: 65%;
+    background-color: #c2ca86;
+    float: left;
+    overflow: auto;
 }
 /* Styling article image */
 

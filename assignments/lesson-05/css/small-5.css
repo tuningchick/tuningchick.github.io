@@ -123,6 +123,7 @@ summary p {
 article {
     background-color: #c2ca86;
     float: left;
+    overflow: auto;
 }
 
 /* Styling article image */

@@ -127,7 +127,7 @@ summary p {
 /* 5 day forecast needs to not show in mobile view */
 
 .fiveday {
-    display: hidden;
+    display: none;
 }
 
 /* Styling article image */
@@ -182,6 +182,10 @@ article h5 {
 #contact img {
     float: right;
     width: 45%;
+}
+
+footer {
+    width: 100%;
 }
 
 

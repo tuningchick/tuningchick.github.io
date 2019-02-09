@@ -2,6 +2,33 @@
 @media only screen and (min-width: 992px) {
     max-width: 1200px;
 }
+
+/*current temperature style */
+
+.currenttemp {
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Lato', sans-serif;
+    background-color: #73c058;
+    opacity: 0.4;
+    box-shadow: 0 0 30px #777;
+    padding: 1em .5em;
+    color: white;
+    text-shadow: 1px 1px 2px #777;
+}
+
+.currenttemp h5 {
+    font-size: .8em;
+}
+
+.currenttemp div {
+    font-size: 5em;
+}
+
+.currenttemp p {
+    font-size: .5em;
+}
 /*navigation menu styling */
 nav ul  {
     list-style-type: none;

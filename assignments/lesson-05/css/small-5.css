@@ -130,6 +130,7 @@ article {
 
 article p {
     line-height: 1rem;
+    margin: 5px;
 }
 
 article h2 h5 {
@@ -145,14 +146,14 @@ article h5 {
 article div {
     width: 65%;
     background-color: #c2ca86;
-    float: left;
+    float: right;
     overflow: auto;
 }
 /* Styling article image */
 
 article img {
     width: 35%;
-    float: right;
+    float: left;
 }
 
 /* styling contact section */
@@ -162,7 +163,7 @@ article img {
 }
 
 map{
-    float: left;
+    float: right;
     width: 40%;
 }
 

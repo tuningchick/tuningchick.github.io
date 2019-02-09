@@ -131,10 +131,17 @@ article {
     overflow: auto;
 }
 
+article p {
+    line-height: 100%;
+}
+
+article h2 h5 {
+    margin: 2px;
+}
 /* Styling article image */
 
 article img {
-    width: 40%;
+    width: 35%;
     float: right;
 }
 

@@ -12,7 +12,7 @@ nav ul  {
 }
 /* position menu items to the left and add border right to menu items color #f3f5e9 */
 li {
-    display: inline-block;
+    display: inline;
     border-right: 1px solid #f3f5e9;
 }
 /* style so there is no border line on the far right */

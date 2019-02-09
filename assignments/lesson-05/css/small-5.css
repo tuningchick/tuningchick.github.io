@@ -160,9 +160,16 @@ article img {
 
 .section {
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-map{
+.section h5 {
+    float: left;
+    width: 60%;
+}
+
+map {
     float: right;
     width: 40%;
 }

@@ -129,7 +129,6 @@ article {
     font-family: 'Lato', sans-serif;
     float: left;
     overflow: auto;
-    width: 65%;
 }
 
 article p {
@@ -137,7 +136,11 @@ article p {
 }
 
 article h2 h5 {
-    margin: 2px;
+    margin: 4px;
+}
+
+article div {
+    width: 65%;
 }
 /* Styling article image */
 

@@ -130,6 +130,13 @@ summary p {
     display: hidden;
 }
 
+/* Styling article image */
+
+article img {
+    float: left;
+    width: 35%;
+}
+
 /* Styling article */
 
 article {
@@ -139,7 +146,6 @@ article {
 article div {
     background-color: #c2ca86;
     float: right;
-    overflow: auto;
 }
 
 article p {
@@ -157,12 +163,6 @@ article h5 {
     text-shadow: none;
     margin-left: 5px;
     padding: 3px; 
-}
-
-/* Styling article image */
-
-article img {
-    width: 35%;
 }
 
 /* styling contact section */

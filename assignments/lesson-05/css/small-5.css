@@ -149,6 +149,8 @@ article h2 h5 {
 article h5 {
     text-align: left;
     text-shadow: none;
+    margin-left: 5px;
+    padding: 3px; 
 }
 
 article div {

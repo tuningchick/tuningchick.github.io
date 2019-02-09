@@ -10,9 +10,9 @@
     vertical-align: middle;
     font-family: 'Lato', sans-serif;
     background-color: #231f20;
-    opacity: 0.4;
-    box-shadow: 0 0 30px #f3f5e9;
-    padding: 1em .5em;
+    opacity: 0.35;
+    box-shadow: 2 2 30px #f3f5e9;
+    padding: .3em .3em;
     color: white;
     margin-left: 15px;
 }

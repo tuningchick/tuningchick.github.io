@@ -12,7 +12,7 @@ nav ul  {
 }
 /* position menu items to the left and add border right to menu items color #f3f5e9 */
 li {
-    display: inline;
+    float: left;
     border-right: 1px solid #f3f5e9;
 }
 /* style so there is no border line on the far right */
@@ -40,9 +40,18 @@ aside h3 {
     color: white;
     font-family: 'Roboto Slab', serif;
 }
+/* Put a single line around the table */
+table {
+    border-collapse: collapse;
+}
 table, th, td {
     color: #f3f5e9;
     border: 1px solid #f3f5e9;
-    background-color: #231f20; 
+    background-color: #231f20;
+    width: 100%;
+
+}
+td {
+    text-align: center;
 }
 

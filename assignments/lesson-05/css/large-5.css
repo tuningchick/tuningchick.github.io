@@ -14,18 +14,19 @@
     box-shadow: 0 0 30px #f3f5e9;
     padding: 1em .5em;
     color: white;
+    margin-left: 15px;
 }
 
 .currenttemp h5 {
-    font-size: .9em;
+    font-size: .8em;
 }
 
 .currenttemp div {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .currenttemp p {
-    font-size: .8em;
+    font-size: .7em;
 }
 /*navigation menu styling */
 nav ul  {

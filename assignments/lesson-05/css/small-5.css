@@ -130,6 +130,10 @@ summary p {
     display: none;
 }
 
+.currenttemp {
+    display: none;
+}
+
 /* Styling article image */
 
 article img {

@@ -126,7 +126,7 @@ summary p {
 
 /* 5 day forecast needs to not show in mobile view */
 
-aside .fiveday {
+.fiveday {
     display: none;
 }
 

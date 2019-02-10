@@ -74,7 +74,7 @@ aside h3 {
     margin-right: auto;
     margin-bottom: 10px;
 }
-table, th, td {
+.fiveday table, th, td {
     color: #f3f5e9;
     border: 1px solid #f3f5e9;
     background-color: #231f20;

@@ -67,8 +67,8 @@ aside h3 {
     padding: 10px;
 }
 /* Put a single line around the table */
-.fiveday table{
-    display: block;
+.fiveday {
+    display: inline-block;
     border-collapse: collapse;
     width: 90%;
     margin-left: auto;

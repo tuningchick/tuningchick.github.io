@@ -179,12 +179,12 @@ article h5 {
 }
 
 #contact h5 {
-    float: left;
     width: 45%;
 }
 
 #contact img {
-    float: right;
+    position: absolute;
+    
     width: 45%;
 }
 

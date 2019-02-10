@@ -4,6 +4,10 @@
 /*current temperature style */
 
 .currenttemp {
+    display: block;
+}
+
+.currenttemp {
     position: absolute;
     top: 25px;
     right: 50px;

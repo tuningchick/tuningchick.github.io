@@ -4,10 +4,10 @@
 /*current temperature style */
 
 .currenttemp {
-    display: inline-block;
+    display: block;
 }
 
-.currenttemp {
+aside .currenttemp {
     position: absolute;
     top: 25px;
     right: 50px;

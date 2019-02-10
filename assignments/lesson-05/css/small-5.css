@@ -178,14 +178,10 @@ article h5 {
     margin-right: auto;
 }
 
-#contact h5 {
-    width: 45%;
-}
-
 #contact img {
     position: absolute;
-    
-    width: 45%;
+
+    width: 60%;
 }
 
 footer {

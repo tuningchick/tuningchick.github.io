@@ -1,13 +1,14 @@
 /* set media query for large screens */
 @media only screen and (min-width: 992px) {
     max-width: 1200px;
+    
 /*current temperature style */
 
 .currenttemp {
     display: block;
 }
 
-aside .currenttemp {
+.currenttemp {
     position: absolute;
     top: 25px;
     right: 50px;

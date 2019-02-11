@@ -160,6 +160,7 @@ article {
     font-family: 'Lato', sans-serif;
     background-color: #c2ca86;
     width: 65%;
+    overflow: auto;
 }
 
 article div {

@@ -159,15 +159,12 @@ article img {
 
 article {
     font-family: 'Lato', sans-serif;
-}
-
-article div {
     background-color: #c2ca86;
     float: right;
     width: 65%;
 }
 
-article p {
+article div {
     line-height: 1rem;
     margin: 5px;
 }

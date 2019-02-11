@@ -185,10 +185,10 @@ article h5 {
 /* styling contact section */
 
 #contact {
+    background-color: #73c058;
     float: left;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    padding-left: 20%;
 }
 
 #contact img {

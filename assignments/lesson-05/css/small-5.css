@@ -151,6 +151,7 @@ summary p {
 /* Styling article image */
 
 article img {
+    float: left;
     width: 35%;
 }
 
@@ -159,6 +160,7 @@ article img {
 article {
     font-family: 'Lato', sans-serif;
     background-color: #c2ca86;
+    float: right;
     width: 65%;
     overflow: auto;
 }

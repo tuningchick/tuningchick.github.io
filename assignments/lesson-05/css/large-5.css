@@ -1,7 +1,7 @@
 /* set media query for large screens */
 @media only screen and (min-width: 992px) {
     max-width: 1200px;
-    
+
 /*current temperature style */
 
 .currenttemp {
@@ -9,16 +9,7 @@
 }
 
 .currenttemp {
-    position: absolute;
-    top: 25px;
-    right: 50px;
-    font-family: 'Lato', sans-serif;
-    background-color: #231f20;
-    opacity: 0.35;
-    box-shadow: 2 2 30px #f3f5e9;
-    padding: .5em .3em;
-    color: white;
-    margin-left: 15px;
+    display: inline-block;
 }
 
 .currenttemp h5 {

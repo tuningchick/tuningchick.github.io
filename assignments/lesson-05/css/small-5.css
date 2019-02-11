@@ -187,8 +187,8 @@ article h5 {
 #contact {
     background-color: #73c058;
     float: left;
-    width: 80%;
-    padding-left: 20%;
+    width: 100%;
+    padding-left: 20px;
 }
 
 #contact img {

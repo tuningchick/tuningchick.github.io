@@ -84,4 +84,9 @@ td, th{
     padding: 5px;
 }
 
+/* style the article */
+
+article div{
+    margin: 5px;
+}
 }

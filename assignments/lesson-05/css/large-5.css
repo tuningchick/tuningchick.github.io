@@ -1,6 +1,5 @@
 /* set media query for large screens */
 @media only screen and (min-width: 992px) {
-    max-width: 1200px;
 
 /*current temperature style */
 
@@ -32,15 +31,15 @@ nav ul  {
     background-color: white;
 }
 /* position menu items to the left and add border right to menu items color #f3f5e9 */
-li {
+ nav li {
     float: left;
     border-right: 1px solid #f3f5e9;
 }
 /* style so there is no border line on the far right */
-li:last-child {
+nav li:last-child {
     border-right: none;
 }
-li a {
+nav li a {
     display: block;
     color: #73c058;
     text-align: center;
@@ -48,7 +47,7 @@ li a {
     text-decoration: none;
 }
 /* change the link text color to #231f20 on hover */
-li a:hover {
+nav li a:hover {
     color: #231f20;
 }
 /* active page background color on menu */

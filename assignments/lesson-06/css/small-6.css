@@ -59,7 +59,7 @@ header img, .headings {
     padding: 1.5em .3em;
     color: white;
     margin-left: 4%;
-    margin-top: 4%;
+    margin-bottom: 8%;
 }
 
 /* styling navigation menu */
@@ -118,8 +118,8 @@ main h1 {
 
 #summary {
     position: absolute;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
     font-family: 'Lato', sans-serif;
     background-color: #f3f5e9;
     opacity: 0.4;

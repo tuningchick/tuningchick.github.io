@@ -1,6 +1,6 @@
 // Input: computer entered
-// Process: use the array and .getday to assign the day of the week
-// Output: the proper name of the day of the week
+// Process: use .getDate and two arrays to compile the date 
+// Output: date in this format: day, date month, year
 
 function actualDate() {
     var d = new Date();
@@ -14,6 +14,6 @@ function actualDate() {
     var currentDay = weekday[d.getDay()];
     var currentMonth = month[d.getMonth()];
 
-document.getElementById("actualDate").innerHTML = currentDay + ", " + dayOfMonth + "  "
+document.getElementById("displayDate").innerHTML = currentDay + ", " + dayOfMonth + "  "
     currentMonth + ", " + year;
 }

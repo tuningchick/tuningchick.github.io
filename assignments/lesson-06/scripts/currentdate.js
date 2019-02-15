@@ -14,6 +14,6 @@ function actualDate() {
     var currentDay = weekday[d.getDay()];
     var currentMonth = month[d.getMonth()];
 
-document.getElementById("displayDate").innerHTML = currentDay + ", " + dayOfMonth + "  "
+document.getElementById("displayDate").innerHTML = currentDay + ", " + dayOfMonth + "  " +
     currentMonth + ", " + year;
 }

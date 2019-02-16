@@ -12,6 +12,12 @@ nav button {
 nav ul li a {
     padding: .6rem 1rem;
 }
+
+/* show menu in large view */
+
+nav ul.hide {
+    display: block;
+}
 /*current temperature style */
 
 .currenttemp {

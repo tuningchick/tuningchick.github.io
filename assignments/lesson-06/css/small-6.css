@@ -204,6 +204,7 @@ article div {
 #contact h5 {
     float: left;
     text-align: left;
+    display: block;
     width: 46%;
     margin-top: 4%;
 }

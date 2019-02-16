@@ -130,6 +130,7 @@ main h1 {
 /* styling weather summary aside */
 
 #summary {
+    text-align: center;
     width: 40%;
     position: absolute;
     margin-top: 5%;
@@ -142,13 +143,11 @@ main h1 {
 }
 
 #summary h3 {
-    text-align: left;
     padding: .4em;
 }
 
 #summary p {
-    line-height: 300%;
-    color: white;
+    line-height: 100%;
     font-size: 1.5em;
 }
 

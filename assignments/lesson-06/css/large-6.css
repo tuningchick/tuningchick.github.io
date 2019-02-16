@@ -7,6 +7,11 @@ nav button {
     display: none;
 }
 
+/* narrow up the horizontal navigation bar */
+
+nav ul li a {
+    padding: .6rem 1rem;
+}
 /*current temperature style */
 
 .currenttemp {

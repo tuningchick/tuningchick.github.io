@@ -24,10 +24,6 @@ nav ul.hide {
     display: block;
 }
 
-.currenttemp {
-    display: inline-block;
-}
-
 .currenttemp h5 {
     font-size: .8em;
 }

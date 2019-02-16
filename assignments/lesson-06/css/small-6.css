@@ -197,12 +197,13 @@ article div {
 
 #contact img {
     float: right;
-    width: 60%;
+    width: 48%;
+    margin-right: 2%;
 }
 
 #contact h5 {
     text-align: left;
-    margin-left: 2%;
+    width: 48%;
 }
 
 footer {

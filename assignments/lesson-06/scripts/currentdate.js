@@ -17,3 +17,9 @@ function actualDate() {
 document.getElementById("displayDate").innerHTML = currentDay + ", " + dayOfMonth + "  " +
     currentMonth + ", " + year;
 }
+
+// create toggle function to make the small view hamburger menu work
+
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("hide");
+}

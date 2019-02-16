@@ -177,22 +177,10 @@ article div {
     font-family: 'Lato', sans-serif;
     background-color: #c2ca86;
     float: right;
-    width: 65%;
+    width: 63%;
     overflow: auto;
     line-height: 1rem;
-    margin: 5px;
-}
-
-article h2 h5 {
-    margin: 4px;
-    padding: 2px;
-}
-
-article h5 {
-    text-align: left;
-    text-shadow: none;
-    margin-left: 5px;
-    padding: 3px; 
+    margin: 2%;
 }
 
 /* styling contact section */

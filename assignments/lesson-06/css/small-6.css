@@ -173,11 +173,15 @@ article img {
 
 /* Styling article */
 
+article {
+    width: 100%;
+    background-color: #c2ca86;
+}
+
 article div {
     font-family: 'Lato', sans-serif;
-    background-color: #c2ca86;
     float: right;
-    width: 63%;
+    width: 60%;
     line-height: 1rem;
     margin: 2%;
 }

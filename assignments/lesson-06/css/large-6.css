@@ -1,6 +1,12 @@
 /* set media query for large screens */
 @media only screen and (min-width: 992px) {
 
+/* hide hamburger icon */
+
+nav button { 
+    display: none;
+}
+
 /*current temperature style */
 
 .currenttemp {

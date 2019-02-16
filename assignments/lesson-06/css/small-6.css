@@ -104,6 +104,7 @@ nav a {
 
 nav ul li a:hover {
     background-color: #c7c9bf;
+    color: white;
 }
 
 /* functionality of hamburger icon */

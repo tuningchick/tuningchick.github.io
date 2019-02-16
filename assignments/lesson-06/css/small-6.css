@@ -123,6 +123,7 @@ main h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2%;
     width: 100%;   
 }
 

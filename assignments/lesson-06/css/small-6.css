@@ -200,6 +200,11 @@ article div {
     width: 60%;
 }
 
+#contact h5 {
+    text-align: left;
+    margin-left: 2%;
+}
+
 footer {
     width: 100%;
     background-color: #c2ca86;

@@ -121,6 +121,7 @@ main h1 {
 /* styling weather summary image */
 .center {
     display: block;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;

@@ -141,9 +141,15 @@ main h1 {
     padding: 1em .5em;
 }
 
-#summary h3 {
+#summary h4 {
     padding: .2em;
     color: #231f20;
+    text-align: left;
+}
+
+#summary p {
+    text-shadow: 1px 1px 2px #777;
+    font-size: 1.1em;
 }
 
 

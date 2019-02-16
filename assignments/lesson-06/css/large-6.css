@@ -21,7 +21,7 @@ nav ul.hide {
 /*current temperature style */
 
 .currenttemp {
-    display: block;
+    display: inline-block;
 }
 
 .currenttemp h5 {

@@ -204,6 +204,7 @@ article div {
 }
 
 #contact div {
+    text-align: left;
     float: left;
     text-align: left;
     width: 46%;

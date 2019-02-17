@@ -190,14 +190,11 @@ article div {
 
 article h2 h5 {
     margin: 4px;
-    padding: 2px;
 }
 
 article h5 {
     text-align: left;
-    text-shadow: none;
-    margin-left: 5px;
-    padding: 3px; 
+    text-shadow: none; 
 }
 
 /* styling contact section */

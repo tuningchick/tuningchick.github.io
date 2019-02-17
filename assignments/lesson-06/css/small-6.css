@@ -209,11 +209,13 @@ article div h2 h4 h5 {
 }
 
 #contact div {
-    text-align: left;
     float: left;
-    text-align: left;
     width: 46%;
     padding-top: 2%;
+}
+
+#contact div h5 {
+    text-align: left;
 }
 
 footer {

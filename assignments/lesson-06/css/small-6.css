@@ -168,7 +168,7 @@ main h1 {
 
 article img {
     float: left;
-    width: 35%;
+    width: 40%;
 }
 
 /* Styling article */
@@ -181,7 +181,7 @@ article {
 article div {
     font-family: 'Lato', sans-serif;
     float: right;
-    width: 60%;
+    width: 55%;
     line-height: 1rem;
     margin: 2%;
 }

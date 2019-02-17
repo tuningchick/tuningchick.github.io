@@ -188,9 +188,16 @@ article div {
     margin: 2%;
 }
 
-article div h2 h4 h5 {
+article h2 h5 {
+    margin: 4px;
+    padding: 2px;
+}
+
+article h5 {
     text-align: left;
-    padding: .4em;
+    text-shadow: none;
+    margin-left: 5px;
+    padding: 3px; 
 }
 
 /* styling contact section */

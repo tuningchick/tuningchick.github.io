@@ -169,6 +169,8 @@ main h1 {
 article img {
     float: left;
     width: 40%;
+    margin-top: 2%;
+    margin-left: 2%;
 }
 
 /* Styling article */

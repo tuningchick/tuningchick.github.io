@@ -200,12 +200,12 @@ article div {
     float: right;
     width: 42%;
     margin-right: 2%;
+    margin-top: 2%;
 }
 
 #contact div {
     float: left;
     text-align: left;
-    display: block;
     width: 46%;
     padding-top: 2%;
 }

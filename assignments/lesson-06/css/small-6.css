@@ -196,7 +196,7 @@ article div {
 
 #contact img {
     float: right;
-    width: 40%;
+    width: 42%;
     margin-right: 2%;
 }
 
@@ -205,6 +205,7 @@ article div {
     text-align: left;
     display: block;
     width: 46%;
+    padding-top: 2%;
 }
 
 footer {

@@ -99,8 +99,13 @@ td, th{
 
 /* style the article */
 
-article div{
-    padding-left: 15px;
-    margin-left: 15px;
+article div {
+    float: right;
+    width: 55%;
+}
+
+article img {
+    float: left;
+    width: 38%;
 }
 }

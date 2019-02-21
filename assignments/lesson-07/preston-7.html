@@ -46,10 +46,11 @@
             <h1>Preston, Idaho</h1>
             <aside id="summary" class="clearfix">
                     <h4>Weather Summary:</h4>
-                    <p>Temp: 74&deg<br>
+                    <p>Temp: <span id="temperature">28</span>&deg<br>
                     Humidity: 20%<br>
-                    Wind: 5mph SE<br>
-                    Partly Cloudy</p>
+                    Wind: <span id="windSpeed">5</span> mph SE<br>
+                    Partly Cloudy <br>
+                    <span id="displayWindChill"></span></p>
             </aside>    
             <figure class="hero">
                 <img src="images/prestonskylinesmall.jpg" alt="Preston, Idaho daytime skyline" class="center"
@@ -120,5 +121,6 @@
             BYU-I Online Learning</a></p>
         </footer>
         <script>actualDate();</script>
+        <script>doInputOutput();</script>
     </body>
 </html>

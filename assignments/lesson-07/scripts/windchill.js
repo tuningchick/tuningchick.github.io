@@ -3,8 +3,8 @@
 // output wind chill in degrees F
 function outputWindChill() {
     //get temp and wind speed from website data
-    var inputTemp = parseFloat(document.getElementById("temperature").value);
-    var inputSpeed = parseFloat(document.getElementById("windSpeed").value);
+    var inputTemp = parseFloat(document.getElementById("temperature").innerHTML);
+    var inputSpeed = parseFloat(document.getElementById("windSpeed").innerHTML);
     var chill = windChill(inputTemp, inputSpeed);
     document.getElementById("displayWindChill").innerHTML = "Wind chill: " + chill.toFixed(1)
         + "&deg";

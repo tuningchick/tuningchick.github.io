@@ -6,7 +6,7 @@ function outputWindChill() {
     var inputTemp = parseFloat(document.getElementById("temperature").innerHTML);
     var inputSpeed = parseFloat(document.getElementById("windSpeed").innerHTML);
     var chill = windChill(inputTemp, inputSpeed);
-    document.getElementById("displayWindChill").innerHTML = "Wind chill: " + chill.toFixed(1)
+    document.getElementById("displayWindChill").innerHTML = "Wind Chill: " + chill.toFixed(1)
         + "&deg";
 }
 

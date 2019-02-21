@@ -32,7 +32,7 @@ function doInputOutput() {
     var inputTemp = parseFloat(document.getElementById("temperature").value);
     var inputSpeed = parseFloat(document.getElementById("windSpeed").value);
     var chill = windChill(inputTemp, inputSpeed);
-    document.getElementById("output").innerHTML = "Wind chill: " + chill.toFixed(1)
+    document.getElementById("displayWindChill").innerHTML = "Wind chill: " + chill.toFixed(1)
         + "&deg";
 }
 

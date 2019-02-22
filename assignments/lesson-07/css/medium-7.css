@@ -13,6 +13,12 @@ nav ul li a {
     padding: .6rem 1rem;
 }
 
+/* change flex direction from column to row for larger views */
+
+nav .navContainer {
+    flex-direction: row;
+}
+
 /* show menu in large view */
 
 nav ul.hide {

@@ -97,7 +97,7 @@ nav button {
     max-width: 400px;
 }
 
-.selected {
+nav .selected {
     background-color: #f3f5e9;
 }
 

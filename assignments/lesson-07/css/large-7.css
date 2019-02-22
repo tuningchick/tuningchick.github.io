@@ -2,3 +2,11 @@
 @media only screen and (min-width: 992px) {
 
 /* css for only the largest view screens */
+
+/* gallery grid layout for large views */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+}

@@ -17,9 +17,7 @@ nav ul li a {
 
 nav #primaryNav {
     display: flex;
-    flex-direction: row;
-    padding-left: 2em;
-    padding-right: 2em;
+    flex-flow: row wrap;   
 }
 
 /* show menu in large view */

@@ -17,6 +17,7 @@ nav ul li a {
 
 nav .navContainer {
     flex-direction: row;
+    justify-content: space-between;
 }
 
 /* show menu in large view */

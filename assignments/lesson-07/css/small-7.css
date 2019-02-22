@@ -228,6 +228,14 @@ footer {
     padding-left: 2%;
 }
 
+/* grid styling for gallery page small view */
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
 /* trying the clearfix element to see if it helps with the floats */
 .clearfix::after {
     content: "";

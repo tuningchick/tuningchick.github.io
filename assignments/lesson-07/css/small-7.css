@@ -65,20 +65,20 @@ nav button {
 }
 
 /* styling navigation menu */
-nav {
+.navContainer {
     background-color: white;
     margin: 5px auto;
     font-family: 'Lato', sans-serif;
     color: #73c058;
 }
 
-nav ul  {
+.navContainer ul  {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav li {
+.navContainer li {
     background-color: white;
     text-decoration: none;
     text-align: center;
@@ -87,7 +87,7 @@ nav li {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-nav a {
+.navContainer a {
     color: #73c058;
     padding: .8rem 2%;
     text-align: center;

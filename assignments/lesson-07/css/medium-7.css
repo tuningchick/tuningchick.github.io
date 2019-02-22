@@ -15,7 +15,8 @@ nav ul li a {
 
 /* change flex direction from column to row for larger views */
 
-nav .navContainer {
+nav #primaryNav {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }

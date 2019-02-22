@@ -5,7 +5,7 @@
 
 /* gallery grid layout for large views */
 
-.gallery {
+main .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5%;

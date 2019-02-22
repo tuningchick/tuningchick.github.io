@@ -230,7 +230,7 @@ footer {
 
 /* grid styling for gallery page small view */
 
-.gallery {
+#gallery {
     display: flex;
     flex-direction: column;
     margin: 2%;

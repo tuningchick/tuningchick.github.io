@@ -120,7 +120,7 @@ article img {
 
 /* gallery grid for medium view */
 
-.gallery {
+#gallery {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;

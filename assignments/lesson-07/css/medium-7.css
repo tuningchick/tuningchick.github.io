@@ -18,7 +18,8 @@ nav ul li a {
 nav #primaryNav {
     display: flex;
     flex-direction: row;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 /* show menu in large view */

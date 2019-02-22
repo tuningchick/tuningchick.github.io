@@ -64,13 +64,6 @@ nav button {
     color: #73c058;
 }
 
-/* make navigation flex */
-
-.navContainer {
-    display: flex;
-    flex-direction: column;
-}
-
 /* styling navigation menu */
 nav {
     background-color: white;

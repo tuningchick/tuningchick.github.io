@@ -13,9 +13,10 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 2px 2px 4px #777;
 }
 /* styling header */
-.headerContainer {
+#headerContainer {
     display: flex;
     flex-direction: column;
+    width: 100%;
 	margin: 10px auto;
 	background-color: #c2ca86;
 	border: 1px solid #bbb;
@@ -23,14 +24,14 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
-header h1 {
+#headerContainer h1 {
     margin-bottom: 0;
     text-shadow: 2px 2px 4px #777;
     margin-right: 15px;
 }
 
-header img, .headings {
-	display: block;
+#headercontainer img, .headings {
+	display: inline-block;
 	vertical-align: middle;
     margin: 10px;
 }

@@ -11,3 +11,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5%;
 }
+
+#gallery figcaption:hover {
+    box-shadow: 0 0 4em #373334;
+}

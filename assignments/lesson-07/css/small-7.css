@@ -13,7 +13,9 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 2px 2px 4px #777;
 }
 /* styling header */
-header {
+.headerContainer {
+    display: flex;
+    flex-direction: column;
 	margin: 10px auto;
 	background-color: #c2ca86;
 	border: 1px solid #bbb;

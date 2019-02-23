@@ -126,4 +126,8 @@ article img {
     grid-template-columns: 1fr 1fr;
     grid-gap: 5%;
 }
+
+#gallery img {
+    width: 45%;
+}
 }

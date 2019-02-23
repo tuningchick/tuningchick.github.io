@@ -25,6 +25,10 @@
     flex-direction: row;
     justify-content: center;
 }
+
+#headerContainer img {
+    margin-right: 2em;
+}
    
 /* hide hamburger icon */
 

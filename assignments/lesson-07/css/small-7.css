@@ -30,7 +30,7 @@ header h1 {
 }
 
 header img, .headings {
-	display: inline-block;
+	display: block;
 	vertical-align: middle;
     margin: 10px;
 }

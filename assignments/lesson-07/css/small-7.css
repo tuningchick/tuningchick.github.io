@@ -237,7 +237,7 @@ footer {
 }
 
 #gallery img:hover {
-    box-shadow: 0 0 4em #c2ca86;
+    box-shadow: 0 0 4em #373334;
 }
 
 /* trying the clearfix element to see if it helps with the floats */

@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 #headerContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 100%;
 	margin: 10px auto;
 	background-color: #c2ca86;
@@ -32,8 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headercontainer img, .headings {
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
 }
 
 .motto { 

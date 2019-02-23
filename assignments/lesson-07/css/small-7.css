@@ -236,6 +236,10 @@ footer {
     margin: 2%;
 }
 
+#gallery img:hover {
+    box-shadow: 2em 2em 4px #777;
+}
+
 /* trying the clearfix element to see if it helps with the floats */
 .clearfix::after {
     content: "";

@@ -241,6 +241,7 @@ footer {
 
 #gallery img{
     margin: 2%;
+    width: 90%;
 }
 
 #gallery figcaption {

@@ -13,5 +13,5 @@
 }
 
 #gallery figcaption:hover {
-    box-shadow: 0 0 4em #373334;
+    text-shadow: 0 0 4em #373334;
 }

@@ -31,9 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headercontainer img, .headings {
-	display: inline-block;
-	vertical-align: middle;
-    margin: 10px;
+	margin: 2%;
 }
 
 .motto { 
@@ -41,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: .9em;
     color: white;
     text-align: right;
+    margin-right: 2%;
     text-shadow: 1px 1px 2px #777; 
 }
 

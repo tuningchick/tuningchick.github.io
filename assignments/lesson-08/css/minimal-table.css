@@ -6,7 +6,7 @@ table {
   border-collapse: collapse;
   border: 1px solid rgb(200,200,200);
   font-size: 0.8rem;
-  box-shadow: 5px 5px 10px #777;
+  box-shadow: 5px 5px 10px #628ca6;
 }
 
 /* style head of table */
@@ -47,4 +47,10 @@ tr:nth-child(odd) td {
 tfoot tr{
     background-color: #7fb9c2;
     font-size: .6rem;
+}
+
+/* style tfoot elements */
+
+.goalExceeded {
+    background-color: #628ca6;
 }

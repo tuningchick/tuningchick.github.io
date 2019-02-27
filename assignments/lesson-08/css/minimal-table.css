@@ -35,7 +35,13 @@ td {
   text-align: center;
 }
 
-
+tr:nth-child(even) td {
+    background-color: #e7f0ed;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: #e7ffed;
+  }
 
 /* style tfoot elements */
 
@@ -48,4 +54,5 @@ tfoot {
 
 .goalExceeded {
     background-color: #628ca6;
+    color: white;
 }

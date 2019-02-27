@@ -27,7 +27,7 @@ tbody th {
 
 td, th {
   border: 1px solid rgb(190,190,190);
-  padding: 8px 8px;
+  padding: 5px 8px;
 }
 
 td {
@@ -44,7 +44,7 @@ tr:nth-child(odd) td {
 
 /* style tfoot elements */
 
-tfoot {
+tfoot tr{
     background-color: #7fb9c2;
     font-size: .6rem;
 }

@@ -7,7 +7,7 @@ table {
   border: 1px solid rgb(200,200,200);
   letter-spacing: 1px;
   font-size: 0.8rem;
-  box-shadow: 0 0 30px #777;
+  box-shadow: 30px 30px #777;
 }
 
 thead {
@@ -18,7 +18,7 @@ thead {
 }
 
 th {
-    background-color: #628ca6
+    background-color: #628ca6;
     color: white;
     font-weight: bold;
 }

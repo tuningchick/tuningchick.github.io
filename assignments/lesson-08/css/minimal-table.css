@@ -45,13 +45,13 @@ tr:nth-child(odd) td {
 
 /* style tfoot elements */
 
-tfoot tr{
+tfoot td{
     background-color: #7fb9c2;
-    font-size: .6rem;
+    font-size: .7rem;
 }
 
 /* style tfoot elements */
 
-.goalExceeded td{
+tr .goalExceeded td{
     background-color: #628ca6;
 }

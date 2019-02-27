@@ -39,7 +39,7 @@ tr:nth-child(odd) {
 
   /* style head of table */
 
-thead {
+thead:first-child {
     color: black;
     background-color: #7fb9c2;
     font-size: 1.4rem;

@@ -35,20 +35,6 @@ td {
   text-align: center;
 }
 
-/* style tfoot elements */
-
-tfoot {
-    background-color: #7fb9c2;
-    font-size: .6rem;
-}
-
-/* style tfoot elements */
-
-.goalExceeded {
-    background-color: #628ca6;
-    color: white;
-}
-
 /* odd and even row coloring */
 
 tr:nth-child(even) td {
@@ -58,3 +44,17 @@ tr:nth-child(even) td {
   tr:nth-child(odd) td {
     background-color: #e7ffed;
   }
+
+/* style tfoot elements */
+
+table tfoot {
+    background-color: #7fb9c2;
+    font-size: .6rem;
+}
+
+/* style tfoot elements */
+
+.goalExceeded .goalExceeded {
+    background-color: #628ca6;
+    color: white;
+}

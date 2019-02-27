@@ -9,16 +9,6 @@ table {
   box-shadow: 5px 5px 10px #628ca6;
 }
 
-/* odd and even row coloring */
-
-tr:nth-child(even) td{
-    background-color: #e7f0ed;
-  }
-  
-tr:nth-child(odd) td{
-    background-color: #e7ffed;
-  }
-
 /* style head of table */
 
 thead:first-child {
@@ -44,6 +34,16 @@ td, th {
 td {
   text-align: center;
 }
+
+/* odd and even row coloring */
+
+tr:nth-child(even) td{
+    background-color: #e7f0ed;
+  }
+  
+tr:nth-child(odd) td{
+    background-color: #e7ffed;
+  }
 
 /* style tfoot elements */
 

@@ -11,7 +11,7 @@ table {
 
 /* style head of table */
 
-thead:first-child {
+thead {
     color: black;
     background-color: #7fb9c2;
     font-size: 1.4rem;

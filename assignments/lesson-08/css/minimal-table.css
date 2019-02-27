@@ -35,19 +35,11 @@ td {
   text-align: center;
 }
 
-tr:nth-child(even) td {
-    background-color: #e7f0ed;
-  }
-  
-  tr:nth-child(odd) td {
-    background-color: #e7ffed;
-  }
-
 /* style tfoot elements */
 
 tfoot {
     background-color: #7fb9c2;
-    font-size: .7rem;
+    font-size: .6rem;
 }
 
 /* style tfoot elements */
@@ -56,3 +48,13 @@ tfoot {
     background-color: #628ca6;
     color: white;
 }
+
+/* odd and even row coloring */
+
+tr:nth-child(even) td {
+    background-color: #e7f0ed;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: #e7ffed;
+  }

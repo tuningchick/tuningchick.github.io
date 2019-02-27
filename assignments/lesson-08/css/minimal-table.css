@@ -29,11 +29,11 @@ td {
 
 /* odd and even row coloring */
 
-tr:nth-child(even) {
+tbody:nth-child(even) {
     background-color: #e7f0ed;
   }
   
-tr:nth-child(odd) {
+tbody:nth-child(odd) {
     background-color: #e7ffed;
   }
 

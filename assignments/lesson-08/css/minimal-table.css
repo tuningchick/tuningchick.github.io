@@ -47,7 +47,7 @@ td {
 
 /* style tfoot elements */
 
-tfoot:first-child tr {
+tfoot:first-child td {
     background-color: #7fb9c2;
     font-size: .6rem;
 }

@@ -9,14 +9,6 @@ table {
   box-shadow: 5px 5px 10px #777;
 }
 
-/* style header elements */
-
-th {
-    background-color: #628ca6;
-    color: white;
-    font-weight: bold;
-}
-
 /* style head of table */
 
 thead {
@@ -25,10 +17,17 @@ thead {
     font-size: 1.2rem;
     font-weight: bold;
 }
+/* style header elements */
+
+tbody th {
+    background-color: #628ca6;
+    color: white;
+    font-weight: bold;
+}
 
 td, th {
   border: 1px solid rgb(190,190,190);
-  padding: 5px 5px;
+  padding: 8px 8px;
 }
 
 td {
@@ -41,4 +40,11 @@ tr:nth-child(even) td {
 
 tr:nth-child(odd) td {
   background-color: #e7ffed;
+}
+
+/* style tfoot elements */
+
+tfoot {
+    background-color: #7fb9c2;
+    font-size: .6rem;
 }

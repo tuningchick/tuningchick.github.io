@@ -37,7 +37,7 @@ td {
 
 /* style highlighed cell elements */
 
-.goalExceeded {
+.goalExceeded td{
     background-color: #628ca6;
     color: white;
 }

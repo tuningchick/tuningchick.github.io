@@ -9,14 +9,6 @@ table {
   box-shadow: 5px 5px 10px #628ca6;
 }
 
-/* style head of table */
-
-thead {
-    color: black;
-    background-color: #7fb9c2;
-    font-size: 1.4rem;
-    font-weight: bold;
-}
 /* style header elements */
 
 tbody th {
@@ -44,6 +36,15 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #e7ffed;
   }
+
+  /* style head of table */
+
+thead {
+    color: black;
+    background-color: #7fb9c2;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
 
 /* style highlighed cell elements */
 

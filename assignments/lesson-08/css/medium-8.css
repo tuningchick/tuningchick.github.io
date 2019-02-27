@@ -1,0 +1,143 @@
+/* set media query for medium screens. Thanks kimi for the breakpoint */
+@media only screen and (min-width: 501px) {
+
+    /*current temperature style */
+
+.currenttemp {
+    display: inline-block;
+}
+
+.currenttemp h5 {
+    font-size: .8em;
+}
+
+.currenttemp div {
+    font-size: 2em;
+}
+
+.currenttemp p {
+    font-size: .7em;
+}
+/* header flex settings */
+
+#headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#headerContainer img {
+    margin-right: 1em;
+}
+   
+/* hide hamburger icon */
+
+nav button { 
+    display: none;
+}
+
+/* narrow up the horizontal navigation bar */
+
+nav ul li a {
+    padding: .6rem 1rem;
+}
+
+/* change flex direction from column to row for larger views */
+
+nav #primaryNav {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 1em;
+    padding-right: 1em;   
+}
+
+/* show menu in large view */
+
+nav ul.hide {
+    display: block;
+}
+
+/*navigation menu styling */
+nav ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+/* position menu items to the left and add border right to menu items color #f3f5e9 */
+ nav li {
+    float: left;
+    border-right: 1px solid #f3f5e9;
+}
+/* style so there is no border line on the far right */
+nav li:last-child {
+    border-right: none;
+}
+nav li a {
+    display: block;
+    color: #73c058;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* change the link text color to #231f20 on hover */
+nav li a:hover {
+    color: #231f20;
+}
+/* active page background color on menu */
+.selected {
+    background-color: #f3f5e9;
+}
+/* styling the 5-day forecast */
+aside h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 2px 2px 4px #777;
+    padding: 10px;
+}
+/* Put a single line around the table */
+
+.fiveday {
+    display: block;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+table, th, td {
+    color: #f3f5e9;
+    border: 1px solid #f3f5e9;
+    background-color: #231f20;
+}
+td, th{
+    text-align: center;
+    padding: 5px;
+}
+
+/* style the article */
+
+article div {
+    float: right;
+    width: 55%;
+}
+
+article img {
+    float: left;
+    width: 38%;
+}
+
+/* gallery grid for medium view */
+
+#gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3%;
+}
+
+}

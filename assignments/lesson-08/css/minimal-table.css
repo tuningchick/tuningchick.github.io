@@ -5,10 +5,19 @@ html {
 table {
   border-collapse: collapse;
   border: 1px solid rgb(200,200,200);
-  letter-spacing: 1px;
   font-size: 0.8rem;
   box-shadow: 5px 5px 10px #777;
 }
+
+/* style header elements */
+
+th {
+    background-color: #628ca6;
+    color: white;
+    font-weight: bold;
+}
+
+/* style head of table */
 
 thead {
     color: black;
@@ -17,19 +26,9 @@ thead {
     font-weight: bold;
 }
 
-th {
-    background-color: #628ca6;
-    color: white;
-    font-weight: bold;
-}
-
 td, th {
   border: 1px solid rgb(190,190,190);
   padding: 5px 5px;
-}
-
-th {
-  background-color: rgb(235,235,235);
 }
 
 td {

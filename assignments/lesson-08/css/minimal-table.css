@@ -11,7 +11,7 @@ table {
 
 /* style head of table */
 
-thead {
+thead:first-child {
     color: black;
     background-color: #7fb9c2;
     font-size: 1.4rem;
@@ -41,13 +41,13 @@ tr:nth-child(even) {
     background-color: #e7f0ed;
   }
   
-  tr:nth-child(odd) {
+tr:nth-child(odd) {
     background-color: #e7ffed;
   }
 
 /* style tfoot elements */
 
-table tfoot {
+tfoot:first-child {
     background-color: #7fb9c2;
     font-size: .6rem;
 }

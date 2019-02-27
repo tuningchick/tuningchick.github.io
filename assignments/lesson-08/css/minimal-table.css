@@ -12,8 +12,13 @@ table {
 
 thead {
     color: black;
-    background-color: #628ca6;
+    background-color: #7fb9c2;
     font-size: 1.2rem;
+}
+
+th {
+    background-color: #628ca6
+    color: white;
 }
 
 td, th {

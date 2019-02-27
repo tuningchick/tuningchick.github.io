@@ -46,6 +46,6 @@ tfoot {
 
 /* style tfoot elements */
 
-tr:nth-child(3) .goalExceeded {
+.goalExceeded {
     background-color: #628ca6;
 }

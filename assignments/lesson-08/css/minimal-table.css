@@ -5,7 +5,7 @@ html {
 table {
   border-collapse: collapse;
   border: 1px solid rgb(200,200,200);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   box-shadow: 5px 5px 10px #628ca6;
 }
 
@@ -23,7 +23,7 @@ tbody th {
     background-color: #628ca6;
     color: white;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 td, th {
@@ -52,6 +52,6 @@ tfoot tr{
 
 /* style tfoot elements */
 
-.goalExceeded {
+.goalExceeded td{
     background-color: #628ca6;
 }

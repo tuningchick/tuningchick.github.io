@@ -14,11 +14,13 @@ thead {
     color: black;
     background-color: #7fb9c2;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 th {
     background-color: #628ca6
     color: white;
+    font-weight: bold;
 }
 
 td, th {

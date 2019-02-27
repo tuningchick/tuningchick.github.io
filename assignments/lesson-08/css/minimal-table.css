@@ -54,7 +54,7 @@ tr:nth-child(odd) td{
 
 /* style tfoot elements */
 
-tfoot {
+tfoot td {
     background-color: #7fb9c2;
     font-size: .6rem;
 }

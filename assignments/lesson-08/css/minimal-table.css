@@ -35,14 +35,22 @@ td {
   text-align: center;
 }
 
+/* odd and even row coloring */
+
+tr:nth-child(even) td{
+    background-color: #e7f0ed;
+  }
+  
+tr:nth-child(odd) td{
+    background-color: #e7ffed;
+  }
+
 /* style highlighed cell elements */
 
 .goalExceeded {
     background-color: #628ca6;
     color: white;
 }
-
-
 
 /* style tfoot elements */
 

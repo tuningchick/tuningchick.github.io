@@ -66,10 +66,10 @@
                         <label for="stormDate">Storm Date:</label>
                         <input type="date" id="stormDate" name="stormDate">
                         <label for="stormType">Storm Type:</label>
-                        <input list="storms" name="storm">
+                        <input list="stormType" name="storm">
                         <datalist id="stormType">
-                            <option value="Hail">
-                            <option value="Tornado">
+                            <option value="Hail">Hail</option>
+                            <option value="Tornado">Tornado</option>
                             <option value="Flash Flood"> 
                             <option value="Hurricane">
                             <option value="Thunderstorm">   
@@ -89,7 +89,7 @@
                         <label for="danger">User in Danger? <em>(Choose one)</em></label>
                         <input type="radio" id="choice1" name="inDanger" value="yes">
                         <label for="choice1">Yes</label>
-                        <input type="radio" id="choice2" name="inDanger" value="no">
+                        <input type="radio" id="choice2" name="inDanger" value="no" selected>
                         <label for="choice2">No</label>
                         <input type="radio" id="choice3" name="inDanger" value="maybe">
                         <label for="choice3">Maybe</label>

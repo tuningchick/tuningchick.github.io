@@ -74,7 +74,6 @@
                             <option value="Hurricane">
                             <option value="Thunderstorm">   
                         </datalist>
-                        <input type="submit">
                         <label for="severity">Rate the Storm's Severity (1 low to 10 high):</label>
                         <input type="range" id="severity" name="stormSeverity" value="5"
                         min="1" max="10" step="1" oninput="adjustRating(this.value)"
@@ -87,8 +86,24 @@
                             <option value="Soda Springs">Soda Springs</option>
                             <option value="Fish Haven">Fish Haven</option>
                         </select>
+                        <label for="danger">User in Danger? <em>(Choose one)</em></label>
+                        <input type="radio" id="choice1" name="inDanger" value="yes">
+                        <label for="choice1">Yes</label>
+                        <input type="radio" id="choice2" name="inDanger" value="no">
+                        <label for="choice2">No</label>
+                        <input type="radio" id="choice3" name="inDanger" value="maybe">
+                        <label for="choice3">Maybe</label>
                     </div>
                 </fieldset>
+                <fieldset class="other">
+                    <legend>Other Information</legend>
+                    <div>
+                        <textarea name="other" rows="4" cols="50" maxlength="200">
+                            Enter additional information here...
+                        </textarea>
+                    </div>
+                </fieldset>
+                <input type="submit">
             </div>
             
         <!-- footer, including actual date display -->

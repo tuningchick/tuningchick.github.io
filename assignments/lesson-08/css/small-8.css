@@ -333,4 +333,7 @@ form input.submitButton {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    text-shadow: 2px 2px 4px #777;
 }

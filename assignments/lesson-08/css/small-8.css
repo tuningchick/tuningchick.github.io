@@ -270,6 +270,7 @@ footer {
 
 form fieldset {
     margin: 1rem 0;
+    background-color: #c2ca86;
     border: 2px solid white;
     border-radius: 5px;
     padding: .5rem 2%;

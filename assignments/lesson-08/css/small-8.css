@@ -288,7 +288,7 @@ form label.top, form div {
     display: block;
     padding-top: 1rem;
     font-family: 'Roboto Slab', serif;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 form label.top input, form label.top select {
@@ -312,3 +312,16 @@ form textarea {
     border: 1px white;
     border-radius: 4px;
 }
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+#region, #ratingvalue {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+

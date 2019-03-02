@@ -284,6 +284,18 @@ form legend {
     text-shadow: 1px 1px 2px #777;
 }
 
-form label.top {
-    
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    border: 1px white;
+    border-radius: 2px;
+    padding: .75rem;
+    width: 100%;
 }

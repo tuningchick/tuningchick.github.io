@@ -268,11 +268,6 @@ footer {
 
 /* Storm Center form styling */
 
-form {
-    width: 100%;
-    max-width: 60rem;
-}
-
 form fieldset {
     margin: 1rem 2%;
     background-color: #c2ca86;

@@ -53,11 +53,13 @@
                         <label for="guestName">Full Name*:
                         <input type="text" id="guestName" name="fullName" required></label>
                         <label for="email">Email Address:
-                        <input type="email" id="email" name="email" placeholder="user@email.org"></label>
-                        <label for="phoneNumber">Phone Number:
-                        <input type="tel" id="phoneNumber" name="phone" placeholder="###-###-####" required></label>
-                        <label for="zip">Zip Code:
-                        <input type="number" id="zip" name="zipCode"></label>
+                        <input type="email" id="email" name="email" placeholder="user@email.org" 
+                        pattern="[a-z0-9._%+-]+@[a-z]{2,}$"></label>
+                        <label for="phoneNumber">Phone Number*:
+                        <input type="tel" id="phoneNumber" name="phone" placeholder="###-###-####" 
+                        required pattern="[0-9-]$" maxlength="12"></label>
+                        <label for="zip">Zip Code*:
+                        <input type="number" id="zip" name="zipCode" pattern="[0-9]{5}" maxlength="5"></label>
                     </fieldset>
                     <fieldset class="stormInfo">
                         <legend>Storm Information</legend>

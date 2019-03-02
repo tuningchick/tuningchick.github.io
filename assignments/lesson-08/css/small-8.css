@@ -340,7 +340,7 @@ form input.submitButton {
 }
 
 form label.top input:required {
-    border: #ee3229;
+    border: 1px #ee3229;
 }
 
 form label.top input:required:valid {

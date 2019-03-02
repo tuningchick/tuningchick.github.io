@@ -265,3 +265,12 @@ footer {
     padding-left: 2%;
     font-family: 'Lato', sans-serif;
 }
+
+/* Storm Center form styling */
+
+form fieldset {
+    margin: 1rem 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: .5rem 2%;
+}

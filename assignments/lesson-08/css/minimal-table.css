@@ -27,6 +27,8 @@ tbody th {
     font-size: 1.1em;
 }
 
+/* add italic to Black Friday */
+
 tbody tr:nth-child(6) td:first-child {
   font-style: italic;
   }

@@ -67,11 +67,13 @@
                             <label for="stormType">Storm Type:
                             <input list="stormType" name="storm"></label>
                             <datalist id="stormType">
+                                <option value="Select One" disabled>
+                                <option value="Damaging Wind">
+                                <option value="Flash Flood">
                                 <option value="Hail">
-                                <option value="Tornado">
-                                <option value="Flash Flood"> 
-                                <option value="Hurricane">
-                                <option value="Thunderstorm">   
+                                <option value="Hurricane"> 
+                                <option value="Thunderstorm">
+                                <option value="Tornado">   
                             </datalist>
                             <label for="severity">Rate the Storm's Severity (1 low to 10 high):</label>
                             <input type="range" id="severity" name="stormSeverity" value="5"
@@ -80,7 +82,7 @@
                             <span id="ratingvalue">5</span>
                             <label for="region">Storm Location:</label>
                             <select id="region">
-                                <option value="Select Region" disabled>Select Region</option>
+                                <option value="">Select Region</option>
                                 <option value="Preston">Preston</option>
                                 <option value="Soda Springs">Soda Springs</option>
                                 <option value="Fish Haven">Fish Haven</option>

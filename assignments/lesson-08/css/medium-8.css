@@ -140,8 +140,15 @@ article img {
     grid-gap: 3%;
 }
 
+/* form larger views formatting */
+
 form label.sbs {
     padding: .4rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 }

@@ -346,3 +346,9 @@ form label.top input:required {
 form label.top input:required:valid {
     border: none;
 }
+
+/* thank you message format */
+
+#thanks {
+    padding: 4rem 4rem;
+}

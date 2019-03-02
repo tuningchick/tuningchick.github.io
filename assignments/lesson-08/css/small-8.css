@@ -292,6 +292,7 @@ form label.top, form div {
 }
 
 form label.top input, form label.top select {
+    -webkit-appearance: none;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
     border: 1px white;

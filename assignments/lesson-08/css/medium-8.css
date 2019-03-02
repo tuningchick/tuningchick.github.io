@@ -140,4 +140,8 @@ article img {
     grid-gap: 3%;
 }
 
+form label.sbs {
+    padding: .4rem 0;
+}
+
 }

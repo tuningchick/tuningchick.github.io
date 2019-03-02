@@ -268,14 +268,17 @@ footer {
 
 /* Storm Center form styling */
 
+form {
+    width: 100%;
+    max-width: 60rem;
+}
+
 form fieldset {
     margin: 1rem 2%;
     background-color: #c2ca86;
     border: 2px solid white;
     border-radius: 8px;
     padding: .5rem 2%;
-    width: 100%;
-    max-width: 60rem;
 }
 
 form legend {

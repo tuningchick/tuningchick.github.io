@@ -27,6 +27,10 @@ tbody th {
     font-size: 1.1em;
 }
 
+tbody tr:nth-child(6) td:first-child {
+  font-style: italic;
+  }
+
 /* odd and even row coloring */
 
 tbody tr:nth-child(even) {

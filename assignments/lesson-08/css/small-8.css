@@ -298,11 +298,17 @@ form label.top input, form label.top select {
     border-radius: 4px;
     padding: .75rem;
     width: 100%;
+    max-width: 20rem;
+    background-color: #f3f5e9;
 }
 
 form textarea {
     width: 100%;
+    max-width: 50rem;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
     text-align: justify;
+    background-color: #f3f5e9;
+    border: 1px white;
+    border-radius: 4px;
 }

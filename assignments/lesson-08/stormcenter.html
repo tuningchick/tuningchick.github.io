@@ -45,67 +45,66 @@
         <!-- Main section for storm center form -->
         <main class="clearfix">
             <h1>Storm Center</h1>
-            <h3>Use the form below to share local, current storm conditions with us.</h3>
-            <div id="scform">
-                <fieldset class="personalInfo">
-                    <legend>Personal Information</legend>
-                    <div>
-                        <label for="guestName">Full Name:</label>
-                        <input type="text" id="guestName" name="fullName" required>
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email" name="emailAddress" placeholder="user@email.org">
-                        <label for="phoneNumber">Phone Number:</label>
-                        <input type="tel" id="phoneNumber" name="phone" placeholder="###-###-####" required>
-                        <label for="zip">Zip Code:</label>
-                        <input type="number" id="zip" name="zipCode">
-                    </div>
-                </fieldset>
-                <fieldset class="stormInfo">
-                    <legend>Storm Information</legend>
-                    <div>
-                        <label for="stormDate">Storm Date:</label>
-                        <input type="date" id="stormDate" name="stormDate">
-                        <label for="stormType">Storm Type:</label>
-                        <input list="stormType" name="storm">
-                        <datalist id="stormType">
-                            <option value="Hail">
-                            <option value="Tornado">
-                            <option value="Flash Flood"> 
-                            <option value="Hurricane">
-                            <option value="Thunderstorm">   
-                        </datalist>
-                        <label for="severity">Rate the Storm's Severity (1 low to 10 high):</label>
-                        <input type="range" id="severity" name="stormSeverity" value="5"
-                        min="1" max="10" step="1" oninput="adjustRating(this.value)"
-                        onchange="adjustRating(this.value)">
-                        <span id="ratingvalue">5</span>
-                        <label for="region">Storm Location:</label>
-                        <select id="region">
-                            <option value="Select Region" disabled>Select Region</option>
-                            <option value="Preston">Preston</option>
-                            <option value="Soda Springs">Soda Springs</option>
-                            <option value="Fish Haven">Fish Haven</option>
-                        </select>
-                        <label for="danger">User in Danger? <em>(Choose one)</em></label>
-                        <input type="radio" id="choice1" name="inDanger" value="yes">
-                        <label for="choice1">Yes</label>
-                        <input type="radio" id="choice2" name="inDanger" value="no" selected>
-                        <label for="choice2">No</label>
-                        <input type="radio" id="choice3" name="inDanger" value="maybe">
-                        <label for="choice3">Maybe</label>
-                    </div>
-                </fieldset>
-                <fieldset class="other">
-                    <legend>Other Information</legend>
-                    <div>
-                        <textarea name="other" rows="4" cols="50" maxlength="200">
-                            Enter additional information here...
-                        </textarea>
-                    </div>
-                </fieldset>
-                <input type="submit">
-            </div>
-            
+            <h2>Use the form below to share local, current storm conditions with us.</h2>
+            <form method="get" action="thanks.html">
+                <div id="scform">
+                    <fieldset class="personalInfo">
+                        <legend>Personal Information</legend>
+                        <label for="guestName">Full Name*:
+                        <input type="text" id="guestName" name="fullName" required></label>
+                        <label for="email">Email Address:
+                        <input type="email" id="email" name="email" placeholder="user@email.org"></label>
+                        <label for="phoneNumber">Phone Number:
+                        <input type="tel" id="phoneNumber" name="phone" placeholder="###-###-####" required></label>
+                        <label for="zip">Zip Code:
+                        <input type="number" id="zip" name="zipCode"></label>
+                    </fieldset>
+                    <fieldset class="stormInfo">
+                        <legend>Storm Information</legend>
+                        <div>
+                            <label for="stormDate">Storm Date:
+                            <input type="date" id="stormDate" name="stormDate"></label>
+                            <label for="stormType">Storm Type:
+                            <input list="stormType" name="storm"></label>
+                            <datalist id="stormType">
+                                <option value="Hail">
+                                <option value="Tornado">
+                                <option value="Flash Flood"> 
+                                <option value="Hurricane">
+                                <option value="Thunderstorm">   
+                            </datalist>
+                            <label for="severity">Rate the Storm's Severity (1 low to 10 high):</label>
+                            <input type="range" id="severity" name="stormSeverity" value="5"
+                            min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                            onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">5</span>
+                            <label for="region">Storm Location:</label>
+                            <select id="region">
+                                <option value="Select Region" disabled>Select Region</option>
+                                <option value="Preston">Preston</option>
+                                <option value="Soda Springs">Soda Springs</option>
+                                <option value="Fish Haven">Fish Haven</option>
+                            </select>
+                            <div>User in Danger? <em>(Choose one)</em></div>
+                            <label><input type="radio" name="inDanger" value="yes">Yes</label>
+                            <label><input type="radio" id="choice2" name="inDanger" value="no" selected>
+                            No</label>
+                            <label><input type="radio" id="choice3" name="inDanger" value="maybe">
+                            Maybe</label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="other">
+                        <legend>Other Information</legend>
+                        <div>
+                            <textarea name="other" rows="4" cols="50" maxlength="200">
+                                Enter additional information here...
+                            </textarea>
+                        </div>
+                    </fieldset>
+                    <input type="submit">
+                </div>
+            </form>
+        </main>   
         <!-- footer, including actual date display -->
         <footer>
             <span id="displayDate"></span>

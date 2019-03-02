@@ -272,7 +272,7 @@ form fieldset {
     margin: 1rem 2%;
     background-color: #c2ca86;
     border: 2px solid white;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: .5rem 2%;
 }
 
@@ -295,7 +295,14 @@ form label.top input, form label.top select {
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
     border: 1px white;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: .75rem;
     width: 100%;
+}
+
+form textarea {
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
 }

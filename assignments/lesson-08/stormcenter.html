@@ -49,24 +49,24 @@
             <form method="get" action="thanks.html">
                 <div id="scform">
                     <fieldset class="personalInfo">
-                        <legend>Personal Information</legend>
-                        <label for="guestName">Full Name*:
+                        <legend>Personal Information <em>("*" indicates required)</em></legend>
+                        <label class="top" for="guestName">Full Name*:
                         <input type="text" id="guestName" name="fullName" required></label>
-                        <label for="email">Email Address:
+                        <label class="top" for="email">Email Address:
                         <input type="email" id="email" name="email" placeholder="user@email.org" 
                         pattern="[a-z0-9._%+-]+@[a-z]{2,}$"></label>
-                        <label for="phoneNumber">Phone Number*:
+                        <label class="top" for="phoneNumber">Phone Number*:
                         <input type="tel" id="phoneNumber" name="phone" placeholder="###-###-####" 
                         required pattern="[0-9-]$" maxlength="12"></label>
-                        <label for="zip">Zip Code*:
+                        <label class="top" for="zip">Zip Code*:
                         <input type="number" id="zip" name="zipCode" pattern="[0-9]{5}" max="5"></label>
                     </fieldset>
                     <fieldset class="stormInfo">
                         <legend>Storm Information</legend>
                         <div>
-                            <label for="stormDate">Storm Date:
+                            <label class="top" for="stormDate">Storm Date:
                             <input type="date" id="stormDate" name="stormDate"></label>
-                            <label for="stormType">Storm Type:
+                            <label class="top" for="stormType">Storm Type:
                             <input list="stormType" name="storm"></label>
                             <datalist id="stormType">
                                 <option value="Damaging Wind">
@@ -76,12 +76,12 @@
                                 <option value="Thunderstorm">
                                 <option value="Tornado">   
                             </datalist>
-                            <label for="severity">Rate the Storm's Severity (1 low to 10 high):</label>
+                            <label class="top" for="severity">Rate the Storm's Severity (1 low to 10 high):</label>
                             <input type="range" id="severity" name="stormSeverity" value="5"
                             min="1" max="10" step="1" oninput="adjustRating(this.value)"
                             onchange="adjustRating(this.value)">
                             <span id="ratingvalue">5</span>
-                            <label for="region">Storm Location:</label>
+                            <label class="top" for="region">Storm Location:</label>
                             <select id="region">
                                 <option value="">Select Region</option>
                                 <option value="Preston">Preston</option>
@@ -89,15 +89,15 @@
                                 <option value="Fish Haven">Fish Haven</option>
                             </select>
                             <div>User in Danger? <em>(Choose one)</em></div>
-                            <label><input type="radio" name="inDanger" value="no" checked>
+                            <label class="sbs"><input type="radio" name="inDanger" value="no" checked>
                                 No</label>
-                            <label><input type="radio" name="inDanger" value="yes">Yes</label>
-                            <label><input type="radio" name="inDanger" value="maybe">
+                            <label class="sbs"><input type="radio" name="inDanger" value="yes">Yes</label>
+                            <label class="sbs"><input type="radio" name="inDanger" value="maybe">
                             Maybe</label>
                         </div>
                     </fieldset>
                     <fieldset class="other">
-                        <legend>Other Information</legend>
+                        <legend>Additional Information</legend>
                         <div>
                             <textarea name="other" rows="4" cols="50" maxlength="200">
                                 Enter additional information here...

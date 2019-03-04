@@ -1,0 +1,354 @@
+/* CIT 230 Town Pages CSS */
+
+/* * is a wildcard referring to all elements. */
+* { margin: 0; box-sizing: border-box; } 
+
+body {
+	background-color: #73c058;
+}
+/* style h1, h2, etc */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px #777;
+}
+/* styling header */
+#headerContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+	margin: 10px auto;
+	background-color: #c2ca86;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
+}
+
+#headerContainer h1 {
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px #777;
+    margin-right: 15px;
+}
+
+#headercontainer .headings {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.motto { 
+    font-family: 'Lato', sans-serif;
+    font-size: .9em;
+    color: white;
+    text-align: right;
+    margin-right: 2%;
+    text-shadow: 1px 1px 2px #777; 
+}
+
+/* styling current temp block */
+.currenttemp {
+    display: none;
+    vertical-align: middle;
+    font-family: 'Lato', sans-serif;
+    background-color: #231f20;
+    opacity: 0.35;
+    box-shadow: 2px 2px 30px #f3f5e9;
+    padding: 1.5em .3em;
+    color: white;
+    margin-left: 4%;
+}
+/* nav hamburger button styling */
+
+nav button {
+    text-align: center;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #73c058;
+}
+
+/* styling navigation menu */
+.navContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 5px auto;
+    font-family: 'Lato', sans-serif;
+    color: #73c058;
+}
+
+.navContainer ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navContainer li {
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.2em;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navContainer a {
+    color: #73c058;
+    padding: .8rem 2%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    max-width: 400px;
+}
+
+nav .selected {
+    background-color: #f3f5e9;
+}
+
+nav ul li a:hover {
+    background-color: #c7c9bf;
+    color: white;
+}
+
+/* functionality of hamburger icon */
+nav ul.hide {
+    display: none;
+}
+
+/*styling main h1 */
+main h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px #777;
+}
+
+/* styling weather summary image */
+.center {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    width: 100%;   
+}
+
+/* styling weather summary aside */
+
+#summary {
+    width: 20%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-family: 'Lato', sans-serif;
+    background-color: #f3f5e9;
+    opacity: 0.4;
+    box-shadow: 0 0 30px #777;
+    padding: 1em .5em;
+}
+
+#summary h4 {
+    padding: .2em;
+    color: #231f20;
+    text-align: left;
+}
+
+#summary p {
+    text-shadow: 1px 1px 2px #777;
+}
+
+
+/* 5 day forecast needs to not show in mobile view */
+
+.fiveday {
+    display: none;
+}
+
+.currenttemp {
+    display: none;
+}
+
+/* Styling article image */
+
+article img {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+/* Styling article */
+
+article {
+    width: 100%;
+    background-color: #c2ca86;
+}
+
+article div {
+    font-family: 'Lato', sans-serif;
+    line-height: 1rem;
+    margin: 2%;
+}
+
+article h2 h5 {
+    margin-bottom: 2px;
+}
+
+article h5 {
+    text-align: left;
+    text-shadow: none; 
+}
+
+/* styling contact section */
+
+#contact {
+    background-color: #73c058;
+    width: 100%;
+    padding-left: 2%;
+}
+
+#contact img {
+    float: right;
+    width: 42%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+#contact div {
+    float: left;
+    width: 46%;
+    padding-top: 2%;
+}
+
+#contact div h5 {
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* grid styling for gallery page small view */
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+#gallery img{
+    margin: 2%;
+    width: 90%;
+}
+
+#gallery figcaption {
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+    font-size: .9em;
+    color: white;
+    text-align: center;
+}
+
+#gallery img:hover {
+    box-shadow: 0 0 4em #373334;
+}
+
+/* trying the clearfix element to see if it helps with the floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #c2ca86;
+    clear: both;
+    padding-left: 2%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Storm Center form styling */
+
+form fieldset {
+    margin: 1rem 2%;
+    background-color: #c2ca86;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 0 .5rem;
+    margin: 0 1rem;
+    text-shadow: 1px 1px 2px #777;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    border: 1px white;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #f3f5e9;
+}
+
+form textarea {
+    width: 100%;
+    max-width: 50rem;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    background-color: #f3f5e9;
+    border: 1px white;
+    border-radius: 4px;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+#region, #ratingvalue {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+form input.submitButton {
+    border: none;
+    background-color: white;
+    border-radius: .75rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 100%;
+    max-width: 20rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    text-shadow: 2px 2px 4px #777;
+}
+
+form label.top input:required {
+    border: 1px #ee3229;
+}
+
+form label.top input:required:valid {
+    border: none;
+}
+
+/* thank you message format */
+
+#thanks {
+    padding: 4rem 4rem;
+}

@@ -355,10 +355,9 @@ form label.top input:required:valid {
 
 /* style home page town summaries for mobile view */
 
-#homeTowns article{
+#home {
     display: flex;
     flex-direction: column;
-    width: 100%;
     border: 4px solid white;
     border-radius: .5rem;
     background-color: #c2ca86;

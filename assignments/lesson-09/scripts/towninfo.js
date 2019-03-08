@@ -1,5 +1,5 @@
 function runShowTowns() {
-var section = document.querySelector('section');
+var section = document.querySelector('#homeTowns');
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 /* create and open new request */
 var request = new XMLHttpRequest();

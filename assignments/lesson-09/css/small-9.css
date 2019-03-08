@@ -355,7 +355,7 @@ form label.top input:required:valid {
 
 /* style home page town summaries for mobile view */
 
-.homeTowns article {
+#homeTowns article {
     display: flex;
     flex-direction: column;
     border: 4px solid white;
@@ -368,13 +368,13 @@ form label.top input:required:valid {
 
 /* general home page styling for all views */
 
-.homeTowns img {
+#homeTowns img {
     width: 100%;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem; 
 }
 
-.homeTowns p {
+#homeTowns p {
     text-align: center;
     font-family: 'Lato', sans-serif;
 }

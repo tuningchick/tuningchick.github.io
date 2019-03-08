@@ -146,4 +146,13 @@ form label.sbs {
     padding: .4rem 0;
 }
 
+/* home page town summaries format */
+
+.homeTowns {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4%;
+}
+
 }

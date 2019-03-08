@@ -148,9 +148,10 @@ form label.sbs {
 
 /* home page town summaries format */
 
-#home {
+#homeTowns {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 4%;
+}
 }

@@ -155,4 +155,7 @@ form label.sbs {
     grid-gap: 4%;
 }
 
+#home article {
+     display: none;
+ }
 }

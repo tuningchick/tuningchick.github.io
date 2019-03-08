@@ -154,8 +154,3 @@ form label.sbs {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 4%;
 }
-
-#home article {
-     display: none;
- }
-}

@@ -8,8 +8,8 @@ request.responseType = 'json';
 request.send();
 /* get response from server and deal with it */
 request.onload = function() {
-    var towns = request.response;
-    showTowns(towns);
+    var homeTowns = request.response;
+    showTowns(homeTowns);
 }
 /* create and display town name, motto, founding, population, annual rainfall */
 function showTowns(jsonObj) {

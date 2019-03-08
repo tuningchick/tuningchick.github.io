@@ -1,3 +1,4 @@
+/* thank you Kimi for getting me on the right track */
 function runShowTowns() {
 var section = document.querySelector('#homeTowns');
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
@@ -17,7 +18,7 @@ function showTowns(jsonObj) {
     var townName = jsonObj['towns'];
 
     for (var i = 0; i < townName.length; i++) {
-        for (name = "Preston" || "Soda Springs" || "Fish Haven") {
+        if (name == "Preston" || "Soda Springs" || "Fish Haven") {
             var myArticle = document.createElement('article');
             var myH4 = document.createElement('h4');
             var myPara1 = document.createElement('p');

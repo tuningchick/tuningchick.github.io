@@ -33,7 +33,7 @@ function showTowns(jsonObj) {
             myPara2.textContent = 'Year Founded: ' + townName[i].yearFounded;
             myPara3.textContent = 'Population: '; + townName[i].currentPopulation;
             myPara4.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;   
-
+        }
             myArticle.appendChild(myH4);
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
@@ -41,8 +41,8 @@ function showTowns(jsonObj) {
             myArticle.appendChild(myPara4);
 
             section.appendChild(myArticle);
-            }
-        }
+           
+    }
     } 
 }
 }

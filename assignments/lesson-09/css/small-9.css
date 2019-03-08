@@ -374,7 +374,7 @@ form label.top input:required:valid {
     border-top-right-radius: .5rem; 
 }
 
-.hometowns p {
+.homeTowns p {
     text-align: center;
     font-family: 'Lato', sans-serif;
 }

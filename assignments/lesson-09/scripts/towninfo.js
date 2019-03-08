@@ -13,7 +13,7 @@ request.onload = function() {
 }
 /* create and display town name, motto, founding, population, annual rainfall */
 function showTowns(jsonObj) {
-    var townName = jsonObj['name'];
+    var townName = jsonObj['towns'];
 
     for (var i = 0; i < townName.length; i++) {
         var myArticle = document.createElement('article');

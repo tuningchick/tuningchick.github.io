@@ -382,11 +382,14 @@ form label.top input:required:valid {
     font-size: .7em;
     font-style: italic;
     color: white;
-    text-align: center; 
+    text-align: center;
+    text-shadow: none;
+    padding-top: .3rem;
+    padding-bottom: .3rem; 
 }
 
 #homeTowns p {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: .8rem;
+    font-size: .9rem;
 }

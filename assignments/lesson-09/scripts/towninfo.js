@@ -10,7 +10,7 @@ request.send();
 request.onload = function() {
     var homeTowns = request.response;
     showTowns(homeTowns);
-}
+
 /* create and display town name, motto, founding, population, annual rainfall */
 function showTowns(jsonObj) {
     var townName = jsonObj['towns'];
@@ -38,3 +38,4 @@ function showTowns(jsonObj) {
 
         section.appendChild(myArticle);
     } 
+}

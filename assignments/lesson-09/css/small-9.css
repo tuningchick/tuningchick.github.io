@@ -358,15 +358,18 @@ form label.top input:required:valid {
 .home {
     display: flex;
     flex-direction: column;
-    border: 4px #c2ca86;
+    border: 4px solid #c2ca86;
     border-radius: .5rem;
     background-color: #c7c9bf;
-    margin: 4%;
+    margin: 6%;
     text-align: center;
     box-shadow: 0 0 30px #777;
-    list-style-type: none;
 }
+
+/* general home page styling for all views */
 
 .home img {
     width: 100%;
+    border-top-left-radius: .5rem;
+    border-bottom-right-radius: .5rem; 
 }

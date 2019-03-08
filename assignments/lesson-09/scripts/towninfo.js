@@ -30,7 +30,7 @@ function showTowns(jsonObj) {
         myPara4.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;
         }
 
-        myArticle.appendChild(myH2);
+        myArticle.appendChild(myH4);
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);

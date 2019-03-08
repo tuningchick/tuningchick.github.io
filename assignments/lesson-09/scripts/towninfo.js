@@ -23,7 +23,7 @@ function showTowns(jsonObj) {
         var myPara3 = document.createElement('p');
         var myPara4 = document.createElement('p');
 
-        myH2.textContent = townName[i].name;
+        myH4.textContent = townName[i].name;
         myPara1.textContent = '<em>' + townName[i].motto + '</em>';
         myPara2.textContent = 'Year Founded: ' + townName[i].yearfounded;
         myPara3.textContent = 'Population: '; + townName[i].currentPopulation;

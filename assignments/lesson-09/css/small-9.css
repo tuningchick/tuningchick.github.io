@@ -352,3 +352,16 @@ form label.top input:required:valid {
 #thanks {
     padding: 4rem 4rem;
 }
+
+/* style home page town summaries for mobile view */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    border: 1px #c2ca86;
+    border-radius: .5rem;
+    background-color: #c7c9bf;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 30px #777;
+}

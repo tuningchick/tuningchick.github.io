@@ -358,10 +358,15 @@ form label.top input:required:valid {
 .home {
     display: flex;
     flex-direction: column;
-    border: 1px #c2ca86;
+    border: 4px #c2ca86;
     border-radius: .5rem;
     background-color: #c7c9bf;
-    margin: 2%;
+    margin: 4%;
     text-align: center;
     box-shadow: 0 0 30px #777;
+    list-style-type: none;
+}
+
+.home img {
+    width: 100%;
 }

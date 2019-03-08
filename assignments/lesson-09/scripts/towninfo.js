@@ -1,3 +1,4 @@
+function runShowTowns() {
 var section = document.querySelector('section');
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 /* create and open new request */
@@ -12,32 +13,30 @@ request.onload = function() {
     showTowns(homeTowns);
 
 /* create and display town name, motto, founding, population, annual rainfall */
-function runShowTowns() {
-    function showTowns(jsonObj) {
-        var townName = jsonObj['towns'];
+function showTowns(jsonObj) {
+    var townName = jsonObj['towns'];
 
-        for (var i = 0; i < townName.length; i++) {
-            var myArticle = document.createElement('article');
-            var myH4 = document.createElement('h4');
-            var myPara1 = document.createElement('p');
-            var myPara2 = document.createElement('p');
-            var myPara3 = document.createElement('p');
-            var myPara4 = document.createElement('p');
+    for (var i = 0; i < townName.length; i++) {
+        var myArticle = document.createElement('article');
+        var myH4 = document.createElement('h4');
+        var myPara1 = document.createElement('p');
+        var myPara2 = document.createElement('p');
+        var myPara3 = document.createElement('p');
+        var myPara4 = document.createElement('p');
 
-            myH4.textContent = townName[i].name;
-            myPara1.textContent = '<em>' + townName[i].motto + '</em>';
-            myPara2.textContent = 'Year Founded: ' + townName[i].yearFounded;
-            myPara3.textContent = 'Population: '; + townName[i].currentPopulation;
-            myPara4.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;
-            
+        myH4.textContent = townName[i].name;
+        myPara1.textContent = '<em>' + townName[i].motto + '</em>';
+        myPara2.textContent = 'Year Founded: ' + townName[i].yearFounded;
+        myPara3.textContent = 'Population: '; + townName[i].currentPopulation;
+        myPara4.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;   
 
-            myArticle.appendChild(myH4);
-            myArticle.appendChild(myPara1);
-            myArticle.appendChild(myPara2);
-            myArticle.appendChild(myPara3);
-            myArticle.appendChild(myPara4);
+        myArticle.appendChild(myH4);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+         myArticle.appendChild(myPara4);
 
-            section.appendChild(myArticle);
+        section.appendChild(myArticle);
         }
         } 
     }

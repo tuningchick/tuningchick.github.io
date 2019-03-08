@@ -18,7 +18,7 @@ function showTowns(jsonObj) {
     var townName = jsonObj['towns'];
 
     for (var i = 0; i < townName.length; i++) {
-        if (townName[i].name == "Preston" || "Soda Springs" || "Fish Haven") {
+        if (townName.name == "Preston" || "Soda Springs" || "Fish Haven") {
             var myArticle = document.createElement('article');
             var myH4 = document.createElement('h4');
             var myPara1 = document.createElement('p');

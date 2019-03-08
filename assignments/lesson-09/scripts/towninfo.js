@@ -30,10 +30,10 @@ function showTowns(jsonObj) {
         if (townName.name == "Preston" || "Soda Springs" || "Fish Haven") {
 
             myH4.textContent = townName[i].name;
-            myPara1.textContent = townName[i].motto;
-            myPara2.textContent = '<b>Year Founded:</b> ' + townName[i].yearFounded;
-            myPara3.textContent = 'Population: '; + townName[i].currentPopulation;
-            myPara4.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;   
+            myH6.textContent = townName[i].motto;
+            myPara1.textContent = '<b>Year Founded:</b> ' + townName[i].yearFounded;
+            myPara2.textContent = 'Population: '; + townName[i].currentPopulation;
+            myPara3.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;   
         }
             myArticle.appendChild(myH4);
             myArticle.appendChild(myH6);

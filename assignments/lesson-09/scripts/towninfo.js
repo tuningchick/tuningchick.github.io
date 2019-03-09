@@ -27,7 +27,7 @@ function showTowns(jsonObj) {
             var myPara3 = document.createElement('p');
             
 
-        if ((townName.name == "Preston") || (townName.name == "Soda Springs") || (townName.name == "Fish Haven")) {
+        if ((townName[i].name == "Preston") || (townName[i].name == "Soda Springs") || (townName[i].name == "Fish Haven")) {
 
             myH4.textContent = townName[i].name;
             myH6.textContent = townName[i].motto;

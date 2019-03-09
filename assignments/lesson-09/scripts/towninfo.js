@@ -18,16 +18,13 @@ function showTowns(jsonObj) {
     var townName = jsonObj['towns'];
 
     for (var i = 0; i < townName.length; i++) {
-        
+        if ((townName[i].name == "Preston") || (townName[i].name == "Soda Springs") || (townName[i].name == "Fish Haven")) {
             var myArticle = document.createElement('article');
             var myH4 = document.createElement('h4');
             var myH6 = document.createElement('h6');
             var myPara1 = document.createElement('p');
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
-            
-
-        if ((townName[i].name == "Preston") || (townName[i].name == "Soda Springs") || (townName[i].name == "Fish Haven")) {
 
             myH4.textContent = townName[i].name;
             myH6.textContent = townName[i].motto;

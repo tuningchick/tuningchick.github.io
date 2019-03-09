@@ -37,9 +37,10 @@ function showTowns(jsonObj) {
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
             myArticle.appendChild(myPara3);
-        }    
+            
 
             section.appendChild(myArticle);
+        }
            
     }
     } 

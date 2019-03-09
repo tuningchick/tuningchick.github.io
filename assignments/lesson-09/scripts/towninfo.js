@@ -1,4 +1,5 @@
-/* thank you Kimi for getting me on the right track */
+/* thank you Kimi for getting me on the right track with the opening function and
+Richard the TA for helping me get my if configuration to work */
 function runShowTowns() {
 var section = document.querySelector('#homeTowns');
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
@@ -13,25 +14,31 @@ request.onload = function() {
     var homeTowns = request.response;
     showTowns(homeTowns);
 
-/* create and display town name, motto, founding, population, annual rainfall */
+/* create and display image, town name, motto, founding, population, annual rainfall */
 function showTowns(jsonObj) {
     var townName = jsonObj['towns'];
 
     for (var i = 0; i < townName.length; i++) {
         if ((townName[i].name == "Preston") || (townName[i].name == "Soda Springs") || (townName[i].name == "Fish Haven")) {
             var myArticle = document.createElement('article');
+            var myImg = docment.createElement('img');
             var myH4 = document.createElement('h4');
             var myH6 = document.createElement('h6');
             var myPara1 = document.createElement('p');
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
 
+            if (townName[i].name == "Preston") {
+                myImg.src = "images/prestonidaho500.jpg" alt="Preston, Idaho town sign"
+            }
+
             myH4.textContent = townName[i].name;
             myH6.textContent = townName[i].motto;
             myPara1.textContent = 'Year Founded: ' + townName[i].yearFounded;
             myPara2.textContent = 'Population: '; + townName[i].currentPopulation;
-            myPara3.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;   
-        
+            myPara3.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;
+
+            myArticle.appendChild(myImg);
             myArticle.appendChild(myH4);
             myArticle.appendChild(myH6);
             myArticle.appendChild(myPara1);

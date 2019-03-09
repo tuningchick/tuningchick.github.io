@@ -29,7 +29,7 @@ function showTowns(jsonObj) {
             var myPara3 = document.createElement('p');
 
             if (townName[i].name == "Preston") {
-                myImg.src = "images/prestonidaho500.jpg" alt="Preston, Idaho town sign"
+                myImg.src = "images/prestonidaho500.jpg";
             }
 
             myH4.textContent = townName[i].name;

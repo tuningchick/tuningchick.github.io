@@ -29,7 +29,7 @@ function showTowns(jsonObj) {
             var myPara3 = document.createElement('p');
 
             if (townName[i].name == "Preston") {
-                myImg.src = "images/prestonidaho500.jpg";
+                document.getElementsByName('myImg').innerHTML = '<img src="images/prestonidaho500.jpg">';
             }
 
             myH4.textContent = townName[i].name;
@@ -45,7 +45,6 @@ function showTowns(jsonObj) {
             myArticle.appendChild(myPara2);
             myArticle.appendChild(myPara3);
             
-
             section.appendChild(myArticle);
         }
            

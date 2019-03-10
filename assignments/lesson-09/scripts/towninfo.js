@@ -28,10 +28,10 @@ function showTowns(jsonObj) {
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
 
-            if (townName[i].name == "Preston") {
-                document.getElementsByName('myImg').innerHTML = '<img src="images/prestonidaho500.jpg">';
-            }
+            var simplename = townName[i].name.replace(/\s/g, '').toLowerCase();
+            myImg= 'images/' + simplename + '.jpg';
 
+            myImg.setAttribute = ('src', myImg);
             myH4.textContent = townName[i].name;
             myH6.textContent = townName[i].motto;
             myPara1.textContent = 'Year Founded: ' + townName[i].yearFounded;

@@ -371,7 +371,7 @@ form label.top input:required:valid {
 
 /* general home page styling for all views */
 
-#homeTowns img {
+#homeTowns article img {
     width: 100%;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem; 

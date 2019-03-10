@@ -21,7 +21,7 @@ function showTowns(jsonObj) {
     for (var i = 0; i < townName.length; i++) {
         if ((townName[i].name == "Preston") || (townName[i].name == "Soda Springs") || (townName[i].name == "Fish Haven")) {
             var myArticle = document.createElement('article');
-            var myImg = docment.createElement('img');
+            var myImg = document.createElement('img');
             var myH4 = document.createElement('h4');
             var myH6 = document.createElement('h6');
             var myPara1 = document.createElement('p');

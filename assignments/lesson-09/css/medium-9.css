@@ -156,6 +156,12 @@ form label.sbs {
 }
 
 .currentArticles {
-    grid-area: 2fr;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#contact {
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 }

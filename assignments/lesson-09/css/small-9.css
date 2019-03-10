@@ -394,7 +394,7 @@ form label.top input:required:valid {
     font-size: .9rem;
 }
 
-.currentArticles {
+.currentArticles, .contactHome {
     width: 90%;
     display: flex;
     flex-direction: column;

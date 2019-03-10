@@ -160,7 +160,7 @@ form label.sbs {
     grid-column-end: 3;
 }
 
-#contact {
+.contactHome {
     grid-column-start: 3;
     grid-column-end: 4;
 }

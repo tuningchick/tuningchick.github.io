@@ -7,7 +7,7 @@ function runTemperature() {
 let weatherRequest = new XMLHttpRequest();
     weatherRequest.open ("GET", "http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
 /* send the request */
-
+weatherRequest.responseType = 'json';
 weatherRequest.send();
 
 /* get response from server and do something with it */

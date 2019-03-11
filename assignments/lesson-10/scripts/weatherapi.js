@@ -5,7 +5,7 @@ function runTemperature() {
 /* create and open new request */
 
 let weatherRequest = new XMLHttpRequest();
-    weatherRequest.open ("GET", "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
+    weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
 /* send the request */
 weatherRequest.responseType = 'json';
 weatherRequest.send();

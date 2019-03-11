@@ -6,12 +6,19 @@
 body {
 	background-color: #73c058;
 }
-/* style h1, h2, etc */
+/* general style h1, h2, etc */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
     text-align: center;
     text-shadow: 2px 2px 4px #777;
 }
+
+p {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: .9rem;
+}
+
 /* styling header */
 #headerContainer {
     display: flex;

@@ -419,5 +419,7 @@ form label.top input:required:valid {
 }
 
 .contactHome p {
-    padding-left: .5rem;
+    font-size: .8rem;
+    padding-left: .3rem;
+    padding-right: .2rem;
 }

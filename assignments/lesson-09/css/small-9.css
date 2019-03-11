@@ -419,5 +419,5 @@ form label.top input:required:valid {
 }
 
 .contactHome p {
-    color: white;
+    padding-left: .5rem;
 }

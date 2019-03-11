@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Weather Site Town build Preston page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-9.css">
+    <link rel="stylesheet" href="css/medium-9.css">
+    <link rel="stylesheet" href="css/large-9.css">
+    <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
+    <script type="text/javascript" language="javascript" src="scripts/windchill.js"></script>
+    <title>CIT 230 | Weather Site Gallery Page | Laura Lykins | BYU-Idaho</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+    </head>
+    <body>
+        <!--   Header Code  -->
+        <header id="headerContainer">
+            <img src="images/logolarge.png" alt="Weather Check logo">
+            <section class="headings">
+                <h1>Weather Check</h1>
+                <div class="motto">
+                    <p>Your Forecast. Now.</p>
+                </div>
+            </section>
+            <aside class="currenttemp">
+                    <h5>Current Temp:</h5>
+                    <div>72&deg</div>
+                    <p>sunny</p>
+            </aside>
+        </header>
+        <!-- Navigation code -->
+        <nav class="navContainer">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class=><a href="preston-9.html">Preston</a></li>
+                <li><a href="#">Soda&nbsp;Springs</a></li>
+                <li><a href="#">Fish&nbsp;Haven</a></li>
+                <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                <li class="selected"><a href="gallery-9.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <!-- Main section for gallery images -->
+        <main class="clearfix">
+            <h1>Weather Check Gallery</h1>
+            <div id="gallery">
+                <figure>
+                    <img src="images/gallery1small.jpg" alt="Rainy, tree-lined street"
+                        sizes="100vw" srcset="images/gallery1small.jpg 400w,
+                        images/gallery1medium.jpg 501w, images/gallery1medium.jpg 992w">
+                        <figcaption>Tree-lined street on a rainy day.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gallery2small.jpg" alt="Ice fishing near Fish Haven"
+                        sizes="100vw" srcset="images/gallery2small.jpg 400w,
+                        images/gallery2medium.jpg 501w, images/gallery2large.jpg 992w">
+                        <figcaption>Ice fishing near Fish Haven.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gallery3fishhavensmall.jpg" alt="Cloudy sunset near Fish Haven"
+                        sizes="100vw" srcset="images/gallery3fishhavensmall.jpg 400w,
+                        images/gallery3fishhavenmedium.jpg 501w, images/gallery3fishhavenlarge.jpg 992w">
+                        <figcaption>Sunset near Fish Haven.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gallery4sodaspringssmall.jpg" alt="Summer photo of gyser at Soda Springs"
+                        sizes="100vw" srcset="images/gallery4sodaspringssmall.jpg 400w,
+                        images/gallery4sodaspringsmedium.jpg 501w, images/gallery4sodaspringslarge.jpg 992w">
+                        <figcaption>Soda Springs gyser in summer.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gallery5rainbowsmall.jpg" alt="Rainbow over field near Soda Springs"
+                        sizes="100vw" srcset="images/gallery5rainbowsmall.jpg 400w,
+                        images/gallery5rainbowmedium.jpg 501w, images/gallery5rainbowlarge.jpg 992w">
+                        <figcaption>Rainbow over field near Soda Springs.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gallery6prestonsmall.jpg" alt="Spring day near Preston"
+                        sizes="100vw" srcset="images/gallery6prestonsmall.jpg 400w,
+                        images/gallery6prestonmedium.jpg 501w, images/gallery6prestonlarge.jpg 992w">
+                        <figcaption>Beautiful spring day near Preston.</figcaption>
+                </figure>
+            </div>
+            
+        <!-- footer, including actual date display -->
+        <footer>
+            <span id="displayDate"></span>
+            <p>&copy2019 | Placeholder | UPDATE | <a href="http://www.byui.edu/online">
+            BYU-I Online Learning</a></p>
+        </footer>
+        <script>actualDate();</script>
+        <script>outputWindChill();</script>
+    </body>
+</html>

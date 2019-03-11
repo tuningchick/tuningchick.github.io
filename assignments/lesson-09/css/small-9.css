@@ -365,7 +365,6 @@ form label.top input:required:valid {
     margin: 5%;
     text-align: center;
     box-shadow: 0 0 30px #777;
-    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -375,6 +374,10 @@ form label.top input:required:valid {
     width: 100%;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem; 
+    padding-bottom: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #homeTowns h6 {

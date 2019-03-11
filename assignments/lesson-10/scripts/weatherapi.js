@@ -1,7 +1,4 @@
-/* encase the request, call and response in a function to call */
 
-function runTemperature() {
-    var span = document.querySelector('#currentTemp');
 /* create and open new request */
 
 let weatherRequest = new XMLHttpRequest();
@@ -17,6 +14,7 @@ weatherRequest.onload = function() {
         console.log(weatherData);
         let currentTemp = request.response;
         Temperature(currentTemp);
+        var span = document.querySelector('#currentTemp');
 
 /* display current temperature on test page */
 
@@ -30,5 +28,4 @@ function Temperature(jsonObj) {
     span.appendchild(myP);
 }
     
-}
 }

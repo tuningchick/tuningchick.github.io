@@ -10,7 +10,7 @@ weatherRequest.send();
 /* get response from server and do something with it */
 
 weatherRequest.onload = function() {
-        let weatherData = JSON.parse(weatherRequest.responseText);
+        let weatherData = JSON.parse(weatherRequest.response);
         console.log(weatherData);
         let currentTemp = request.response;
         var span = document.querySelector('#currentTemp');

@@ -29,7 +29,7 @@ function showTowns(jsonObj) {
             var myPara3 = document.createElement('p');
 
             var simplename = townName[i].name.replace(/\s/g, '').toLowerCase();
-            myImgName= 'images/' + simplename + '.jpg';
+            var myImgName= 'images/' + simplename + '.jpg';
 
             myImg.setAttribute = ('src', myImgName);
             myH4.textContent = townName[i].name;

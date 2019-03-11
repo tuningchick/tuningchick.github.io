@@ -31,7 +31,7 @@ function showTowns(jsonObj) {
             var simplename = townName[i].name.replace(/\s/g, '').toLowerCase();
             var myImgName= 'images/' + simplename + '.jpg';
 
-            myImg.setAttribute = ('src', myImgName);
+            myImg.setAttribute('src', myImgName);
             myH4.textContent = townName[i].name;
             myH6.textContent = townName[i].motto;
             myPara1.textContent = 'Year Founded: ' + townName[i].yearFounded;

@@ -26,5 +26,4 @@ function Temperature(jsonObj) {
 
     span.appendchild(myP);
 }
-    
 }

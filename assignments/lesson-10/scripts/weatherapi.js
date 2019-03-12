@@ -11,7 +11,7 @@ weatherRequest.send();
 weatherRequest.onload = function() {
         let weatherData = JSON.parse(weatherRequest.response);
         console.log(weatherData);
-        let currentTemp = request.response;
+        let currentTemp = weatherData;
         var span = document.querySelector('#currentTemp');
         Temperature(currentTemp);
 

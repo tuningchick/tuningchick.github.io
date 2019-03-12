@@ -18,11 +18,11 @@ weatherRequest.onload = function() {
 /* display current temperature on test page, thanks Sis. Campbell for helping me streamline this */
 
 function Temperature(jsonObj) {
-    var outputMain = jsonObj[0].main.temp;
+    var outputMain = jsonObj.list[0].main.temp;
     console.log(outputMain);
     var myP = document.createElement('p');
 
-    myP.textcontent = outputMain[i].temp;
+    myP.textcontent = outputMain;
 
     span.appendchild(myP);
 }

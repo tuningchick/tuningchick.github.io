@@ -2,7 +2,7 @@
 Sometimes I am a little slow to the draw!! */
 function outputConditions(townID) {
 /* create and open new request */
-
+var span = document.querySelector('#weatherSummary');
 let weatherRequest = new XMLHttpRequest();
     weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/forecast?id=" + 
     townID + "&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
@@ -15,7 +15,6 @@ weatherRequest.onload = function() {
         let weatherData = JSON.parse(weatherRequest.response);
         console.log(weatherData);
         let currentAPIData = weatherData;
-        var span = document.querySelector('#weatherSummary');
         conditions(currentAPIData);
 
 /* display temp, humidity, wind, current conditions and wind chill in weather summary */

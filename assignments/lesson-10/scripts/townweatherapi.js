@@ -18,10 +18,10 @@ weatherRequest.onload = function() {
 
 /* display temp, humidity, wind, current conditions and wind chill in weather summary */
 
-    var outputDesc = weatherData.weather[0].main;
-    var outputTemp = parseFloat(weatherData.list[0].main.temp);
-    var outputHumid = weatherData.list[0].main.humidity;
-    var outputWind = parseFloat(weatherData.list[0].wind.speed);
+    var outputDesc = weatherData.main;
+    var outputTemp = parseFloat(weatherData.main.temp);
+    var outputHumid = weatherData.main.humidity;
+    var outputWind = parseFloat(weatherData.wind.speed);
 
 // create variable for wind chill in degrees F
     var chill = windChill(outputTemp, outputWind);

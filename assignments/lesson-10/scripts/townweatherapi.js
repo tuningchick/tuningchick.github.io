@@ -82,7 +82,7 @@ forecastRequest.onload = function() {
         day[i] = document.createElement('th');
         var weekdays = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
         day[i].innerHTML = weekdays[c];
-        c = c++;
+        c++;
         dayRow.appendChild(day[i]);
     }
     table.appendChild(dayRow);

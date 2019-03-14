@@ -1,5 +1,5 @@
-/* thanks, Kimi, for pointing out that I could use the town ID to call the function so that this code will work for each town.
-Sometimes I am a little slow to the draw!! */
+/* thanks, Kimi, for pointing out that I could use the town ID to call the function so that this code 
+will work for each town. Sometimes I am a little slow to the draw!! */
 function outputConditions(townID) {
 /* create and open new request */
 var span = document.querySelector('#weatherSummary');
@@ -30,11 +30,11 @@ function conditions(jsonObj) {
     
 
 //calculating wind chill
-function windChill(temp, speed) {
-    var f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16))
-        + (0.4275 * temp * Math.pow(speed, 0.16));
-    return f;
-}
+    function windChill(temp, speed) {
+        var f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16))
+            + (0.4275 * temp * Math.pow(speed, 0.16));
+        return f;
+    }
 
     var myConditions = document.createElement('article');
     var myTemp = document.createElement('p');
@@ -50,6 +50,8 @@ function windChill(temp, speed) {
     myConditions.appendChild(myTemp);
     myConditions.appendChild(myHumidity);
     myConditions.appendChild(myWind);
+
+    span.appendChild(myConditions);
 }
 }
 }

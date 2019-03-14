@@ -24,6 +24,6 @@ function Temperature(jsonObj) {
 
     myP.textcontent = outputMain;
 
-    span.appendchild(myP);
+    span.innerHTML = outputMain;
 }
 }

@@ -32,8 +32,8 @@ function showTowns(jsonObj) {
             var simplename = townName[i].name.replace(/\s/g, '').toLowerCase();
             var myImgName= 'images/' + simplename + '.jpg';
 
-            myImg.setAttribute('src', myImgName);
             myLink.setAttribute('href', simplename + '.html');
+            myImg.setAttribute('src', myImgName);
             myH4.textContent = townName[i].name;
             myH6.textContent = townName[i].motto;
             myPara1.textContent = 'Year Founded: ' + townName[i].yearFounded;
@@ -48,6 +48,7 @@ function showTowns(jsonObj) {
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
             myArticle.appendChild(myPara3);
+            myArticle.appendChild(myLink);
             
             section.appendChild(myArticle);
         }

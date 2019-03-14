@@ -13,14 +13,11 @@ weatherRequest.send();
 /* get response from server and do something with it */
 
 weatherRequest.onload = function() {
-        let weatherData = weatherRequest.response;
-        console.log(weatherData);
-        let currentAPIData = weatherData;
-        conditions(currentAPIData);
+    var weatherData = weatherRequest.response;
+    console.log(weatherData);
 
 /* display temp, humidity, wind, current conditions and wind chill in weather summary */
 
-function conditions(jsonObj) {
     var outputDescription = weatherData.weather[0].main;
     var outputTemp = parseFloat(weatherData.list[0].main.temp);
     var outputHumid = weatherData.list[0].main.humidity;
@@ -55,6 +52,5 @@ function conditions(jsonObj) {
     myConditions.appendChild(myChill);
 
     span.appendChild(myConditions);
-}
 }
 }

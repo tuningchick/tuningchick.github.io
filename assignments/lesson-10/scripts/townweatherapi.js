@@ -25,14 +25,28 @@ function conditions(jsonObj) {
     var outputHumid = jsonObj.list[0].main.humidity;
     var outputWind = jsonObj.list[0].wind.speed;
 
+// Calculate wind chill
+// output wind chill in degrees F
+    var chill = windChill(outputTemp, outputWind);
+    
+
+//calculating wind chill
+function windChill(temp, speed) {
+    var f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16))
+        + (0.4275 * temp * Math.pow(speed, 0.16));
+    return f;
+}
+
     var myConditions = document.createElement('article');
     var myTemp = document.createElement('p');
     var myHumidity = document.createElement('p');
     var myWind = document.createElement('p');
+    var myChill = document.createElement('p');
 
     myTemp.innerHTML = 'Temp: ' + outputTemp + '&deg; F';
     myHumidity.textcontent = 'Humidity: ' + outputHumid + '%';
     myWind.innerHTML = 'Wind: ' + outputWind + 'mph';
+    myChill.innerHTML = 'Wind Chill: ' + chill + '&deg; F';
 
     myConditions.appendChild(myTemp);
     myConditions.appendChild(myHumidity);

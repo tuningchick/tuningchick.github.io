@@ -20,7 +20,7 @@ weatherRequest.onload = function() {
 /* display temp, humidity, wind, current conditions and wind chill in weather summary */
 
 function conditions(jsonObj) {
-    var outputDescription = weatherData.weather[0].main;
+    var outputDescription = jsonObj.weather[0].main;
     var outputTemp = parseFloat(jsonObj.list[0].main.temp);
     var outputHumid = jsonObj.list[0].main.humidity;
     var outputWind = parseFloat(jsonObj.list[0].wind.speed);

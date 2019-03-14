@@ -46,7 +46,7 @@ weatherRequest.onload = function() {
     myChill.innerHTML = 'Wind Chill: ' + chill.toFixed(0) + '&deg; F';
 
     myConditions.appendChild(myDesc);
-    myConditions.appendChild(myTemp);
+    myConditions.appendChild(myTemp); 
     myConditions.appendChild(myHumidity);
     myConditions.appendChild(myWind);
     myConditions.appendChild(myChill);

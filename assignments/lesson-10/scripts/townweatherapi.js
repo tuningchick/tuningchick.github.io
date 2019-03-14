@@ -75,12 +75,14 @@ forecastRequest.onload = function() {
 
     var dayRow = document.createElement('tr');
     var d = new Date();
+    var c = [d.getDay()];
     day = [];
     /*create loop to populate table header row */
     for (i=0; i<5; i++) {
         day[i] = document.createElement('th');
         var weekdays = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
-        day = weekdays[d.getDay()++];
+        day[i] = weekdays[c];
+        c = c++;
         dayRow.appendChild(day[i]);
     }
     table.appendChild(dayRow);

@@ -80,7 +80,7 @@ forecastRequest.onload = function() {
     for (i=0; i<5; i++) {
         day[i] = document.createElement('th');
         var weekdays = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
-        var day = weekdays[d.getDay()++];
+        day = weekdays[d.getDay()++];
         dayRow.appendChild(day[i]);
     }
     table.appendChild(dayRow);

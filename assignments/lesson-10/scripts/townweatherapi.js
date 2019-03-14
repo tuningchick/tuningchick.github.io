@@ -18,7 +18,7 @@ weatherRequest.onload = function() {
 
 /* display temp, humidity, wind, current conditions and wind chill in weather summary */
 
-    var outputDesc = weatherData.main;
+    var outputDesc = weatherData.weather[0].main;
     var outputTemp = parseFloat(weatherData.main.temp);
     var outputHumid = weatherData.main.humidity;
     var outputWind = parseFloat(weatherData.wind.speed);
@@ -83,6 +83,7 @@ forecastRequest.onload = function() {
         var day = weekdays[d.getDay()++];
         dayRow.appendChild(day[i]);
     }
+    table.appendChild(dayRow);
     
 }
 

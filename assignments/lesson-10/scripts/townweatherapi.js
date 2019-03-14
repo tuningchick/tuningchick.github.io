@@ -73,7 +73,17 @@ forecastRequest.onload = function() {
     var forecastData = forecastRequest.response;
     console.log(forecastData);
 
-    var day = 
+    var dayRow = createElement('tr');
+    var d = new Date();
+    day = [];
+    /*create loop to populate table header row */
+    for (i=0; i<5; i++) {
+        day[i] = createElement('th');
+        var weekdays = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
+        var day = weekdays[d.getDay()++];
+        dayRow.appendChild(day[i]);
+    }
+    
 }
 
 }

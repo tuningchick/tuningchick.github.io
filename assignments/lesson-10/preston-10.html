@@ -47,11 +47,9 @@
             <h1>Preston, Idaho</h1>
             <aside id="summary" class="clearfix">
                     <h4>Weather Summary:</h4>
-                    <p>Temp: <span id="temperature">28</span>&deg<br>
-                    Humidity: 20%<br>
-                    Wind: <span id="windSpeed">5</span> mph SE<br>
-                    Partly Cloudy <br>
-                    <span id="displayWindChill"></span></p>
+                    <!-- create span for weather summary info api call -->
+                    <span id="weatherSummary"></span>
+                    <span id="displayWindChill"></span>
             </aside>    
             <figure class="hero">
                 <img src="images/prestonskylinesmall.jpg" alt="Preston, Idaho daytime skyline" class="center"
@@ -123,5 +121,6 @@
         </footer>
         <script>actualDate();</script>
         <script>outputWindChill();</script>
+        <script>outputConditions(5604473)</script>
     </body>
 </html>

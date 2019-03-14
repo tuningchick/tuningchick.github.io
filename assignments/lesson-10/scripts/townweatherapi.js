@@ -77,11 +77,11 @@ forecastRequest.onload = function() {
     var d = new Date();
     var c = [d.getDay()];
     day = [];
-    day[i] = document.createElement('th');
     /*create loop to populate table header row */
     for (i=0; i<5; i++) {
+        day[i] = document.createElement('th');
         var weekdays = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
-        day[i] = weekdays[c];
+        day[i].innerHTML = weekdays[c];
         c = c++;
         dayRow.appendChild(day[i]);
     }

@@ -21,8 +21,8 @@ function showTowns(jsonObj) {
     for (var i = 0; i < townName.length; i++) {
         if ((townName[i].name == "Preston") || (townName[i].name == "Soda Springs") || (townName[i].name == "Fish Haven")) {
             var myArticle = document.createElement('article');
-            var myImg = document.createElement('img');
             var myLink = document.createElement('a');
+            var myImg = document.createElement('img');
             var myH4 = document.createElement('h4');
             var myH6 = document.createElement('h6');
             var myPara1 = document.createElement('p');
@@ -40,7 +40,7 @@ function showTowns(jsonObj) {
             myPara2.textContent = 'Population: '; + townName[i].currentPopulation;
             myPara3.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;
 
-            myLink.appendChild(myH4);
+            myLink.appendChild(myImg);
 
             myArticle.appendChild(myImg);
             myArticle.appendChild(myH4);

@@ -39,7 +39,7 @@ weatherRequest.onload = function() {
     var myWind = document.createElement('p');
     var myChill = document.createElement('p');
 
-    myDesc = 'Currently: ' + outputDesc;
+    myDesc.innerHTML = 'Currently: ' + outputDesc;
     myTemp.innerHTML = 'Temp: ' + outputTemp + '&deg; F';
     myHumidity.innerHTML = 'Humidity: ' + outputHumid + '%';
     myWind.innerHTML = 'Wind: ' + outputWind + 'mph';

@@ -20,15 +20,13 @@ weatherRequest.onload = function() {
 /* display temp, humidity, wind, current conditions and wind chill in weather summary */
 
 function conditions(jsonObj) {
-    var outputTemp = jsonObj.list[0].main.temp;
+    var outputDescription = jsonObj.list[0].weather[0].main;
+    var outputTemp = parseFloat(jsonObj.list[0].main.temp);
     var outputHumid = jsonObj.list[0].main.humidity;
-    var outputWind = jsonObj.list[0].wind.speed;
+    var outputWind = parseFloat(jsonObj.list[0].wind.speed);
 
-// Calculate wind chill
-// output wind chill in degrees F
+// create variable for wind chill in degrees F
     var chill = windChill(outputTemp, outputWind);
-    
-
 //calculating wind chill
     function windChill(temp, speed) {
         var f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16))
@@ -37,19 +35,23 @@ function conditions(jsonObj) {
     }
 
     var myConditions = document.createElement('article');
+    var myDescription = document.createElement('p');
     var myTemp = document.createElement('p');
     var myHumidity = document.createElement('p');
     var myWind = document.createElement('p');
     var myChill = document.createElement('p');
 
+    myDescription = 'Conditions: ' + outputDescription;
     myTemp.innerHTML = 'Temp: ' + outputTemp + '&deg; F';
     myHumidity.innerHTML = 'Humidity: ' + outputHumid + '%';
     myWind.innerHTML = 'Wind: ' + outputWind + 'mph';
     myChill.innerHTML = 'Wind Chill: ' + chill + '&deg; F';
 
+    myConditions.appendChild(myDescription);
     myConditions.appendChild(myTemp);
     myConditions.appendChild(myHumidity);
     myConditions.appendChild(myWind);
+    myConditions.appendChild(myChill);
 
     span.appendChild(myConditions);
 }

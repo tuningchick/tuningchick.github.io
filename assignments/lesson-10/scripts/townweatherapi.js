@@ -4,7 +4,7 @@ function outputConditions(townID) {
 /* create and open new request */
 var span = document.querySelector('#weatherSummary');
 let weatherRequest = new XMLHttpRequest();
-    weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/forecast?id=" + 
+    weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/weather?id=" + 
     townID + "&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
 /* send the request */
 weatherRequest.responseType = 'json';
@@ -18,7 +18,7 @@ weatherRequest.onload = function() {
 
 /* display temp, humidity, wind, current conditions and wind chill in weather summary */
 
-    var outputDesc = weatherData.list[0].weather[0].main;
+    var outputDesc = weatherData.weather[0].main;
     var outputTemp = parseFloat(weatherData.list[0].main.temp);
     var outputHumid = weatherData.list[0].main.humidity;
     var outputWind = parseFloat(weatherData.list[0].wind.speed);
@@ -53,4 +53,18 @@ weatherRequest.onload = function() {
 
     span.appendChild(myConditions);
 }
+}
+
+/* 5 day forecast function */
+
+function outputFiveDay(townID) {
+    /* create and open new request */
+    var table = document.querySelector('#forecastTable');
+    let forecastRequest = new XMLHttpRequest();
+    weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/forecast?id=" + 
+    townID + "&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
+/* send the request */
+weatherRequest.responseType = 'json';
+weatherRequest.send();
+
 }

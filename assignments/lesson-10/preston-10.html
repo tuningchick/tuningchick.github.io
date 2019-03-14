@@ -58,21 +58,8 @@
             <!-- five day forecast for medium and large view -->
             <aside class="fiveday">
                 <h3>5-day Forecast</h3>
-                <table>
-                    <tr>
-                        <th>Today</th>
-                        <th>Tomorrow</th>
-                        <th>Day 3</th>
-                        <th>Day 4</th>
-                        <th>Day 5</th>
-                    </tr>
-                    <tr>
-                        <td>74&deg</td>
-                        <td>70&deg</td>
-                        <td>67&deg</td>
-                        <td>72&deg</td>
-                        <td>71&deg</td>
-                    </tr>
+                <table id="forecastTable">
+                    <!-- table created for 5 day forecast api call -->
                 </table>
             </aside>
             <!-- Article image and content -->
@@ -120,5 +107,6 @@
         </footer>
         <script>actualDate();</script>
         <script>outputConditions(5604473)</script>
+        <script>outputFiveDay(5604473)</script>
     </body>
 </html>

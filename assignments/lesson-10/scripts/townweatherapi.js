@@ -18,7 +18,7 @@ weatherRequest.onload = function() {
 
 /* display temp, humidity, wind, current conditions and wind chill in weather summary */
 
-    
+    var outputDesc = weatherData.weather[0].main;
     var outputTemp = parseFloat(weatherData.list[0].main.temp);
     var outputHumid = weatherData.list[0].main.humidity;
     var outputWind = parseFloat(weatherData.list[0].wind.speed);
@@ -33,19 +33,19 @@ weatherRequest.onload = function() {
     }
 
     var myConditions = document.createElement('article');
-
+    var myDesc = document.createElement('p');
     var myTemp = document.createElement('p');
     var myHumidity = document.createElement('p');
     var myWind = document.createElement('p');
     var myChill = document.createElement('p');
 
-
+    myDesc = 'Currently: ' + myDesc;
     myTemp.innerHTML = 'Temp: ' + outputTemp + '&deg; F';
     myHumidity.innerHTML = 'Humidity: ' + outputHumid + '%';
     myWind.innerHTML = 'Wind: ' + outputWind + 'mph';
     myChill.innerHTML = 'Wind Chill: ' + chill.toFixed(0) + '&deg; F';
 
-   
+    myConditions.appendChild(myDesc);
     myConditions.appendChild(myTemp);
     myConditions.appendChild(myHumidity);
     myConditions.appendChild(myWind);

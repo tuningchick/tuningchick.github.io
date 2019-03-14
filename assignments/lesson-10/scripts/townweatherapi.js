@@ -61,10 +61,19 @@ function outputFiveDay(townID) {
     /* create and open new request */
     var table = document.querySelector('#forecastTable');
     let forecastRequest = new XMLHttpRequest();
-    weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/forecast?id=" + 
+    forecastRequest.open ("GET", "https://api.openweathermap.org/data/2.5/forecast?id=" + 
     townID + "&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
-/* send the request */
-weatherRequest.responseType = 'json';
-weatherRequest.send();
+    /* send the request */
+    forecastRequest.responseType = 'json';
+    forecastRequest.send();
+
+/* create function to get the 5 day forecast and display it in a table */
+
+forecastRequest.onload = function() {
+    var forecastData = forecastRequest.response;
+    console.log(forecastData);
+
+    var day = 
+}
 
 }

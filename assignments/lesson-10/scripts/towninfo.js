@@ -22,6 +22,7 @@ function showTowns(jsonObj) {
         if ((townName[i].name == "Preston") || (townName[i].name == "Soda Springs") || (townName[i].name == "Fish Haven")) {
             var myArticle = document.createElement('article');
             var myImg = document.createElement('img');
+            var myLink = document.createElement('a');
             var myH4 = document.createElement('h4');
             var myH6 = document.createElement('h6');
             var myPara1 = document.createElement('p');
@@ -32,6 +33,7 @@ function showTowns(jsonObj) {
             var myImgName= 'images/' + simplename + '.jpg';
 
             myImg.setAttribute('src', myImgName);
+            myLink.setAttribute('href', simplename + '.html');
             myH4.textContent = townName[i].name;
             myH6.textContent = townName[i].motto;
             myPara1.textContent = 'Year Founded: ' + townName[i].yearFounded;

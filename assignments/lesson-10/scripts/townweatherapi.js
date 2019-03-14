@@ -43,7 +43,7 @@ function conditions(jsonObj) {
     var myChill = document.createElement('p');
 
     myTemp.innerHTML = 'Temp: ' + outputTemp + '&deg; F';
-    myHumidity.textcontent = 'Humidity: ' + outputHumid + '%';
+    myHumidity.innerHTML = 'Humidity: ' + outputHumid + '%';
     myWind.innerHTML = 'Wind: ' + outputWind + 'mph';
     myChill.innerHTML = 'Wind Chill: ' + chill + '&deg; F';
 

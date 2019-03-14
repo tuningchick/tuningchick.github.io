@@ -7,12 +7,13 @@ let weatherRequest = new XMLHttpRequest();
     weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/forecast?id=" + 
     townID + "&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
 /* send the request */
+weatherRequest.responseType = 'json';
 weatherRequest.send();
 
 /* get response from server and do something with it */
 
 weatherRequest.onload = function() {
-        let weatherData = JSON.parse(weatherRequest.response);
+        let weatherData = weatherRequest.response;
         console.log(weatherData);
         let currentAPIData = weatherData;
         conditions(currentAPIData);
@@ -20,10 +21,10 @@ weatherRequest.onload = function() {
 /* display temp, humidity, wind, current conditions and wind chill in weather summary */
 
 function conditions(jsonObj) {
-    var outputDescription = jsonObj.weather[0].main;
-    var outputTemp = parseFloat(jsonObj.list[0].main.temp);
-    var outputHumid = jsonObj.list[0].main.humidity;
-    var outputWind = parseFloat(jsonObj.list[0].wind.speed);
+    var outputDescription = weatherData.weather[0].main;
+    var outputTemp = parseFloat(weatherData.list[0].main.temp);
+    var outputHumid = weatherData.list[0].main.humidity;
+    var outputWind = parseFloat(weatherData.list[0].wind.speed);
 
 // create variable for wind chill in degrees F
     var chill = windChill(outputTemp, outputWind);

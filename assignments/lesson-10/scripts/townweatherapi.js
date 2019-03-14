@@ -45,7 +45,7 @@ weatherRequest.onload = function() {
     myWind.innerHTML = 'Wind: ' + outputWind + 'mph';
     myChill.innerHTML = 'Wind Chill: ' + chill + '&deg; F';
 
-    myConditions.appendChild(myDescription);
+   
     myConditions.appendChild(myTemp);
     myConditions.appendChild(myHumidity);
     myConditions.appendChild(myWind);

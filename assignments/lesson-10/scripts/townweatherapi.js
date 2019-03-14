@@ -73,7 +73,7 @@ forecastRequest.onload = function() {
     var forecastData = forecastRequest.response;
     console.log(forecastData);
 
-    var dayRow = createElement('tr');
+    var dayRow = document.createElement('tr');
     var d = new Date();
     day = [];
     /*create loop to populate table header row */

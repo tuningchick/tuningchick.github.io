@@ -28,9 +28,7 @@
 
 #currenttemp img {
     float: right;
-    border: none;
-    width: 40%;
-    margin: none;
+    width: 38%;
 }
 /* header flex settings */
 

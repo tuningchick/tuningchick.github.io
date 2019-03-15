@@ -101,7 +101,7 @@ forecastRequest.onload = function() {
         if (timeSearch.search('18:00:00') != -1) {
             temp[time] = document.createElement('td');
             time++;
-            temp[time].innerHTML = forecastData.list[i].main.temp_max.toFixed(0) + '&deg; F';   
+            temp[time].innerHTML = forecastData.list[i].main.temp_max + '&deg; F';   
         }
         tempRow.appendChild(temp[time]);
     }

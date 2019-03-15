@@ -3,11 +3,11 @@
 
     /*current temperature style */
 
-.currenttemp {
+#currenttemp {
     display: block;
 }
 
-.currenttemp p {
+#currenttemp p {
     font-size: .7em;
     color: white;
     font-family: 'Roboto Slab', serif;
@@ -17,16 +17,16 @@
     width: 100%;
 }
 
-.currenttemp div {
+#currenttemp div {
     float: left;
-    width: 50%;
+    width: 40%;
     font-size: 1em;
     text-align: left;
     text-shadow: 1px 1px 2px #777;
     padding-top: 25%;
 }
 
-.currenttemp img {
+#currenttemp img {
     float: right;
     border: none;
     width: 50%;

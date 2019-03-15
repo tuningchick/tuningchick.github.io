@@ -95,7 +95,7 @@ forecastRequest.onload = function() {
     var tempRow = document.createElement('td');
     var temp = [];
     var time = 0;
-    for (i=0; i=forecastData.list.length; i++) {
+    for (i=0; i<forecastData.list.length; i++) {
         if (forecastData.list[i].dt_txt == '18:00:00') {
             temp[time] = document.createElement('td');
             time++;

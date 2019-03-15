@@ -52,6 +52,29 @@ weatherRequest.onload = function() {
     myConditions.appendChild(myChill);
 
     span.appendChild(myConditions);
+
+    /* populate the current temp box in the header of the town pages */
+
+/* display "current temp:", the temp, and the weather icon */
+
+    var outputTemp = parseFloat(weatherData.main.temp);
+    var imgArray = weatherData.weather[0].icon;
+
+    var iconURL = 'https://openweathermap.org/img/w/'+ imgArray + '.png';
+
+    var myHeaderBox = document.createElement('.currenttemp');
+    var myText = document.createElement('h5');
+    var myTemp = document.createElement('div');
+    var myImg = document.createElement('img');
+
+    myText.innerHTML = 'Current Temp:';
+    myTemp.innerHTML = outputTemp + '&deg; F';
+    myImg.setAttribute('src', iconURL);
+
+    myHeaderBox.appendChild(myText);
+    myHeaderBox.appendChild(myTemp);
+    myHeaderBox.appendChild(myImg);
+}
 }
 }
 
@@ -108,4 +131,6 @@ forecastRequest.onload = function() {
     }
     table.appendChild(tempRow);       
 }
+
+
 }

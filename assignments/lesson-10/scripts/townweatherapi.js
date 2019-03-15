@@ -100,10 +100,9 @@ forecastRequest.onload = function() {
             temp[time] = document.createElement('td');
             time++;
             temp[time].innerHTML = forecastData.list[i].main.temp_max.toFixed(0) + '&deg; F';
+            tempRow.appendChild(temp[time]);
         }
     }
-    tempRow.appendChild(temp[time]);
-       
+    table.appendChild(tempRow);       
 }
-table.appendChild(tempRow);
 }

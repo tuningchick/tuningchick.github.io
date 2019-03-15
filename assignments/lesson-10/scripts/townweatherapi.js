@@ -89,7 +89,21 @@ forecastRequest.onload = function() {
         dayRow.appendChild(day[i]);
     }
     table.appendChild(dayRow);
-    
+
+    /* create loop to populate table data row */
+
+    var tempRow = document.createElement('td');
+    var temp = [];
+    var time = 0;
+    for (i=0; i,forecast.list.length; i++) {
+        if (forecast.list[i].dt_txt = '18:00:00') {
+            temp[time] = document.createElement('td');
+            time++;
+            temp[time].innerHTML = forecast.list[i].main.temp_max.toFixed(0) + '&deg; F';
+        }
+        tempRow.appendChild(temp[time]);
+    }
+    table.appendChild(tempRow);   
 }
 
 }

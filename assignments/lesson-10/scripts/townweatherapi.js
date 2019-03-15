@@ -3,6 +3,7 @@ will work for each town. Sometimes I am a little slow to the draw!! */
 function outputConditions(townID) {
 /* create and open new request */
 var span = document.querySelector('#weatherSummary');
+var headerBox = document.querySelector('.currenttemp');
 let weatherRequest = new XMLHttpRequest();
     weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/weather?id=" + 
     townID + "&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
@@ -62,7 +63,7 @@ weatherRequest.onload = function() {
 
     var iconURL = 'https://openweathermap.org/img/w/'+ imgArray + '.png';
 
-    var myHeaderBox = document.createElement('.currenttemp');
+    var myHeaderBox = document.createElement('article');
     var myText = document.createElement('h5');
     var myTemp = document.createElement('div');
     var myImg = document.createElement('img');
@@ -74,6 +75,8 @@ weatherRequest.onload = function() {
     myHeaderBox.appendChild(myText);
     myHeaderBox.appendChild(myTemp);
     myHeaderBox.appendChild(myImg);
+
+    headerBox.appendChild(myHeaaderBox);
 }
 }
 }

@@ -9,9 +9,11 @@
 
 .currenttemp p {
     font-size: .8em;
+    color: #231f20;
     font-family: 'Roboto Slab', serif;
     text-shadow: 2px 2px 4px #777;
     text-align: center;
+    background-color: none;
 }
 
 .currenttemp div {
@@ -20,7 +22,8 @@
 }
 
 .currenttemp img {
-    width: 50%;
+    display: block;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }

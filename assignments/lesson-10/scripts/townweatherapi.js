@@ -64,13 +64,15 @@ weatherRequest.onload = function() {
     var iconURL = 'https://openweathermap.org/img/w/'+ imgArray + '.png';
 
     var myHeaderBox = document.createElement('article');
-    var myText = document.createElement('p');
+    var myText = document.createElement('h5');
     var myTemp = document.createElement('div');
     var myImg = document.createElement('img');
+    var myP = document.createElement('p');
 
     myText.innerHTML = 'Current Temp:';
     myTemp.innerHTML = outputTemp + '&deg; F';
     myImg.setAttribute('src', iconURL);
+    myP.innerHTML = weatherData.weather[0].description;
 
     myHeaderBox.appendChild(myText);
     myHeaderBox.appendChild(myTemp);

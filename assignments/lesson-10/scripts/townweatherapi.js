@@ -64,7 +64,7 @@ weatherRequest.onload = function() {
     var iconURL = 'https://openweathermap.org/img/w/'+ imgArray + '.png';
 
     var myHeaderBox = document.createElement('article');
-    var myText = document.createElement('h5');
+    var myText = document.createElement('p');
     var myTemp = document.createElement('div');
     var myImg = document.createElement('img');
 

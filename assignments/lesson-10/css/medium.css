@@ -7,16 +7,22 @@
     display: inline-block;
 }
 
-.currenttemp h5 {
-    font-size: .7em;
+.currenttemp p {
+    font-size: .8em;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 2px 2px 4px #777;
+    text-align: center;
 }
 
 .currenttemp div {
-    font-size: .8em;
+    font-size: 1.2em;
+    text-align: center;
 }
 
-.currenttemp p {
-    font-size: .7em;
+.currenttemp img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* header flex settings */
 

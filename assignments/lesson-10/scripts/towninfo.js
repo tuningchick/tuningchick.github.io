@@ -34,6 +34,7 @@ function showTowns(jsonObj) {
 
             myLink.setAttribute('href', simplename + '.html');
             myImg.setAttribute('src', myImgName);
+            myImg.setAttribute('alt', 'Photo of ' + townName[i]);
             myH4.textContent = townName[i].name;
             myH6.textContent = townName[i].motto;
             myPara1.textContent = 'Year Founded: ' + townName[i].yearFounded;

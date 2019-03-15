@@ -72,6 +72,7 @@ weatherRequest.onload = function() {
     myText.innerHTML = 'Current Temp:';
     myTemp.innerHTML = outputTemp + '&deg;F';
     myImg.setAttribute('src', iconURL);
+    myImg.setAttribute('alt', "weather icon");
     myP.innerHTML = weatherData.weather[0].description;
 
     myHeaderBox.appendChild(myText);

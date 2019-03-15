@@ -79,7 +79,6 @@ weatherRequest.onload = function() {
     headerBox.appendChild(myHeaaderBox);
 }
 }
-}
 
 /* 5 day forecast function */
 

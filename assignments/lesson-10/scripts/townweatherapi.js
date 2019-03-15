@@ -100,7 +100,7 @@ forecastRequest.onload = function() {
         /* Kimi recommended looking up the string search on w3schools to look for a partial string match*/
         if (timeSearch.search('18:00:00') != -1) {
             temp[time] = document.createElement('td');
-            temp[time].innerHTML = forecastData.list[i].main.temp_max + '&deg; F';
+            temp[time].innerHTML = forecastData.list[i].main.temp_max.toFixed(0) + '&deg; F';
             tempRow.appendChild(temp[time]);
             time++;
         }

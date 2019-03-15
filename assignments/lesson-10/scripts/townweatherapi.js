@@ -92,7 +92,7 @@ forecastRequest.onload = function() {
 
     /* create loop to populate table data row */
 
-    var tempRow = document.createElement('td');
+    var tempRow = document.createElement('tr');
     var temp = [];
     var time = 0;
     for (i=0; i<forecastData.list.length; i++) {
@@ -100,10 +100,11 @@ forecastRequest.onload = function() {
         /* Kimi recommended looking up the string search on w3schools to look for a partial string match*/
         if (timeSearch.search('18:00:00') != -1) {
             temp[time] = document.createElement('td');
-            temp[time].innerHTML = forecastData.list[i].main.temp_max + '&deg; F';       
+            temp[time].innerHTML = forecastData.list[i].main.temp_max + '&deg; F';
+            tempRow.appendChild(temp[time]);
+            time++;
         }
-        tempRow.appendChild(temp[time]);
-        time++;
+        
     }
     table.appendChild(tempRow);       
 }

@@ -19,7 +19,7 @@
 
 #currenttemp div {
     float: left;
-    width: 40%;
+    width: 50%;
     font-size: 1em;
     text-align: left;
     text-shadow: 1px 1px 2px #777;
@@ -29,7 +29,7 @@
 #currenttemp img {
     float: right;
     border: none;
-    width: 50%;
+    width: 40%;
     margin: none;
 }
 /* header flex settings */

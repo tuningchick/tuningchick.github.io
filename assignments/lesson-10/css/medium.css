@@ -4,8 +4,7 @@
     /*current temperature style */
 
 .currenttemp {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 .currenttemp p {
@@ -23,6 +22,7 @@
 }
 
 .currenttemp img {
+    border: none;
     display: block;
     width: 40%;
     margin-left: auto;
@@ -131,12 +131,12 @@ td, th{
 
 /* style the article */
 
-article div {
+#townPageArticle div {
     float: right;
     width: 55%;
 }
 
-article img {
+#townPageArticle img {
     float: left;
     width: 38%;
 }

@@ -59,7 +59,7 @@ p {
     background-color: #231f20;
     opacity: 0.35;
     box-shadow: 2px 2px 30px #f3f5e9;
-    padding: .5em .3em;
+    padding: .3em .1em;
     color: white;
     margin-left: 4%;
 }
@@ -177,7 +177,7 @@ main h1 {
 
 /* Styling article image */
 
-article img {
+#townPageArticle img {
     width: 95%;
     margin-top: 2%;
     margin-left: 2%;
@@ -185,22 +185,22 @@ article img {
 
 /* Styling article */
 
-article {
+#townPageArticle {
     width: 100%;
     background-color: #c2ca86;
 }
 
-article div {
+#townPageArticle div {
     font-family: 'Lato', sans-serif;
     line-height: 1rem;
     margin: 2%;
 }
 
-article h2 h5 {
+#townPageArticle h2 h5 {
     padding-bottom: 2px;
 }
 
-article h5 {
+#townPageArticle h5 {
     text-align: left;
     text-shadow: none; 
 }

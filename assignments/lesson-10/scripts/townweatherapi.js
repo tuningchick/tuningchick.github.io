@@ -70,7 +70,7 @@ weatherRequest.onload = function() {
     var myP = document.createElement('p');
 
     myText.innerHTML = 'Current Temp:';
-    myTemp.innerHTML = outputTemp + '&deg; F';
+    myTemp.innerHTML = outputTemp + '&deg;F';
     myImg.setAttribute('src', iconURL);
     myP.innerHTML = weatherData.weather[0].description;
 

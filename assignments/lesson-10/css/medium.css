@@ -4,7 +4,8 @@
     /*current temperature style */
 
 .currenttemp {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .currenttemp p {

@@ -77,6 +77,7 @@ weatherRequest.onload = function() {
     myHeaderBox.appendChild(myText);
     myHeaderBox.appendChild(myTemp);
     myHeaderBox.appendChild(myImg);
+    myHeaderBox.appendChild(myP);
 
     headerBox.appendChild(myHeaderBox);
 }

@@ -17,15 +17,17 @@
 }
 
 .currenttemp div {
+    float: left;
     font-size: 1.2em;
     text-align: center;
     text-shadow: 1px 1px 2px #777;
 }
 
 .currenttemp img {
+    float: right;
     border: none;
     display: block;
-    width: 100%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }

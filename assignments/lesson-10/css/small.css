@@ -148,7 +148,7 @@ main h1 {
     margin-left: 3%;
     font-family: 'Lato', sans-serif;
     background-color: #f3f5e9;
-    opacity: 0.6;
+    opacity: 0.7;
     box-shadow: 0 0 30px #777;
     padding: 1em .5em;
 }
@@ -159,7 +159,7 @@ main h1 {
     text-align: left;
 }
 
-#weatherSummary span {
+#summary span {
     text-shadow: 1px 1px 2px #777;
     background-color: #f3f5e9;
 }
@@ -268,10 +268,16 @@ article h5 {
 
 footer {
     width: 100%;
+    display: inline-block;
     background-color: #c2ca86;
     clear: both;
     padding-left: 2%;
     font-family: 'Lato', sans-serif;
+}
+
+#credit {
+    font-size: .7rem;
+    font-weight: lighter;
 }
 
 /* Storm Center form styling */

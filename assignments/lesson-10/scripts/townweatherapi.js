@@ -96,7 +96,9 @@ forecastRequest.onload = function() {
     var temp = [];
     var time = 0;
     for (i=0; i<forecastData.list.length; i++) {
-        if (forecastData.list[i].dt_txt == '18:00:00') {
+        var timeSearch = forecastData.list[i].dt_txt;
+        /* Kimi recommended looking up the string search on w3schools to look for a partial string match*/
+        if (timeSearch.search("18:00:00") != -1) {
             temp[time] = document.createElement('td');
             time++;
             temp[time].innerHTML = forecastData.list[i].main.temp_max.toFixed(0) + '&deg; F';

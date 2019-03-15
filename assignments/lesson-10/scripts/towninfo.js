@@ -41,7 +41,7 @@ function showTowns(jsonObj) {
             myPara2.textContent = 'Population: '; + townName[i].currentPopulation;
             myPara3.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;
 
-            myLink.innerHTML(myImg);
+            myImg.appendChild(myLink);
 
             myArticle.appendChild(myImg);
             myArticle.appendChild(myH4);
@@ -49,7 +49,6 @@ function showTowns(jsonObj) {
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
             myArticle.appendChild(myPara3);
-            myArticle.appendChild(myLink);
             
             section.appendChild(myArticle);
         }

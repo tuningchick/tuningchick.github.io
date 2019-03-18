@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Weather Site Town build Preston page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
+    <script type="text/javascript" language="javascript" src="scripts/windchill.js"></script>
+    <script type="text/javascript" language="javascript" src="scripts/stormcenter.js"></script>
+    <title>CIT 230 | Weather Site Gallery Page | Laura Lykins | BYU-Idaho</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+    </head>
+    <body>
+        <!--   Header Code  -->
+        <header id="headerContainer">
+            <img src="images/logolarge.png" alt="Weather Check logo">
+            <section class="headings">
+                <h1>Weather Check</h1>
+                <div class="motto">
+                    <p>Your Forecast. Now.</p>
+                </div>
+            </section>
+            <aside class="currenttemp">
+                    <h5>Current Temp:</h5>
+                    <div>72&deg</div>
+                    <p>sunny</p>
+            </aside>
+        </header>
+        <!-- Navigation code -->
+        <nav class="navContainer">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class=><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda&nbsp;Springs</a></li>
+                <li><a href="#">Fish&nbsp;Haven</a></li>
+                <li class="selected"><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <!-- Main section for storm center form -->
+        <main class="clearfix">
+            <h1>Storm Center</h1>
+            <h4>Use the form below to share local, current storm conditions with us.</h4>
+            <form method="get" action="thanks.html">
+                <fieldset class="personalInfo">
+                    <legend>Personal Information <em>("*" = required)</em></legend>
+                    <label class="top" for="guestName">Full Name*:
+                    <input type="text" id="guestName" name="fullName" required></label>
+                    <label class="top" for="email">Email Address:
+                    <input type="email" id="email" name="email" placeholder="user@email.org" 
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></label>
+                    <label class="top" for="phoneNumber">Phone Number*:
+                    <input type="tel" id="phoneNumber" name="phone" placeholder="1234567890" 
+                    required pattern="^\d{10}$"></label>
+                    <label class="top" for="zip">Zip Code*:
+                    <input type="number" id="zip" name="zipCode" pattern="^([0-9]{5})$" required></label>
+                </fieldset>
+                <fieldset class="stormInfo">
+                    <legend>Storm Information</legend>
+                    <label class="top" for="stormDate">Storm Date:
+                    <input type="date" id="stormDate" name="stormDate"></label>
+                    <label class="top" for="stormType">Storm Type:
+                    <input list="stormType" name="storm"></label>
+                    <datalist id="stormType">
+                        <option value="Damaging Wind">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane"> 
+                        <option value="Thunderstorm">
+                        <option value="Tornado">   
+                    </datalist>
+                    <label class="top" for="severity">Rate the Storm's Severity (1 low to 10 high):</label>
+                    <input type="range" id="severity" name="stormSeverity" value="5"
+                    min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                    onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                    <label class="top" for="region">Storm Location:</label>
+                    <select id="region">
+                        <option value="">Select Region &#9662;</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                    <div>User in Danger? <em>(Choose one)</em></div>
+                    <label class="sbs"><input type="radio" name="inDanger" value="no" checked>
+                    No</label>
+                    <label class="sbs"><input type="radio" name="inDanger" value="yes">Yes</label>
+                    <label class="sbs"><input type="radio" name="inDanger" value="maybe">
+                    Maybe</label>
+                </fieldset>
+                <fieldset class="other">
+                    <legend>Additional Information</legend>
+                    <label for="other" class="top">Enter Additional Information Here:</label>
+                        <textarea id="other" name="other" maxlength="200">
+                        </textarea>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Share Storm Information" class="submitButton">
+            </form>
+        </main>   
+        <!-- footer, including actual date display -->
+        <footer>
+            <span id="displayDate"></span>
+            <p>&copy2019 | Placeholder | UPDATE | <a href="http://www.byui.edu/online">
+            BYU-I Online Learning</a></p>
+        </footer>
+        <script>actualDate();</script>
+    </body>
+</html>

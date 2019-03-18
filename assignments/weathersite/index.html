@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Weather Site Town build Preston page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
+    <script type="text/javascript" language="javascript" src="scripts/windchill.js"></script>
+    <script type="text/javascript" language="javascript" src="scripts/towninfo.js"></script>
+    <title>CIT 230 | Weather Site Preston Page | Laura Lykins | BYU-Idaho</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+    </head>
+    <body>
+        <!--   Header Code  -->
+        <header id="headerContainer">
+            <img src="images/logolarge.png" alt="Weather Check logo">
+            <section class="headings">
+                <h1>Weather Check</h1>
+                <div class="motto">
+                    <p>Your Forecast. Now.</p>
+                </div>
+            </section>
+            <aside class="currenttemp">
+                    <h5>Current Temp:</h5>
+                    <div>72&deg</div>
+                    <p>sunny</p>
+            </aside>
+        </header>
+        <!-- Navigation code -->
+        <nav class="navContainer">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Menu</a></li>
+                <li class="selected"><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda&nbsp;Springs</a></li>
+                <li><a href="#">Fish&nbsp;Haven</a></li>
+                <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <!-- Main section the three town names and images -->
+        <main class="clearfix">
+            <div class="homeWelcome">
+            <h3>Find your local weather here.</h3>
+            </div>
+            <div id="home">
+                <!-- create section for JSON info to inhabit -->
+                <section id="homeTowns">
+
+                </section>
+            </div>
+            <div id="trendingContact">
+                <!-- current articles section -->
+                <section class="currentArticles">
+                    <h5>Check out these trending articles:</h5>
+                </section>
+                <!-- contact info section -->
+                <section class="contactHome">
+                    <div>
+                    <h5>Contact Us:</h5>
+                    <p>Email: contactweathercheck@weathercheckidaho.com<br>
+                    Address: 1234 Main St., Preston, ID 22222<br>
+                    Call: 800-888-4567</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- footer, including actual date display -->
+        <footer>
+            <span id="displayDate"></span>
+            <p>&copy2019 | Placeholder | UPDATE | <a href="http://www.byui.edu/online">
+            BYU-I Online Learning</a></p>
+        </footer>
+        <script>actualDate();</script>
+        <script>runShowTowns();</script>
+    </body>
+</html>

@@ -250,6 +250,7 @@ main h1 {
 #gallery img{
     margin: 2%;
     width: 90%;
+    border-radius: .3rem;
 }
 
 #gallery figcaption {

@@ -44,6 +44,7 @@ function showTowns(jsonObj) {
             myLink.appendChild(myImg);
 
             myArticle.appendChild(myImg);
+            myArticle.appendChild(myLink);
             myArticle.appendChild(myH4);
             myArticle.appendChild(myH6);
             myArticle.appendChild(myPara1);

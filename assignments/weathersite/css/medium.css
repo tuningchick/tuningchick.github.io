@@ -124,6 +124,7 @@ table {
     margin-right: auto;
     margin-bottom: 10px;
     border-radius: .5em;
+    box-shadow: 2px 2px 30px #f3f5e9;
 }
 table, th, td {
     color: #f3f5e9;

@@ -156,6 +156,12 @@ td, th{
     grid-gap: 3%;
 }
 
+/* footer style for large views */
+
+footer {
+    display: block;
+}
+
 /* form larger views formatting */
 
 form label.sbs {

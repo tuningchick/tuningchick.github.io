@@ -154,6 +154,7 @@ td, th{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3%;
+    padding-bottom: 2%;
     margin-bottom: 4%;
 }
 

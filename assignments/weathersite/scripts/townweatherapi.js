@@ -135,7 +135,29 @@ forecastRequest.onload = function() {
         }
         
     }
-    table.appendChild(tempRow);       
+    table.appendChild(tempRow);  
+    
+    /* create loop to populate table icon row */
+
+    var iconRow = document.createElement('tr');
+    var icon = [];
+    var time = 0;
+    for (i=0; i<forecastData.list.lenth; i++) {
+        var timeSearch = forecastData.list[i].dt_txt;
+        if (timeSearch.search('18:00:00') != -1) {
+            icon[time] = document.createElement('td');
+            var iconArray = forecastData.list[i].weather[0].icon;
+            var iconURL = 'https://openweathermap.org/img/w/'+ iconArray + '.png';
+            var myIcon = document.createElement('img');
+
+            myIcon.setAttribute('src', iconURL);
+            myIcon.setAttribute('alt', "weather icon");
+            icon[time].appendChild(myIcon);
+            iconRow.appendChild(icon[time]);
+            time++;
+        }
+    }
+    table.appendChild(iconRow);
 }
 
 

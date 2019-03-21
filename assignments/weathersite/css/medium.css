@@ -98,7 +98,7 @@ nav li a {
     text-decoration: none;
 }
 /* change the link text color to #231f20 on hover */
-nav li a:hover {
+nav ul li a:hover {
     color: #231f20;
 }
 /* active page background color on menu */
@@ -113,7 +113,7 @@ aside h3 {
     text-shadow: 2px 2px 4px #777;
     padding: 10px;
 }
-/* Put a single line around the table */
+/* format the table with no lines, black background, rounded corners */
 
 .fiveday {
     display: block;

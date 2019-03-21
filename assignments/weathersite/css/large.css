@@ -11,7 +11,12 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* change gallery hover setting to comply with assignment */
+
+#gallery img:hover {
+    box-shadow: none;
+}
 #gallery figure:hover {
-    box-shadow: 2px 2px 4px #373334;
+    box-shadow: 0 0 4em #373334;
 }
 }

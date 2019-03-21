@@ -142,13 +142,14 @@ forecastRequest.onload = function() {
     var iconRow = document.createElement('tr');
     var icon = [];
     var time = 0;
+    var myIcon = [];
     for (i=0; i<forecastData.list.lenth; i++) {
         var timeSearch = forecastData.list[i].dt_txt;
         if (timeSearch.search('18:00:00') != -1) {
             icon[time] = document.createElement('td');
+            myIcon = document.createElement('img');
             var iconArray = forecastData.list[i].weather[0].icon;
-            var iconURL = 'https://openweathermap.org/img/w/'+ iconArray + '.png';
-            var myIcon = document.createElement('img');
+            var iconURL = 'https://openweathermap.org/img/w/'+ iconArray + '.png'; 
 
             myIcon.setAttribute('src', iconURL);
             myIcon.setAttribute('alt', "weather icon");

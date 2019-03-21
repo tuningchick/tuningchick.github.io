@@ -154,9 +154,10 @@ td, th{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3%;
+    padding-bottom: 2%;
 }
 
-/* footer style for large views */
+/* footer style for medium and large views */
 
 footer {
     display: block;

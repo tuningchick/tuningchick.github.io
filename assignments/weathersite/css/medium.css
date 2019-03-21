@@ -5,6 +5,7 @@
 
 #currenttemp {
     display: block;
+    border-radius: .3rem;
 }
 
 #currenttemp p {

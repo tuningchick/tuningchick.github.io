@@ -44,7 +44,12 @@ weatherRequest.onload = function() {
     myTemp.innerHTML = 'Temp: ' + outputTemp + '&deg; F';
     myHumidity.innerHTML = 'Humidity: ' + outputHumid + '%';
     myWind.innerHTML = 'Wind: ' + outputWind + 'mph';
-    myChill.innerHTML = 'Wind Chill: ' + chill.toFixed(0) + '&deg; F';
+    if ((outputTemp>50) || (outputWind<3)) {
+        myChill.innerHTML = "-";
+        }
+    else {
+        myChill.innerHTML = 'Wind Chill: ' + chill.toFixed(0) + '&deg; F';
+    }
 
     myConditions.appendChild(myDesc);
     myConditions.appendChild(myTemp); 

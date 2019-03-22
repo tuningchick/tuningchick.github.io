@@ -228,6 +228,10 @@ main h1, #events h3 {
 
 /* style upcoming events */
 
+#upcoming ul {
+    list-style-type: none;
+}
+
 #upcoming li {
     font-family: 'Lato', sans-serif;
     text-align: center;

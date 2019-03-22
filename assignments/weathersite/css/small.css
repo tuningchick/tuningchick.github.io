@@ -212,7 +212,7 @@ main h1 {
     line-height: 1rem;
 }
 
-#townPageArticle div h2 h5 {
+#townPageArticle div h2 {
     padding-bottom: 2rem;
 }
 
@@ -222,7 +222,8 @@ main h1 {
 
 #townPageArticle h5 {
     text-align: left;
-    text-shadow: none; 
+    text-shadow: none;
+    padding: 1rem 0; 
 }
 
 /* styling contact section */

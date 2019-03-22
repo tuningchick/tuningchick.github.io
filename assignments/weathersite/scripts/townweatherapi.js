@@ -28,9 +28,14 @@ weatherRequest.onload = function() {
     var chill = windChill(outputTemp, outputWind);
 //calculating wind chill
     function windChill(temp, speed) {
+        if ((temp<50) || (speed<3)) {
+            chill = '-';
+        }
+        else {
         var f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16))
             + (0.4275 * temp * Math.pow(speed, 0.16));
         return f;
+        }
     }
 
     var myConditions = document.createElement('article');
@@ -58,7 +63,7 @@ weatherRequest.onload = function() {
 
 /* display "current temp:", the temp, and the weather icon */
 
-    var outputTemp = parseFloat(weatherData.main.temp);
+    var outputTemp = parseFloat(weatherData.main.temp).toFixed(0);
     var imgArray = weatherData.weather[0].icon;
 
     var iconURL = 'https://openweathermap.org/img/w/'+ imgArray + '.png';

@@ -130,7 +130,7 @@ nav ul.hide {
 main h1 {
     text-align: center;
     color: white;
-    text-shadow: 1px 1px 2px #777;
+    text-shadow: 1px 1px 2px #ee3229;
 }
 
 /* styling weather summary image */
@@ -201,7 +201,7 @@ main h1 {
 #townPageArticle {
     width: 96%;
     background-color: #c2ca86;
-    border: 2px solid white;
+    border: 1px solid #dddfd4;
     border-radius: .3rem;
     margin: 2%;
     padding: 1rem 2rem 1rem 2rem;
@@ -398,8 +398,8 @@ form label.top input:required:valid {
     width: 90%;
     display: flex;
     flex-direction: column;
-    border: 4px solid white;
-    border-radius: .5rem;
+    border: 1px solid #dddfd4;
+    border-radius: .3rem;
     background-color: #c2ca86;
     margin: 5%;
     text-align: center;
@@ -411,8 +411,8 @@ form label.top input:required:valid {
 
 #homeTowns article img {
     width: 100%;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem; 
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem; 
     padding-bottom: 2px;
     display: block;
     margin-left: auto;
@@ -440,8 +440,8 @@ form label.top input:required:valid {
     width: 90%;
     display: flex;
     flex-direction: column;
-    border: 4px solid white;
-    border-radius: .5rem;
+    border: 1px solid #dddfd4;
+    border-radius: .3rem;
     background-color: #c2ca86;
     margin: 5%;
     text-align: center;

@@ -18,8 +18,8 @@ function eventData(jsonObj) {
     var townName = jsonObj['towns'];
     /* look for right town */
     for (var i = 0; i < townName.length; i++) {
-        if (towns[i].name == town) {
-            var event = towns[i].events;
+        if (townName[i].name == town) {
+            var event = townName[i].events;
             var eventHead = document.createElement(h3);
             var eventList = document.createElement(ul);
 

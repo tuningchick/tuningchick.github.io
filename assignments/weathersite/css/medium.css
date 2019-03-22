@@ -126,10 +126,11 @@ aside h3 {
     border-radius: .5em;
     box-shadow: 2px 2px 30px #f3f5e9;
     padding-top: .5em;
-}
-#forecastTable th td {
-    color: #f3f5e9;
     background-color: #231f20;
+}
+#forecastTable, th, td {
+    color: #f3f5e9;
+    
     text-align: center;
     padding: 5px;
 }

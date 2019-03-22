@@ -23,13 +23,13 @@ function eventData(jsonObj) {
             var eventHead = document.createElement('h3');
             var eventList = document.createElement('ul');
 
-            eventHead.textContent = 'Upcoming Events:';
+            eventHead.innerHTML = 'Upcoming Events:';
 
             /* loop to determine how many events and add them to list */
             for (var e = 0; e < event.lenth; e++) {
                 var myEvent = document.createElement('li');
 
-                myEvent.textContent = event[0];
+                myEvent.innerHTML = event[0];
                 eventList.appendChild(myEvent);
             }
 

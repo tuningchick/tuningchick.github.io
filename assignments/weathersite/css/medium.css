@@ -146,6 +146,10 @@ aside h3 {
     width: 38%;
 }
 
+#townPageArticle {
+    padding: 1rem 2rem 1rem 0rem;
+}
+
 /* gallery grid for medium view */
 
 #gallery {

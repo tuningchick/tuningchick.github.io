@@ -204,7 +204,7 @@ main h1 {
     border: 2px solid white;
     border-radius: .3rem;
     margin: 2%;
-    padding: 1rem 2rem 1rem 0rem;
+    padding: 1rem 2rem 1rem 2rem;
 }
 
 #townPageArticle div p {

@@ -190,7 +190,7 @@ main h1, #events h3 {
 
 /* Styling article image */
 
-#townPageArticle img {
+#townPageArticle figure img {
     width: 95%;
     margin-left: 2%;
     border-radius: .3rem;

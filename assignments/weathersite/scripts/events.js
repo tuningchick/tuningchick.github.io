@@ -27,7 +27,7 @@ function eventData(jsonObj) {
             for (var e = 0; e < event.length; e++) {
                 var myEvent = document.createElement('li');
 
-                myEvent.innerHTML = event[0];
+                myEvent.innerHTML = event[e];
                 eventList.appendChild(myEvent);
             }
 

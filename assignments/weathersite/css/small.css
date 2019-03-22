@@ -213,7 +213,7 @@ main h1 {
 }
 
 #townPageArticle div h2 {
-    padding-bottom: 2rem;
+    margin-bottom: .5rem;
 }
 
 #townPageArticle div h4 {
@@ -223,7 +223,7 @@ main h1 {
 #townPageArticle h5 {
     text-align: left;
     text-shadow: none;
-    padding: 1rem 0; 
+    margin: .5rem 0; 
 }
 
 /* styling contact section */

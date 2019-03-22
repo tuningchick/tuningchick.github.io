@@ -20,8 +20,8 @@ function eventData(jsonObj) {
     for (var i = 0; i < townName.length; i++) {
         if (townName[i].name == town) {
             var event = townName[i].events;
-            var eventHead = document.createElement(h3);
-            var eventList = document.createElement(ul);
+            var eventHead = document.createElement('h3');
+            var eventList = document.createElement('ul');
 
             eventHead.textContent = 'Upcoming Events:';
 

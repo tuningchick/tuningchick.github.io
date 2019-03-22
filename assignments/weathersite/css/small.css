@@ -208,16 +208,16 @@ main h1 {
     padding: 2rem 0 2rem 2rem;
 }
 
-#townPageArticle p {
+#townPageArticle div p {
     font-family: 'Lato', sans-serif;
     line-height: 1rem;
 }
 
-#townPageArticle h2, h5 {
+#townPageArticle div h2 h5 {
     padding-bottom: 1rem;
 }
 
-#townPageArticle h4 {
+#townPageArticle div h4 {
     padding: 1rem 0;
 }
 

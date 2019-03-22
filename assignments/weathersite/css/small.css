@@ -200,14 +200,14 @@ main h1 {
 /* Styling article */
 
 #townPageArticle {
-    width: 100%;
+    width: 96%;
     background-color: #c2ca86;
     border: 2px solid white;
     border-radius: .3rem;
     margin: 2%;
 }
 
-#townPageArticle div {
+#townPageArticle p {
     font-family: 'Lato', sans-serif;
     line-height: 1rem;
     margin: 2%;

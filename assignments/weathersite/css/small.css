@@ -172,10 +172,10 @@ main h1 {
 /* credit openweathermap.org format */
 
 #credit {
+    width: 100%;
     font-size: .7rem;
     font-weight: lighter;
     text-align: center;
-    font-family: 'Lato', sans-serif;
 }
 
 /* 5 day forecast needs to not show in mobile view */

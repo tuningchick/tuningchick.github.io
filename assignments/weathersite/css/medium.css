@@ -122,7 +122,8 @@ aside h3 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: .5em;
     box-shadow: 2px 2px 30px #f3f5e9;
     padding-top: .5em;
@@ -148,7 +149,6 @@ aside h3 {
 
 #townPageArticle {
     padding: 1rem 2rem 1rem 0rem;
-    overflow: auto;
 }
 
 /* gallery grid for medium view */

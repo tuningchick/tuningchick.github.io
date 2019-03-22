@@ -200,7 +200,7 @@ main h1, #events h3 {
 
 #townPageArticle {
     width: 96%;
-    max-height: 600px;
+    max-height: 350px;
     overflow: auto;
     background-color: #c2ca86;
     border: 1px solid #dddfd4;

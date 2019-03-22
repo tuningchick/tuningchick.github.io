@@ -190,7 +190,7 @@ main h1, #events h3 {
 
 /* Styling article image */
 
-#townPageArticle img {
+#townPageArticle figure {
     width: 95%;
     margin-left: 2%;
     border-radius: .3rem;
@@ -212,6 +212,7 @@ main h1, #events h3 {
 #townPageArticle div p {
     font-family: 'Lato', sans-serif;
     line-height: 1rem;
+    margin: .5em;
 }
 
 #townPageArticle div h2 {

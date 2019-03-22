@@ -1,5 +1,5 @@
 function runEvents(town) {
-var section = document.querySelector('#homeTowns');
+var section = document.querySelector('#upcoming');
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 /* create and open new request */
 var request = new XMLHttpRequest();
@@ -20,13 +20,11 @@ function eventData(jsonObj) {
     for (var i = 0; i < townName.length; i++) {
         if (townName[i].name == town) {
             var event = townName[i].events;
-            var eventHead = document.createElement('h3');
+            
             var eventList = document.createElement('ul');
 
-            eventHead.innerHTML = 'Upcoming Events:';
-
             /* loop to determine how many events and add them to list */
-            for (var e = 0; e < event.lenth; e++) {
+            for (var e = 0; e < event.length; e++) {
                 var myEvent = document.createElement('li');
 
                 myEvent.innerHTML = event[0];
@@ -34,7 +32,6 @@ function eventData(jsonObj) {
             }
 
             /* take list items and add to section container */
-            section.appendChild(eventHead);
             section.appendChild(eventList);
         }
            

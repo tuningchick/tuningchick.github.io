@@ -205,16 +205,20 @@ main h1 {
     border: 2px solid white;
     border-radius: .3rem;
     margin: 2%;
+    padding: 2rem 0 2rem 2rem;
 }
 
 #townPageArticle p {
     font-family: 'Lato', sans-serif;
     line-height: 1rem;
-    margin: 2%;
 }
 
 #townPageArticle h2, h5 {
-    padding-bottom: 2px;
+    padding-bottom: 1rem;
+}
+
+#townPageArticle h4 {
+    padding: 1rem 0;
 }
 
 #townPageArticle h5 {

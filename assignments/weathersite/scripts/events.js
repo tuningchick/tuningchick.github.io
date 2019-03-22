@@ -11,11 +11,11 @@ request.send();
 request.onload = function() {
     var upcoming = request.response;
     eventData(upcoming);
-}
 
-/* create and display image, town name, motto, founding, population, annual rainfall */
-function eventData(upcoming) {
-    var townName = upcoming['towns'];
+
+/* create and display upcoming events */
+function eventData(jsonObj) {
+    var townName = jsonObj['towns'];
     /* look for right town */
     for (var i = 0; i < townName.length; i++) {
         if (towns[i].name == town) {
@@ -41,3 +41,4 @@ function eventData(upcoming) {
     }
 }
 } 
+}

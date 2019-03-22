@@ -125,6 +125,7 @@ table {
     margin-bottom: 10px;
     border-radius: .5em;
     box-shadow: 2px 2px 30px #f3f5e9;
+    padding-top: .5em;
 }
 table, th, td {
     color: #f3f5e9;
@@ -154,7 +155,7 @@ td, th{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3%;
-    padding-bottom: 4%;
+    padding-bottom: 4 %;
     margin-bottom: 4%;
 }
 

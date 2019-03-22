@@ -169,6 +169,12 @@ main h1 {
     background-color: #f3f5e9;
 }
 
+/* credit openweathermap.org format */
+
+#credit {
+    font-size: .7rem;
+    font-weight: lighter;
+}
 
 /* 5 day forecast needs to not show in mobile view */
 
@@ -281,11 +287,6 @@ footer {
     clear: both;
     padding-left: 2%;
     font-family: 'Lato', sans-serif;
-}
-
-#credit {
-    font-size: .7rem;
-    font-weight: lighter;
 }
 
 /* Storm Center form styling */

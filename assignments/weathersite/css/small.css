@@ -226,6 +226,13 @@ main h1 {
     margin: .5rem 0; 
 }
 
+/* style upcoming events */
+
+#upcoming li {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
 /* styling contact section */
 
 #contact {

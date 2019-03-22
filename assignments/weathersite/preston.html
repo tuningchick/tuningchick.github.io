@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/large.css">
     <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
     <script type="text/javascript" language="javascript" src="scripts/townweatherapi.js"></script>
+    <script type="text/javascript" language="javascript" src="scripts/events.js"></script>
     <title>CIT 230 | Weather Site Preston Page | Laura Lykins | BYU-Idaho</title>
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
     </head>
@@ -88,6 +89,13 @@
                         </ul>
                 </div>
             </article>
+             <!-- upcoming events section -->
+             <section id="events">
+                    <h3>Upcoming Events:</h3>
+                    <div id="upcoming">
+                    <!-- created for upcoming events api call-->
+                    </div>
+                </section>
             <!-- contact info section and map -->
             <section id="contact">
                 <div>
@@ -107,5 +115,6 @@
         <script>actualDate();</script>
         <script>outputConditions(5604473)</script>
         <script>outputFiveDay(5604473)</script>
+        <script>runEvents('Preston')</script>
     </body>
 </html>

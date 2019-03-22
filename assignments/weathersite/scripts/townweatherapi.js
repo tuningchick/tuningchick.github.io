@@ -24,26 +24,22 @@ weatherRequest.onload = function() {
     var outputHumid = weatherData.main.humidity;
     var outputWind = parseFloat(weatherData.wind.speed);
 
-// create variable for wind chill in degrees F
-    var chill = windChill(outputTemp, outputWind);
-//calculating wind chill
-    function windChill(temp, speed) {
-        if ((temp<50) || (speed<3)) {
-            chill = '-';
-        }
-        else {
-        var f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16))
-            + (0.4275 * temp * Math.pow(speed, 0.16));
-        return f;
-        }
-    }
-
     var myConditions = document.createElement('article');
     var myDesc = document.createElement('p');
     var myTemp = document.createElement('p');
     var myHumidity = document.createElement('p');
     var myWind = document.createElement('p');
     var myChill = document.createElement('p');
+
+    // create variable for wind chill in degrees F
+    var chill = windChill(outputTemp, outputWind);
+//calculating wind chill
+    function windChill(temp, speed) {
+        var f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16))
+            + (0.4275 * temp * Math.pow(speed, 0.16));
+        return f;
+        }
+    }
 
     myDesc.innerHTML = 'Currently: ' + outputDesc;
     myTemp.innerHTML = 'Temp: ' + outputTemp + '&deg; F';

@@ -148,6 +148,7 @@ aside h3 {
 
 #townPageArticle {
     padding: 1rem 2rem 1rem 0rem;
+    overflow: auto;
 }
 
 /* gallery grid for medium view */

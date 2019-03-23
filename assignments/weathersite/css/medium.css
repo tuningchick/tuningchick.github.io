@@ -236,14 +236,12 @@ form label.sbs {
 
 #fishHaven .navContainer li {
     border: none;
-    color: #f3f5e9;
     vertical-align: middle;
     font-size: 1.2em;
     padding-left: 1em;
 }
 
-.navContainer a {
-    color: #73c058;
+#fishHaven .navContainer a {
     padding: .8rem 2%;
     text-align: left;
     text-decoration: none;

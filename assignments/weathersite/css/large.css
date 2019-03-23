@@ -22,7 +22,7 @@
 
 /* change fish haven view to normal for large display */
 
-nav #primaryNav {
+#fishHaven nav #primaryNav {
     display: flex;
     flex-flow: row wrap;
     padding-left: 1em;

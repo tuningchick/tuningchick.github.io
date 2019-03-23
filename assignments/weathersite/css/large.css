@@ -28,4 +28,29 @@
     padding-left: 1em;
     padding-right: 1em;   
 }
+
+/*navigation menu styling */
+#fishHaven #navContainer ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+/* position menu items to the left and add border right to menu items color #f3f5e9 */
+ #fishHaven #navContainer li {
+    float: left;
+    border-right: 1px solid #f3f5e9;
+}
+/* style so there is no border line on the far right */
+#fishHaven #navContainer li:last-child {
+    border-right: none;
+}
+#fishHaven #navContainer li a {
+    display: block;
+    color: #73c058;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 }

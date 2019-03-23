@@ -382,7 +382,7 @@ form input.submitButton {
     max-width: 20rem;
     font-family: 'Roboto Slab', serif;
     font-size: 1rem;
-    text-shadow: 2px 2px 4px #777;
+    text-shadow: 2px 2px 4px #ee3229;
 }
 
 fieldset label.top input:required {

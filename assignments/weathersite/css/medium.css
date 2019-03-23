@@ -83,8 +83,7 @@ nav ul  {
 }
 /* position menu items to the left and add border right to menu items color #f3f5e9 */
  nav li {
-    float: left;
-    
+    float: left;   
 }
 
 nav li a {

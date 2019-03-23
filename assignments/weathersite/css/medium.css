@@ -221,7 +221,7 @@ form label.sbs {
     grid-column-end: 2;
 }
 
-#fishHaven #headerContainer, main {
+#fishHaven main {
     grid-column-start: 2;
     grid-column-end: 6;
 }

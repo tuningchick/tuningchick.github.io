@@ -385,11 +385,11 @@ form input.submitButton {
     text-shadow: 2px 2px 4px #777;
 }
 
-form label.top input:required {
+fieldset label.top input:required {
     border: 1px #ee3229;
 }
 
-form label.top input:required:valid {
+fieldset label.top input:required:valid {
     border: none;
 }
 

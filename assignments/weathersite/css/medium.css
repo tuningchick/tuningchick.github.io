@@ -216,7 +216,7 @@ form label.sbs {
     grid-template-columns: 1fr 4fr;
 }
 
-#fishHaven #headContainer {
+#fishHaven #headerContainer {
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;

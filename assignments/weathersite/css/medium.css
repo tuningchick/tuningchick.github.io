@@ -216,6 +216,13 @@ form label.sbs {
     grid-template-columns: 1fr 4fr;
 }
 
+#fishHaven #headContainer {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
 #fishHaven .navContainer {
     grid-column-start: 1;
     grid-column-end: 2;

@@ -105,8 +105,7 @@ nav button {
 .navContainer a {
     color: #73c058;
     padding: .8rem 2%;
-    text-align: center;
-    text-decoration: none;
+    
     display: block;
     max-width: 400px;
 }

@@ -168,13 +168,13 @@ footer #displayDate {
     float: right;
     width: 35%;
     text-align: right;
-    margin-right: 2%;
+    margin-right:1%;
 }
 
 footer p {
     float: left;
     width: 55%;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 /* form larger views formatting */

@@ -317,8 +317,8 @@ footer {
 form fieldset {
     margin: 1rem 2%;
     background-color: #c2ca86;
-    border: 2px solid white;
-    border-radius: 8px;
+    border: 1px solid #dddfd4;
+    border-radius: 3px;
     padding: .5rem 2%;
 }
 
@@ -385,11 +385,11 @@ form input.submitButton {
     text-shadow: 2px 2px 4px #ee3229;
 }
 
-fieldset label.top input:required {
+.top input:required {
     border: 1px #ee3229;
 }
 
-fieldset label.top input:required:valid {
+.top input:required:valid {
     border: none;
 }
 

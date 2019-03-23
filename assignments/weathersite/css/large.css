@@ -20,4 +20,12 @@
     box-shadow: 0 0 4em #373334;
 }
 
+/* change fish haven view to normal for large display */
+
+nav #primaryNav {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 1em;
+    padding-right: 1em;   
+}
 }

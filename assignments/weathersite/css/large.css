@@ -27,4 +27,9 @@
     grid-column-end: 6;
     display: inline-block;
 }
+
+#fishHaven main {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
 }

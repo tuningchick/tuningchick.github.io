@@ -219,24 +219,35 @@ form label.sbs {
 #fishHaven .navContainer {
     grid-column-start: 1;
     grid-column-end: 2;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 #fishHaven main {
     grid-column-start: 2;
-    grid-column-end: ;
+    grid-column-end: 7;
 }
 
-#fishHaven .navContainer a {
+#fishHaven .navContainer ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#fishHaven .navContainer li {
+    background-color: white;
+    vertical-align: middle;
+    font-size: 1.2em;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navContainer a {
+    color: #73c058;
+    padding: .8rem 2%;
     text-align: left;
+    text-decoration: none;
+    display: block;
 }
-
-#fishHaven .navContainer nav ul {
-    padding: none;
-}
-
-#fishHaven .navContainer nav li {
-    border: none;
-}
-
 }

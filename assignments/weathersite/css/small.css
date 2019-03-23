@@ -93,8 +93,7 @@ nav button {
 
 .navContainer li {
     background-color: white;
-    text-decoration: none;
-    text-align: center;
+    
     vertical-align: middle;
     font-size: 1.2em;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -105,7 +104,8 @@ nav button {
 .navContainer a {
     color: #73c058;
     padding: .8rem 2%;
-    
+    text-align: center;
+    text-decoration: none;
     display: block;
     max-width: 400px;
 }

@@ -1,5 +1,5 @@
 /* set media query for large screens */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 850px) {
 
 /* css for only the largest view screens */
 
@@ -18,5 +18,9 @@
 }
 #gallery figure:hover {
     box-shadow: 0 0 4em #373334;
+}
+
+#fishHaven {
+    display: none;
 }
 }

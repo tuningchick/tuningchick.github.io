@@ -199,7 +199,7 @@ main h1, #events h3 {
 /* Styling article */
 
 #townPageArticle {
-    width: 96%;
+    width: 95%;
     max-height: 350px;
     overflow: auto;
     background-color: #c2ca86;

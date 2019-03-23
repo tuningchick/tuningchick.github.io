@@ -191,7 +191,7 @@ form label.sbs {
 #trendingContact {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
 }
 
 .currentArticles {
@@ -201,7 +201,7 @@ form label.sbs {
 
 .contactHome {
     grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-end: 5;
 }
 
 /* work on Fish Haven different middle view */

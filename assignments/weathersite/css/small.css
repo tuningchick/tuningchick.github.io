@@ -235,6 +235,11 @@ main h1, #events h3 {
     margin-right: auto;
     box-shadow: 0 0 30px #777;
     padding: 1.5%;
+    border-radius: .3em;
+}
+
+#events h3 {
+    padding-bottom: 1%;
 }
 
 #upcoming ul {

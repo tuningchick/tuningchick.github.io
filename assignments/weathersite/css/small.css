@@ -468,11 +468,11 @@ form input.submitButton {
 .currentArticles p {
     margin-left: 1%;
     padding-top: .3rem;
-    color: black;
     text-shadow: 1px 1px 2px white;
     font-style: italic;
 }
 
 .currentArticles a {
     text-decoration: none;
+    color: black;
 }

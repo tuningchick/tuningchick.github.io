@@ -210,49 +210,20 @@ form label.sbs {
 
 /* work on Fish Haven different middle view */
 
+#fishHaven {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
 #fishHaven .navContainer {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    margin: 5px auto;
-    font-family: 'Lato', sans-serif;
-    color: #73c058;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
-#fishHaven .navContainer ul  {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#fishHaven .navContainer li {
-    background-color: white;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1.2em;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-#fishHaven .navContainer a {
-    color: #73c058;
-    padding: .8rem 2%;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    max-width: 400px;
-}
-
-#fishHaven nav .selected {
-    background-color: #dddfd4;
-    text-shadow: 1px 1px 2px white;
-}
-
-#fishHaven nav ul li a:hover {
-    background-color: #c7c9bf;
-    color: white;
+#fishHaven #headerContainer, main {
+    grid-column-start: 2;
+    grid-column-end: 6;
 }
 
 }

@@ -235,10 +235,10 @@ form label.sbs {
 }
 
 #fishHaven .navContainer li {
+    border: none;
     background-color: white;
     vertical-align: middle;
     font-size: 1.2em;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-left: 1em;
     padding-right: 1em;
 }

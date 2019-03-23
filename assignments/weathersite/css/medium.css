@@ -204,13 +204,9 @@ form label.sbs {
 }
 
 #fishHaven .navContainer {
-    grid-column-start: 1;
-    grid-column-end: 2;
     display: flex;
     flex-direction: column;
 }
-
-
 
 #fishHaven .navContainer ul  {
     list-style-type: none;

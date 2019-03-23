@@ -4,7 +4,8 @@
 * { margin: 0; box-sizing: border-box; } 
 
 body {
-	background-color: #73c058;
+    background-color: #73c058;
+    margin-bottom: 2em;
 }
 /* general style h1, h2, etc */
 h1, h2, h3, h4, h5, h6 {

@@ -236,7 +236,7 @@ form label.sbs {
 
 #fishHaven .navContainer li {
     border: none;
-    background-color: white;
+    opacity: 0.8;
     vertical-align: middle;
     font-size: 1.2em;
     padding-left: 1em;

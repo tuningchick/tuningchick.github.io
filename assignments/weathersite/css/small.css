@@ -5,7 +5,6 @@
 
 body {
     background-color: #73c058;
-    margin-bottom: 2em;
 }
 /* general style h1, h2, etc */
 h1, h2, h3, h4, h5, h6 {
@@ -309,7 +308,7 @@ footer {
     display: inline-block;
     background-color: #c2ca86;
     clear: both;
-    padding: 1.5em 0;
+    padding: 1em 0;
     font-family: 'Lato', sans-serif;
 }
 

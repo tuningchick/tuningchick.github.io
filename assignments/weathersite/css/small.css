@@ -461,6 +461,14 @@ form input.submitButton {
 
 .contactHome p {
     font-size: .8rem;
-    padding-left: .3rem;
-    padding-right: .2rem;
+    text-align: center;
+    padding-top: .3rem;
+}
+
+.currentArticles p {
+    margin-left: 1%;
+}
+
+.currentArticles a {
+    text-decoration: none;
 }

@@ -192,9 +192,8 @@ form label.sbs {
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 2fr;
+    grid-gap: 2%;
 }
-
-
 
 /* work on Fish Haven different middle view */
 
@@ -211,10 +210,7 @@ form label.sbs {
     flex-direction: column;
 }
 
-#fishHaven main {
-    grid-column-start: 2;
-    grid-column-end: 7;
-}
+
 
 #fishHaven .navContainer ul  {
     list-style-type: none;

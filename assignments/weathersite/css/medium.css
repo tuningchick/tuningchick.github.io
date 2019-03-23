@@ -224,11 +224,15 @@ form label.sbs {
 
 #fishHaven main {
     grid-column-start: 2;
-    grid-column-end: 9;
+    grid-column-end: ;
 }
 
 #fishHaven .navContainer a {
     text-align: left;
+}
+
+#fishHaven .navContainer nav ul {
+    padding: none;
 }
 
 #fishHaven .navContainer nav li {

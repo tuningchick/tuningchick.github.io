@@ -1,5 +1,5 @@
 /* set media query for large screens */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 800px) {
 
 /* css for only the largest view screens */
 

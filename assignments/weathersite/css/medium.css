@@ -190,9 +190,9 @@ form label.sbs {
 
 #trendingContact {
     width: 100%;
+    margin: 2%;
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-gap: 2%;
 }
 
 /* work on Fish Haven different middle view */

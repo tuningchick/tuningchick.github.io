@@ -236,11 +236,11 @@ form label.sbs {
 
 #fishHaven .navContainer li {
     border: none;
-    opacity: 0.8;
+    color: #f3f5e9;
     vertical-align: middle;
     font-size: 1.2em;
     padding-left: 1em;
-    padding-right: 1em;
+    padding-right: 1.5em;
 }
 
 .navContainer a {

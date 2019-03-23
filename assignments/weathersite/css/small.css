@@ -457,6 +457,7 @@ form input.submitButton {
     box-shadow: 0 0 30px #777;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    max-height: 175px;
     overflow: hidden;
 }
 

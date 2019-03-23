@@ -164,8 +164,17 @@ aside h3 {
 
 /* footer style for medium and large views */
 
-footer {
-    display: block;
+footer #displayDate {
+    float: right;
+    width: 35%;
+    text-align: right;
+    margin-right: 2%;
+}
+
+footer p {
+    float: left;
+    width: 55%;
+    margin-left: 2%;
 }
 
 /* form larger views formatting */

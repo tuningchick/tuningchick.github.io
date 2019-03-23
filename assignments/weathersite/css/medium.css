@@ -213,7 +213,7 @@ form label.sbs {
 #fishHaven {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 7fr;
 }
 
 #fishHaven .navContainer {
@@ -223,7 +223,7 @@ form label.sbs {
 
 #fishHaven main {
     grid-column-start: 2;
-    grid-column-end: 7;
+    grid-column-end: 9;
 }
 
 }

@@ -84,12 +84,9 @@ nav ul  {
 /* position menu items to the left and add border right to menu items color #f3f5e9 */
  nav li {
     float: left;
-    border-right: 1px solid #f3f5e9;
+    
 }
-/* style so there is no border line on the far right */
-nav li:last-child {
-    border-right: none;
-}
+
 nav li a {
     display: block;
     color: #73c058;

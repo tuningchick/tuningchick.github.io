@@ -14,7 +14,7 @@
     <title>CIT 230 | Weather Site Preston Page | Laura Lykins | BYU-Idaho</title>
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
     </head>
-    <body id="fishHaven">
+    <body>
         <!--   Header Code  -->
         <header id="headerContainer">
             <img src="images/logolarge.png" alt="Weather Check logo">
@@ -28,107 +28,109 @@
                 <!-- container for api weather info -->
             </aside>
         </header>
+        <div id="fishHaven">
         <!-- Navigation code -->
-        <nav class="navContainer">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="hide">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="preston.html">Preston</a></li>
-                <li><a href="sodasprings.html">Soda&nbsp;Springs</a></li>
-                <li class="selected"><a href="fishhaven.html">Fish&nbsp;Haven</a></li>
-                <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-        <!-- Main section hero image, weather summary, and heading -->
-        <main class="clearfix">
-            <h1>Fish&nbsp;Haven, Idaho</h1>
-            <aside id="summary" class="clearfix">
-                    <h4>Weather Summary:</h4>
-                    <!-- create span for weather summary info api call -->
-                    <span id="weatherSummary"></span>
-            </aside>    
-            <figure class="hero">
-                <img src="images/fishhaven400.jpg" alt="Fish Haven, Idaho scenic view" class="center"
-                    sizes="100vw" srcset="images/fishhaven400.jpg 400w,
-                    images/fishhaven550.jpg 550w, images/fishhaven900.jpg 900w">
-            </figure>
-            <span id="credit"><p>Weather information provided by <a href="https://openweathermap.org">
-                openweathermap.org</a></p></span>
-            <!-- five day forecast for medium and large view -->
-            <aside class="fiveday">
-                <h3>5-day Forecast</h3>
-                <table id="forecastTable">
-                    <!-- table created for 5 day forecast api call -->
-                </table>
-            </aside>
-            <!-- Article image and content -->
-            <article id="townPageArticle" class="clearfix">
-                <img src="images/campcooking.jpg" alt="eating a camp cooked meal">
-                <div>
-                    <h2>4 Camp Cooking Tips That Will Make Your Outdoor Eating More Enjoyable</h2>
-                    <h5>Author: Daniel J. Smith http://EzineArticles.com/expert/Daniel_J._Smith/2570911</h5>
-                
-                    <p>Eating a filling meal when you're camping is much more satisfying because of 
-                    the beautiful view and fresh air. Camp is your home away from home that's why you 
-                    still can enjoy delicious food like the ones you do at home. While kitchen resources 
-                    are much limited in the outdoors, there still plenty of ways you can try to make 
-                    hearty dishes that will satisfy your appetite.</p>
-                    <p>Try these camp cooking tips to make outdoor eating even more enjoyable:</p>
-                    <h5>Plan meals and do the preparation at home</h5>
-                    <p>It will be easier to plan your meals for the whole trip beforehand so make a 
-                    list and stick to it. Prepare the ingredients at home, measuring and chopping 
-                    them for easy cooking while at camp. Store dry and wet ingredients separately to 
-                    avoid leakage and contamination. Resealable plastic bags and lightweight containers 
-                    with tight lids are most ideal. Doing all this will save you lots of time and avoid 
-                    making a mess at the campsite.</p>
-                    <h5>Pack a cast iron skillet</h5>
-                    <p>When your food is all ready and packed nicely, it's time to think of the 
-                    cookware. It is advisable to only bring tools that you will actually use to 
-                    save space in your luggage. A cast-iron skillet is most ideal because it's 
-                    durable and will hold nicely over a campfire. It is also very versatile so you 
-                    can cook plenty of dishes, wet and dry, on it easily.</p>
-                    <h5>Bring aluminum bags and foil</h5>
-                    <p>Heavy duty aluminum bags are great for fuss-free cooking if you have limited 
-                    kitchen resources, especially if you're not one to bring heavy cookware. With 
-                    these bags, you can easily make delicious meals over a campfire with meat and 
-                    vegetables (without making a mess!). Heavy duty aluminum foil will also be very 
-                    handy when you're cooking at camp - you can use it to cover leftover food, to 
-                    keep your food warm or even cook simple meals.</p>
-                    <h5>Use squeeze bottles</h5>
-                    <p>If you're camping, you always have to pack light. But if you want to prepare 
-                    delicious meals when you're outdoors, you have to bring a lot of ingredients. 
-                    That's where the beauty of squeeze bottles come in - it's where you can put your 
-                    liquid ingredients like pancake batter, dressings, oils, condiments etc. without 
-                    taking too much room!
-                    <p>The easier and less hassle it is for you to cook in the outdoors, the more you 
-                    will enjoy it! Follow these useful camp cooking tips!</p>
-                    <p>Daniel J. Smith is a survival expert. Having lived the outdoor life since he 
-                    was very young, he loves sharing his expertise about camping, hiking, traveling, 
-                    RV living and many more. He has also started his own company called OutBright, 
-                    which will soon be selling products that cater to campers, hikers, travellers 
-                    and all outdoor-loving adventurers.</p>
-                    <h6><a href="http://EzineArticles.com/9995336">Article Source: 
-                            http://EzineArticles.com/9995336</a></h6>
-                </div>
-            </article>
-            <!-- upcoming events section -->
-            <section id="events">
-                    <h3>Upcoming Events:</h3>
-                    <div id="upcoming">
-                    <!-- created for upcoming events api call-->
+            <nav class="navContainer">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston.html">Preston</a></li>
+                    <li><a href="sodasprings.html">Soda&nbsp;Springs</a></li>
+                    <li class="selected"><a href="fishhaven.html">Fish&nbsp;Haven</a></li>
+                    <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <!-- Main section hero image, weather summary, and heading -->
+            <main class="clearfix">
+                <h1>Fish&nbsp;Haven, Idaho</h1>
+                <aside id="summary" class="clearfix">
+                        <h4>Weather Summary:</h4>
+                        <!-- create span for weather summary info api call -->
+                        <span id="weatherSummary"></span>
+                </aside>    
+                <figure class="hero">
+                    <img src="images/fishhaven400.jpg" alt="Fish Haven, Idaho scenic view" class="center"
+                        sizes="100vw" srcset="images/fishhaven400.jpg 400w,
+                        images/fishhaven550.jpg 550w, images/fishhaven900.jpg 900w">
+                </figure>
+                <span id="credit"><p>Weather information provided by <a href="https://openweathermap.org">
+                    openweathermap.org</a></p></span>
+                <!-- five day forecast for medium and large view -->
+                <aside class="fiveday">
+                    <h3>5-day Forecast</h3>
+                    <table id="forecastTable">
+                        <!-- table created for 5 day forecast api call -->
+                    </table>
+                </aside>
+                <!-- Article image and content -->
+                <article id="townPageArticle" class="clearfix">
+                    <img src="images/campcooking.jpg" alt="eating a camp cooked meal">
+                    <div>
+                        <h2>4 Camp Cooking Tips That Will Make Your Outdoor Eating More Enjoyable</h2>
+                        <h5>Author: Daniel J. Smith http://EzineArticles.com/expert/Daniel_J._Smith/2570911</h5>
+                    
+                        <p>Eating a filling meal when you're camping is much more satisfying because of 
+                        the beautiful view and fresh air. Camp is your home away from home that's why you 
+                        still can enjoy delicious food like the ones you do at home. While kitchen resources 
+                        are much limited in the outdoors, there still plenty of ways you can try to make 
+                        hearty dishes that will satisfy your appetite.</p>
+                        <p>Try these camp cooking tips to make outdoor eating even more enjoyable:</p>
+                        <h5>Plan meals and do the preparation at home</h5>
+                        <p>It will be easier to plan your meals for the whole trip beforehand so make a 
+                        list and stick to it. Prepare the ingredients at home, measuring and chopping 
+                        them for easy cooking while at camp. Store dry and wet ingredients separately to 
+                        avoid leakage and contamination. Resealable plastic bags and lightweight containers 
+                        with tight lids are most ideal. Doing all this will save you lots of time and avoid 
+                        making a mess at the campsite.</p>
+                        <h5>Pack a cast iron skillet</h5>
+                        <p>When your food is all ready and packed nicely, it's time to think of the 
+                        cookware. It is advisable to only bring tools that you will actually use to 
+                        save space in your luggage. A cast-iron skillet is most ideal because it's 
+                        durable and will hold nicely over a campfire. It is also very versatile so you 
+                        can cook plenty of dishes, wet and dry, on it easily.</p>
+                        <h5>Bring aluminum bags and foil</h5>
+                        <p>Heavy duty aluminum bags are great for fuss-free cooking if you have limited 
+                        kitchen resources, especially if you're not one to bring heavy cookware. With 
+                        these bags, you can easily make delicious meals over a campfire with meat and 
+                        vegetables (without making a mess!). Heavy duty aluminum foil will also be very 
+                        handy when you're cooking at camp - you can use it to cover leftover food, to 
+                        keep your food warm or even cook simple meals.</p>
+                        <h5>Use squeeze bottles</h5>
+                        <p>If you're camping, you always have to pack light. But if you want to prepare 
+                        delicious meals when you're outdoors, you have to bring a lot of ingredients. 
+                        That's where the beauty of squeeze bottles come in - it's where you can put your 
+                        liquid ingredients like pancake batter, dressings, oils, condiments etc. without 
+                        taking too much room!
+                        <p>The easier and less hassle it is for you to cook in the outdoors, the more you 
+                        will enjoy it! Follow these useful camp cooking tips!</p>
+                        <p>Daniel J. Smith is a survival expert. Having lived the outdoor life since he 
+                        was very young, he loves sharing his expertise about camping, hiking, traveling, 
+                        RV living and many more. He has also started his own company called OutBright, 
+                        which will soon be selling products that cater to campers, hikers, travellers 
+                        and all outdoor-loving adventurers.</p>
+                        <h6><a href="http://EzineArticles.com/9995336">Article Source: 
+                                http://EzineArticles.com/9995336</a></h6>
                     </div>
+                </article>
+                <!-- upcoming events section -->
+                <section id="events">
+                        <h3>Upcoming Events:</h3>
+                        <div id="upcoming">
+                        <!-- created for upcoming events api call-->
+                        </div>
+                    </section>
+                <!-- contact info section and map -->
+                <section id="contact">
+                    <div>
+                    <h5>Email: contactweathercheck@weathercheckidaho.com</h5>
+                    <h5>Address: 1234 Main St., Preston, ID 22222</h5>
+                    <h5>Call: 800-888-4567</h5>
+                    </div>
+                    <img src="images/prestonmapoptimized.jpg" alt="map of preston and surrounding area">
                 </section>
-            <!-- contact info section and map -->
-            <section id="contact">
-                <div>
-                <h5>Email: contactweathercheck@weathercheckidaho.com</h5>
-                <h5>Address: 1234 Main St., Preston, ID 22222</h5>
-                <h5>Call: 800-888-4567</h5>
-                </div>
-                <img src="images/prestonmapoptimized.jpg" alt="map of preston and surrounding area">
-            </section>
-        </main>
+            </main>
+        </div>
         <!-- footer, including actual date display -->
         <footer>
             <span id="displayDate"></span>

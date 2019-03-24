@@ -1,59 +1,13 @@
-/* thank you Kimi for getting me on the right track with the opening function and
-Richard the TA for helping me get my if configuration to work */
-function runShowTowns() {
-var section = document.querySelector('#homeTowns');
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-/* create and open new request */
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-/* set response type to JSON */
-request.responseType = 'json';
-request.send();
-/* get response from server and deal with it */
-request.onload = function() {
-    var homeTowns = request.response;
-    showTowns(homeTowns);
-
-/* create and display image, town name, motto, founding, population, annual rainfall */
-function showTowns(jsonObj) {
-    var townName = jsonObj['towns'];
-
-    for (var i = 0; i < townName.length; i++) {
-        if ((townName[i].name == "Preston") || (townName[i].name == "Soda Springs") || (townName[i].name == "Fish Haven")) {
-            var myArticle = document.createElement('article');
-            var myLink = document.createElement('a');
-            var myImg = document.createElement('img');
-            var myH4 = document.createElement('h4');
-            var myH6 = document.createElement('h6');
-            var myPara1 = document.createElement('p');
-            var myPara2 = document.createElement('p');
-            var myPara3 = document.createElement('p');
-
-            var simplename = townName[i].name.replace(/\s/g, '').toLowerCase();
-            var myImgName= 'images/' + simplename + '.jpg';
-
-            myLink.setAttribute('href', simplename + '.html');
-            myImg.setAttribute('src', myImgName);
-            myImg.setAttribute('alt', 'Photo of ' + townName[i]);
-            myH4.textContent = townName[i].name;
-            myH6.textContent = townName[i].motto;
-            myPara1.textContent = 'Year Founded: ' + townName[i].yearFounded;
-            myPara2.textContent = 'Population: ' + townName[i].currentPopulation;
-            myPara3.textContent = 'Annual Rainfall: ' + townName[i].averageRainfall;
-
-            myLink.appendChild(myImg);
-
-            myArticle.appendChild(myLink);
-            myArticle.appendChild(myH4);
-            myArticle.appendChild(myH6);
-            myArticle.appendChild(myPara1);
-            myArticle.appendChild(myPara2);
-            myArticle.appendChild(myPara3);
-            
-            section.appendChild(myArticle);
-        }
-           
-    }
-    } 
-}
-}
+function runShowTowns(){var s=document.querySelector("#homeTowns"),e=new XMLHttpRequest;
+e.open("GET","https://byui-cit230.github.io/weather/data/towndata.json"),
+e.responseType="json",e.send(),e.onload=function(){!function(e)
+{for(var t=e.towns,n=0;n<t.length;n++)if("Preston"==t[n].name||"Soda Springs"==t[n].name
+||"Fish Haven"==t[n].name){var a=document.createElement("article"),o=document.createElement("a"),
+d=document.createElement("img"),r=document.createElement("h4"),l=document.createElement("h6"),
+p=document.createElement("p"),i=document.createElement("p"),m=document.createElement("p"),
+c=t[n].name.replace(/\s/g,"").toLowerCase(),u="images/"+c+".jpg";o.setAttribute("href",c+".html"),
+d.setAttribute("src",u),d.setAttribute("alt","Photo of "+t[n]),r.textContent=t[n].name,
+l.textContent=t[n].motto,p.textContent="Year Founded: "+t[n].yearFounded,
+i.textContent="Population: "+t[n].currentPopulation,m.textContent="Annual Rainfall: "
++t[n].averageRainfall,o.appendChild(d),a.appendChild(o),a.appendChild(r),a.appendChild(l),
+a.appendChild(p),a.appendChild(i),a.appendChild(m),s.appendChild(a)}}(e.response)}}

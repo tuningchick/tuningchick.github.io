@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
-    <script type="text/javascript" language="javascript" src="scripts/windchill.js"></script>
     <script type="text/javascript" language="javascript" src="scripts/stormcenter.js"></script>
     <title>CIT 230 | Weather Site Gallery Page | Laura Lykins | BYU-Idaho</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
     <body>
         <!--   Header Code  -->
@@ -24,21 +24,15 @@
                     <p>Your Forecast. Now.</p>
                 </div>
             </section>
-            <aside class="currenttemp">
-                    <h5>Current Temp:</h5>
-                    <div>72&deg</div>
-                    <p>sunny</p>
-            </aside>
         </header>
         <!-- Navigation code -->
         <nav class="navContainer">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-                <li><a href="#">Menu</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li class=><a href="preston.html">Preston</a></li>
-                <li><a href="#">Soda&nbsp;Springs</a></li>
-                <li><a href="#">Fish&nbsp;Haven</a></li>
+                <li><a href="sodasprings.html">Soda&nbsp;Springs</a></li>
+                <li><a href="fishhaven.html">Fish&nbsp;Haven</a></li>
                 <li class="selected"><a href="stormcenter.html">Storm&nbsp;Center</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
@@ -107,7 +101,7 @@
         <!-- footer, including actual date display -->
         <footer>
             <span id="displayDate"></span>
-            <p>&copy2019 | Placeholder | UPDATE | <a href="http://www.byui.edu/online">
+            <p>&copy;2019 | Weather Site | BYUI-CIT230 | Laura Lykins<a href="http://www.byui.edu/online">
             BYU-I Online Learning</a></p>
         </footer>
         <script>actualDate();</script>

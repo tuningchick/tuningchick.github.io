@@ -24,9 +24,9 @@ weatherRequest.onload = function() {
     var outputHumid = weatherData.main.humidity;
     var outputWind = parseFloat(weatherData.wind.speed);
 
-// create variable for wind chill in degrees F
+    // create variable for wind chill in degrees F
     var chill = windChill(outputTemp, outputWind);
-//calculating wind chill
+    //calculating wind chill
     function windChill(temp, speed) {
         var f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16))
             + (0.4275 * temp * Math.pow(speed, 0.16));
@@ -44,7 +44,12 @@ weatherRequest.onload = function() {
     myTemp.innerHTML = 'Temp: ' + outputTemp + '&deg; F';
     myHumidity.innerHTML = 'Humidity: ' + outputHumid + '%';
     myWind.innerHTML = 'Wind: ' + outputWind + 'mph';
-    myChill.innerHTML = 'Wind Chill: ' + chill.toFixed(0) + '&deg; F';
+    if ((outputTemp>50) || (outputWind<3)) {
+        myChill.innerHTML = "Wind Chill: --";
+        }
+    else {
+        myChill.innerHTML = 'Wind Chill: ' + chill.toFixed(0) + '&deg; F';
+    }
 
     myConditions.appendChild(myDesc);
     myConditions.appendChild(myTemp); 
@@ -58,7 +63,7 @@ weatherRequest.onload = function() {
 
 /* display "current temp:", the temp, and the weather icon */
 
-    var outputTemp = parseFloat(weatherData.main.temp);
+    var outputTemp = parseFloat(weatherData.main.temp).toFixed(0);
     var imgArray = weatherData.weather[0].icon;
 
     var iconURL = 'https://openweathermap.org/img/w/'+ imgArray + '.png';
@@ -135,7 +140,30 @@ forecastRequest.onload = function() {
         }
         
     }
-    table.appendChild(tempRow);       
+    table.appendChild(tempRow);  
+    
+    /* create loop to populate table icon row */
+
+    var iconRow = document.createElement('tr');
+    var icon = [];
+    var time = 0;
+    var myIcon = [];
+    for (i=0; i<forecastData.list.length; i++) {
+        var timeSearch = forecastData.list[i].dt_txt;
+        if (timeSearch.search('18:00:00') != -1) {
+            icon[time] = document.createElement('td');
+            myIcon = document.createElement('img');
+            var iconArray = forecastData.list[i].weather[0].icon;
+            var iconURL = 'https://openweathermap.org/img/w/'+ iconArray + '.png'; 
+
+            myIcon.setAttribute('src', iconURL);
+            myIcon.setAttribute('alt', "weather icon");
+            icon[time].appendChild(myIcon);
+            iconRow.appendChild(icon[time]);
+            time++;
+        }
+    }
+    table.appendChild(iconRow);
 }
 
 

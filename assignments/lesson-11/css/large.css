@@ -1,5 +1,5 @@
 /* set media query for large screens */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 850px) {
 
 /* css for only the largest view screens */
 
@@ -11,7 +11,26 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#gallery figcaption:hover {
-    text-shadow: 2px 2px 4px #373334;
+/* change gallery hover setting to comply with assignment */
+
+#gallery img:hover {
+    box-shadow: none;
+}
+#gallery figure:hover {
+    box-shadow: 0 0 4em #373334;
+}
+
+/* change fish haven view to normal for large display */
+
+#fishHaven .navContainer {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: inline-block;
+}
+
+#fishHaven main {
+    grid-column-start: 1;
+    grid-column-end: 6;
 }
 }

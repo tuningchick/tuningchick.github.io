@@ -5,6 +5,7 @@
 
 #currenttemp {
     display: block;
+    border-radius: .3rem;
 }
 
 #currenttemp p {
@@ -13,13 +14,12 @@
     font-family: 'Roboto Slab', serif;
     text-shadow: 1px 1px 2px #777;
     text-align: center;
-    background-color: none;
     width: 100%;
 }
 
 #currenttemp div {
     float: left;
-    width: 51%;
+    width: 50%;
     font-size: 1em;
     text-align: left;
     text-shadow: 1px 1px 2px #777;
@@ -82,13 +82,9 @@ nav ul  {
 }
 /* position menu items to the left and add border right to menu items color #f3f5e9 */
  nav li {
-    float: left;
-    border-right: 1px solid #f3f5e9;
+    float: left;   
 }
-/* style so there is no border line on the far right */
-nav li:last-child {
-    border-right: none;
-}
+
 nav li a {
     display: block;
     color: #73c058;
@@ -97,7 +93,7 @@ nav li a {
     text-decoration: none;
 }
 /* change the link text color to #231f20 on hover */
-nav li a:hover {
+nav ul li a:hover {
     color: #231f20;
 }
 /* active page background color on menu */
@@ -109,29 +105,29 @@ aside h3 {
     text-align: center;
     color: white;
     font-family: 'Roboto Slab', serif;
-    text-shadow: 2px 2px 4px #777;
+    text-shadow: 2px 2px 4px #ee3229;
     padding: 10px;
 }
-/* Put a single line around the table */
+/* format the table with no lines, black background, rounded corners */
 
 .fiveday {
     display: block;
 }
-table {
-    border-collapse: collapse;
+#forecastTable {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-}
-table, th, td {
-    color: #f3f5e9;
-    border: 1px solid #f3f5e9;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .5em;
+    box-shadow: 2px 2px 30px #f3f5e9;
+    padding-top: .5em;
     background-color: #231f20;
 }
-td, th{
+#forecastTable, th, td {
+    color: #f3f5e9;
     text-align: center;
-    padding: 5px;
+    padding: .5em .5em 0 .5em;
 }
 
 /* style the article */
@@ -146,6 +142,10 @@ td, th{
     width: 38%;
 }
 
+#townPageArticle {
+    padding: 1rem 2rem 1rem 0rem;
+}
+
 /* gallery grid for medium view */
 
 #gallery {
@@ -153,6 +153,23 @@ td, th{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3%;
+    padding-bottom: 6%;
+    margin-bottom: 4%;
+}
+
+/* footer style for medium and large views */
+
+footer #displayDate {
+    float: right;
+    width: 25%;
+    text-align: right;
+    margin-right:1%;
+}
+
+footer p {
+    float: left;
+    width: 70%;
+    margin-left: 1%;
 }
 
 /* form larger views formatting */
@@ -173,16 +190,39 @@ form label.sbs {
 #trendingContact {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
 }
 
-.currentArticles {
-    grid-column-start: 1;
-    grid-column-end: 3;
+/* work on Fish Haven different middle view */
+
+#fishHaven {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
 }
 
-.contactHome {
-    grid-column-start: 3;
-    grid-column-end: 4;
+#fishHaven .navContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#fishHaven .navContainer ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#fishHaven .navContainer li {
+    border: none;
+    vertical-align: middle;
+    font-size: 1.2em;
+    padding-left: 1em;
+}
+
+#fishHaven .navContainer a {
+    padding: .8rem 2%;
+    text-align: left;
+    text-decoration: none;
+    display: block;
 }
 }

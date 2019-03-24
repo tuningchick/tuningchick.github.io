@@ -1,1 +1,67 @@
-*{margin:0;box-sizing:border-box}body{background-color:#73c058}h1,h2,h3,h4,h5,h6{font-family:'Roboto Slab',serif;text-align:center;text-shadow:2px 2px 4px #777}#summary h4,p{text-align:left}p{font-size:.9rem}#headerContainer{display:flex;justify-content:center;width:100%;margin:10px auto;background-color:#c2ca86;border:1px solid #bbb;box-shadow:0 0 30px #777;text-align:center}#headerContainer h1{margin-bottom:0;text-shadow:2px 2px 4px #777;margin-right:15px}#headercontainer .headings,#homeTowns article img{margin-left:auto;margin-right:auto}#townPageArticle div p,#upcoming li,.motto p,p{font-family:'Lato',sans-serif}.motto p{font-size:.9em;color:#fff;margin-right:4%;text-shadow:1px 1px 2px #777;text-align:right}#currenttemp,.navContainer{font-family:'Lato',sans-serif}#currenttemp{display:none;opacity:.35;box-shadow:2px 2px 30px #f3f5e9;padding:.3em .1em;margin-left:4%;margin-top:1.5%;margin-bottom:1.5%;background-color:#231f20;color:#fff}.navContainer a,nav button{color:#73c058;text-align:center}nav button{margin:.2rem 2%;background-color:transparent;border:0;font-size:1.6rem}.navContainer{display:flex;flex-direction:column;background-color:#fff;margin:5px auto;color:#73c058}.navContainer ul{margin:0;padding:0}.navContainer li{background-color:#fff;vertical-align:middle;font-size:1.2em;border-top:1px solid rgba(0,0,0,.1);padding-left:1em;padding-right:1em}.navContainer a{padding:.8rem 2%;text-decoration:none;display:block;max-width:400px}nav .selected{background-color:#dddfd4;text-shadow:1px 1px 2px #fff}nav ul li a:hover{background-color:#c7c9bf;color:#fff}#events h3,main h1{text-align:center;color:#fff;text-shadow:1px 1px 2px #ee3229}.center{display:block;margin-left:auto;margin-right:auto;margin-bottom:2%;width:100%}#summary,#summary span{background-color:#f3f5e9}#summary{width:20%;position:absolute;margin-top:3%;margin-left:3%;font-family:'Lato',sans-serif;opacity:.7;box-shadow:0 0 30px #777;padding:1em .5em;border-radius:.3rem}#summary h4{padding:.2em;color:#231f20}#summary span{text-shadow:1px 1px 2px #777}#credit p{width:100%;font-size:.7rem;font-weight:lighter;text-align:center}.currenttemp,.fiveday,nav ul.hide{display:none}#townPageArticle img{width:95%;margin-left:2%;border-radius:.3rem}#townPageArticle{width:95%;max-height:350px;overflow:auto;background-color:#c2ca86;border:1px solid #dddfd4;border-radius:.3rem;margin:2%;padding:1rem 2rem}#townPageArticle div p{line-height:1rem;margin:.5em}#townPageArticle div h2{margin-bottom:.5rem}#townPageArticle div h4{padding:1rem 0}#townPageArticle h5{text-align:left;text-shadow:none;margin:.5rem 0}#events{width:60%;margin-left:auto;margin-right:auto;box-shadow:0 0 30px #777;padding:1.5%;border-radius:.3em}#events h3{padding-bottom:1%}#upcoming ul,.navContainer ul{list-style-type:none}#upcoming li{text-align:center}#contact{background-color:#73c058;width:100%;padding-left:2%}#contact img{float:right;width:42%;margin:2% 2% 2% 0;border-radius:.3rem}#contact div{float:left;width:46%;padding-top:8%}#contact div h5{text-align:left;margin-top:1%;margin-bottom:1%}#gallery{display:flex;flex-direction:column;margin:2%}#gallery img{margin:2%;width:90%;border-radius:.3rem}#gallery figcaption{width:90%;font-size:.9em;color:#fff;text-align:center}#gallery img:hover{box-shadow:0 0 4em #373334}.clearfix::after{content:"";clear:both;display:table}#gallery figcaption,footer,form legend{font-family:'Lato',sans-serif}footer,form fieldset{background-color:#c2ca86}footer{width:100%;display:inline-block;clear:both;padding:1em 0}form fieldset{margin:1rem 2%;border:1px solid #dddfd4;border-radius:3px;padding:.5rem 2%}form legend{color:#fff;padding:0 .5rem;margin:0 1rem;text-shadow:1px 1px 2px #777}form div,form label.top{display:block;padding-top:1rem;font-family:'Roboto Slab',serif;font-size:.8rem}form label.top input,form label.top select,form textarea{width:100%;background-color:#f3f5e9;border:1px #fff;border-radius:4px}form label.top input,form label.top select{-webkit-appearance:none;padding:.75rem;max-width:20rem}form textarea{max-width:50rem;text-align:justify}form label.sbs{display:block;padding:.75rem 0}#ratingvalue,#region,form label.sbs,form label.top input,form label.top select,form textarea{font-size:1rem;font-family:'Lato',sans-serif}form input.submitButton{border:0;background-color:#fff;border-radius:.75rem;padding:.75rem 1.5rem;margin:0 0 2rem 2%;width:100%;max-width:20rem;font-family:'Roboto Slab',serif;font-size:1rem;text-shadow:2px 2px 4px #ee3229}#thanks{padding:4rem}#homeTowns article,.contactHome,.currentArticles{width:90%;display:flex;flex-direction:column;border:1px solid #dddfd4;border-radius:.3rem;background-color:#c2ca86;margin:5%;text-align:center;box-shadow:0 0 30px #777;padding-bottom:1rem}#homeTowns article img{width:100%;border-top-left-radius:.3rem;border-top-right-radius:.3rem;padding-bottom:2px;display:block}#homeTowns h6,.currentArticles p{padding-top:.3rem;font-style:italic}#homeTowns h6,#homeTowns p{text-align:center;font-family:'Lato',sans-serif}#homeTowns h6{font-size:.7em;color:#ee3229;padding-bottom:.3rem;text-shadow:none}#homeTowns p{font-size:.9rem}.contactHome,.currentArticles{padding-top:1rem}.contactHome p{font-size:.8rem;text-align:center;padding-top:.3rem}.currentArticles p{margin-left:1%;text-shadow:1px 1px 2px #fff}.currentArticles a{text-decoration:none;color:#000}
+*{margin:0;box-sizing:border-box}body{background-color:#73c058}h1,h2,h3,h4,h5,h6
+{font-family:'Roboto Slab',serif;text-align:center;text-shadow:2px 2px 4px #777}
+#summary h4,p{text-align:left}p{font-size:.9rem}#headerContainer
+{display:flex;justify-content:center;width:100%;margin:10px auto;background-color:#c2ca86;
+border:1px solid #bbb;box-shadow:0 0 30px #777;text-align:center}
+#headerContainer h1{margin-bottom:0;text-shadow:2px 2px 4px #777;margin-right:15px}
+#headercontainer .headings,#homeTowns article img{margin-left:auto;margin-right:auto}
+#townPageArticle div p,#upcoming li,.motto p,p{font-family:'Lato',sans-serif}
+.motto p{font-size:.9em;color:#fff;margin-right:4%;text-shadow:1px 1px 2px #777;
+text-align:right}#currenttemp,.navContainer{font-family:'Lato',sans-serif}
+#currenttemp{display:none;opacity:.35;box-shadow:2px 2px 30px #f3f5e9;padding:.3em .1em;
+margin-left:4%;margin-top:1.5%;margin-bottom:1.5%;background-color:#231f20;color:#fff}
+.navContainer a,nav button{color:#73c058;text-align:center}nav button{margin:.2rem 2%;
+background-color:transparent;border:0;font-size:1.6rem}
+.navContainer{display:flex;flex-direction:column;background-color:#fff;margin:5px auto;
+color:#73c058}.navContainer ul{margin:0;padding:0}
+.navContainer li{background-color:#fff;vertical-align:middle;font-size:1.2em;
+border-top:1px solid rgba(0,0,0,.1);padding-left:1em;padding-right:1em}
+.navContainer a{padding:.8rem 2%;text-decoration:none;display:block;max-width:400px}
+nav .selected{background-color:#dddfd4;text-shadow:1px 1px 2px #fff}
+nav ul li a:hover{background-color:#c7c9bf;color:#fff}
+#events h3,main h1{text-align:center;color:#fff;text-shadow:1px 1px 2px #ee3229}
+.center{display:block;margin-left:auto;margin-right:auto;margin-bottom:2%;width:100%}
+#summary,#summary span{background-color:#f3f5e9}#summary{width:20%;position:absolute;
+margin-top:3%;margin-left:3%;font-family:'Lato',sans-serif;opacity:.7;box-shadow:0 0 30px #777;
+padding:1em .5em;border-radius:.3rem}#summary h4{padding:.2em;color:#231f20}
+#summary span{text-shadow:1px 1px 2px #777}#credit p{width:100%;font-size:.7rem;
+font-weight:lighter;text-align:center}.currenttemp,.fiveday,nav ul.hide{display:none}
+#townPageArticle img{width:95%;margin-left:2%;border-radius:.3rem}#townPageArticle{width:95%;
+max-height:350px;overflow:auto;background-color:#c2ca86;border:1px solid #dddfd4;
+border-radius:.3rem;margin:2%;padding:1rem 2rem}#townPageArticle div p{line-height:1rem;margin:.5em}
+#townPageArticle div h2{margin-bottom:.5rem}#townPageArticle div h4{padding:1rem 0}
+#townPageArticle h5{text-align:left;text-shadow:none;margin:.5rem 0}#events{width:60%;margin-left:auto;
+margin-right:auto;box-shadow:0 0 30px #777;padding:1.5%;border-radius:.3em}
+#events h3{padding-bottom:1%}#upcoming ul,.navContainer ul{list-style-type:none}
+#upcoming li{text-align:center}#contact{background-color:#73c058;width:100%;padding-left:2%}
+#contact img{float:right;width:42%;margin:2% 2% 2% 0;border-radius:.3rem}
+#contact div{float:left;width:46%;padding-top:8%}#contact div h5{text-align:left;margin-top:1%;
+margin-bottom:1%}#gallery{display:flex;flex-direction:column;margin:2%}#gallery img{margin:2%;
+width:90%;border-radius:.3rem}#gallery figcaption{width:90%;font-size:.9em;color:#fff;
+text-align:center}#gallery img:hover{box-shadow:0 0 4em #373334}
+.clearfix::after{content:"";clear:both;display:table}#gallery figcaption,footer,form legend
+{font-family:'Lato',sans-serif}footer,form fieldset{background-color:#c2ca86}footer{width:100%;
+display:inline-block;clear:both;padding:1em 0}form fieldset{margin:1rem 2%;
+border:1px solid #dddfd4;border-radius:3px;padding:.5rem 2%}form legend{color:#fff;padding:0 .5rem;
+margin:0 1rem;text-shadow:1px 1px 2px #777}form div,form label.top{display:block;
+padding-top:1rem;font-family:'Roboto Slab',serif;font-size:.8rem}
+form label.top input,form label.top select,form textarea{width:100%;background-color:#f3f5e9;
+border:1px #fff;border-radius:4px}form label.top input,form label.top select
+{-webkit-appearance:none;padding:.75rem;max-width:20rem}form textarea{max-width:50rem;
+text-align:justify}form label.sbs{display:block;padding:.75rem 0}
+#ratingvalue,#region,form label.sbs,form label.top input,form label.top select,form textarea
+{font-size:1rem;font-family:'Lato',sans-serif}form input.submitButton
+{border:0;background-color:#fff;border-radius:.75rem;padding:.75rem 1.5rem;margin:0 0 2rem 2%;
+width:100%;max-width:20rem;font-family:'Roboto Slab',serif;font-size:1rem;
+text-shadow:2px 2px 4px #ee3229}#thanks{padding:4rem}
+#homeTowns article,.contactHome,.currentArticles{width:90%;display:flex;flex-direction:column;
+border:1px solid #dddfd4;border-radius:.3rem;background-color:#c2ca86;
+margin:5%;text-align:center;box-shadow:0 0 30px #777;padding-bottom:1rem}
+#homeTowns article img{width:100%;border-top-left-radius:.3rem;
+border-top-right-radius:.3rem;padding-bottom:2px;display:block}
+#homeTowns h6,.currentArticles p{padding-top:.3rem;font-style:italic}#homeTowns h6,#homeTowns p
+{text-align:center;font-family:'Lato',sans-serif}#homeTowns h6{font-size:.7em;color:#ee3229;
+padding-bottom:.3rem;text-shadow:none}#homeTowns p{font-size:.9rem}
+.contactHome,.currentArticles{padding-top:1rem}.contactHome p{font-size:.8rem;text-align:center;
+padding-top:.3rem}.currentArticles p{margin-left:1%;text-shadow:1px 1px 2px #fff}
+.currentArticles a{text-decoration:none;color:#000}

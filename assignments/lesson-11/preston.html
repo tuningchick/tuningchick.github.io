@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Weather Site Town build Preston page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
+    <script type="text/javascript" language="javascript" src="scripts/townweatherapi.js"></script>
+    <title>CIT 230 | Weather Site Preston Page | Laura Lykins | BYU-Idaho</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+    </head>
+    <body>
+        <!--   Header Code  -->
+        <header id="headerContainer">
+            <img src="images/logolarge.png" alt="Weather Check logo">
+            <section class="headings">
+                <h1>Weather Check</h1>
+                <div class="motto">
+                    <p>Your Forecast. Now.</p>
+                </div>
+            </section>
+            <aside id="currenttemp" class="clearfix">
+                <!-- container for api weather info -->
+            </aside>
+        </header>
+        <!-- Navigation code -->
+        <nav class="navContainer">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="selected"><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda&nbsp;Springs</a></li>
+                <li><a href="#">Fish&nbsp;Haven</a></li>
+                <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <!-- Main section hero image, weather summary, and heading -->
+        <main class="clearfix">
+            <h1>Preston, Idaho</h1>
+            <aside id="summary" class="clearfix">
+                    <h4>Weather Summary:</h4>
+                    <!-- create span for weather summary info api call -->
+                    <span id="weatherSummary"></span>
+            </aside>    
+            <figure class="hero">
+                <img src="images/prestonskylinesmall.jpg" alt="Preston, Idaho daytime skyline" class="center"
+                    sizes="100vw" srcset="images/prestonskylinesmall.jpg 400w,
+                    images/prestonskylinemedium.jpg 501w, images/prestonskylinelarge.jpg 992w">
+            </figure>
+            <!-- five day forecast for medium and large view -->
+            <aside class="fiveday">
+                <h3>5-day Forecast</h3>
+                <table id="forecastTable">
+                    <!-- table created for 5 day forecast api call -->
+                </table>
+            </aside>
+            <!-- Article image and content -->
+            <article id="townPageArticle" class="clearfix">
+                <img src="images/thunderstorm.jpg" alt="nighttime lightning strike">
+                <div>
+                    <h2>Thunderstorms & Lightning</h2>
+                    <h5>Author: https://www.ready.gov/thunderstorms-lightning</h5>
+                
+                    <p>Lightning is a leading cause of injury and death from weather-related hazards. 
+                    Although most lightning victims survive, people struck by lightning often report 
+                    a variety of long-term, debilitating symptoms. Thunderstorms are dangerous storms 
+                    that include lightning and can:</p><br>
+                        <ul>
+                            <li>Include powerful winds over 50 MPH;</li>
+                            <li>Create hail; and</li>
+                            <li>Cause flash flooding and tornadoes.</li>
+                        </ul>
+                        <h4> IF YOU ARE UNDER A THUNDERSTORM WARNING, FIND SAFE SHELTER RIGHT AWAY</h4>
+                        <p>During a thunderstorm:</p><br>
+                        <ul>
+                            <li>When thunder roars, go indoors!</li>
+                            <li>Move from outdoors into a building or car.</li>
+                            <li>Pay attention to alerts and warnings.</li>
+                            <li>Unplug appliances.</li>
+                            <li>Do not use landline phones.</li>
+                        </ul>
+                </div>
+            </article>
+            <!-- contact info section and map -->
+            <section id="contact">
+                <div>
+                <h5>Email: contactweathercheck@weathercheckidaho.com</h5>
+                <h5>Address: 1234 Main St., Preston, ID 22222</h5>
+                <h5>Call: 800-888-4567</h5>
+                </div>
+                <img src="images/prestonmapoptimized.jpg" alt="map of preston and surrounding area">
+            </section>
+        </main>
+        <!-- footer, including actual date display -->
+        <footer>
+            <span id="displayDate"></span>
+            <span id="credit">Weather information provided by <a href="https://openweathermap.org">
+            openweathermap.org</a></span>
+            <p>&copy2019 | Placeholder | UPDATE | <a href="http://www.byui.edu/online">
+            BYU-I Online Learning</a></p>
+        </footer>
+        <script>actualDate();</script>
+        <script>outputConditions(5604473)</script>
+        <script>outputFiveDay(5604473)</script>
+    </body>
+</html>

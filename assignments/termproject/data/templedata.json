@@ -1,0 +1,107 @@
+{
+    "temples": [
+        {
+            "name": "Indianapolis",
+            "address": {
+                "street": "11565 Temple Dr",
+                "cityStateZip": "Indianapolis, IN 46032-8859",
+                "country": "United States"
+            },
+            "phone": "317-993-3100",
+            "email": "indytemple@lds.org",
+            "services": {
+                "clothing": "No clothing rental available.",
+                "cafeteria": "No cafeteria.",
+                "patronHousing": "No patron housing available.",
+                "distributionCenter": "No distribution center nearby."
+            },
+            "closures": [
+                "Saturday, April 6, 2019",
+                "Thursday, July 4, 2019",
+                "Monday, August 26, 2019 - Monday, September 9, 2019",
+                "Saturday, October 5, 2019",
+                "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
+                "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
+                "Tuesday, December 31, 2019",
+                "Wednesday, January 1, 2020"
+            ]
+        },
+        {
+            "name": "Chicago",
+            "address": {
+                "street": "4151 W Lake Ave",
+                "cityStateZip": "Glenview IL 60025-1240",
+                "country": "United States"
+            },
+            "phone": "847-299-6500",
+            "email": "chicagotemple@lds.org",
+            "services": {
+                "clothing": "No clothing rental available.",
+                "cafeteria": "No cafeteria.",
+                "patronHousing": "No patron housing available.",
+                "distributionCenter": "Distribution center nearby."
+            },
+            "closures": [
+                "Saturday, April 6, 2019",
+                "Sunday, June 23, 2019 - Monday, September 2, 2019",
+                "Saturday, October 5, 2019",
+                "Wednesday, November 27, 2019 (Limited Hours)",
+                "Thursday, November 28, 2019",
+                "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
+                "Tuesday, December 31, 2019",
+                "Wednesday, January 1, 2020"
+            ]
+        },
+        {
+            "name": "Nauvoo",
+            "address": {
+                "street": "50 N Wells St",
+                "cityStateZip": "Nauvoo IL 62354",
+                "country": "United States"
+            },
+            "phone": "217-453-6252",
+            "email": "nauvootemple@lds.org",
+            "services": {
+                "clothing": "Clothing rental available.",
+                "cafeteria": "No cafeteria.",
+                "patronHousing": "No patron housing available.",
+                "distributionCenter": "No distribution center nearby."
+            },
+            "closures": [
+                "Saturday, April 6, 2019",
+                "Monday, April 29, 2019 - Sunday, May 12, 2019",
+                "Saturday, October 5, 2019",
+                "Monday, November 21, 2019 - Monday, November 25, 2019",
+                "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
+                "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
+                "Tuesday, December 31, 2019",
+                "Wednesday, January 1, 2020"
+            ]
+        },
+        {
+            "name": "St. Louis",
+            "address": {
+                "street": "12555 N Outer Forty Dr",
+                "cityStateZip": "St. Louis MO 63141-8620",
+                "country": "United States"
+            },
+            "phone": "314-514-1122",
+            "email": "stlouistemple@lds.org",
+            "services": {
+                "clothing": "Clothing rental available.",
+                "cafeteria": "No cafeteria.",
+                "patronHousing": "No patron housing available.",
+                "distributionCenter": "Distribution center nearby."
+            },
+            "closures": [
+                "Tuesday, March 12 - Monday, April 8, 2019",
+                "Thursday, July 4, 2019",
+                "Sunday, September 15, 2019 - Monday, October 7, 2019",
+                "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
+                "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
+                "Tuesday, December 31, 2019",
+                "Wednesday, January 1, 2020"
+            ]
+        }
+    ]
+}

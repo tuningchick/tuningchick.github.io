@@ -161,14 +161,14 @@ aside h3 {
 
 footer #displayDate {
     float: right;
-    width: 35%;
+    width: 25%;
     text-align: right;
     margin-right:1%;
 }
 
 footer p {
     float: left;
-    width: 55%;
+    width: 70%;
     margin-left: 1%;
 }
 

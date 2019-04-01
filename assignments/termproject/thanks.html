@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Weather Site Town build Preston page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
+    <script type="text/javascript" language="javascript" src="scripts/windchill.js"></script>
+    <title>CIT 230 | Weather Site Gallery Page | Laura Lykins | BYU-Idaho</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+    <body>
+        <!--   Header Code  -->
+        <header id="headerContainer">
+            <img src="images/logolarge.png" alt="Weather Check logo">
+            <section class="headings">
+                <h1>Weather Check</h1>
+                <div class="motto">
+                    <p>Your Forecast. Now.</p>
+                </div>
+            </section>
+            <aside class="currenttemp">
+                    <h5>Current Temp:</h5>
+                    <div>72&deg</div>
+                    <p>sunny</p>
+            </aside>
+        </header>
+        <!-- Navigation code -->
+        <nav class="navContainer">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li class=><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda&nbsp;Springs</a></li>
+                <li><a href="fishhaven.htl">Fish&nbsp;Haven</a></li>
+                <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <!-- Main section for thank you for submitting the form -->
+        <main class="clearfix">
+           <h2 id="thanks">Thank you for helping keep our storm information current.</h2>
+        </main>   
+        <!-- footer, including actual date display -->
+        <footer>
+            <span id="displayDate"></span>
+            <p>&copy;2019 | Weather Site | BYUI-CIT230 | Laura Lykins<a href="http://www.byui.edu/online">
+            BYU-I Online Learning</a></p>
+        </footer>
+        <script>actualDate();</script>
+    </body>
+</html>

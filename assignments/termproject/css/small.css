@@ -137,7 +137,7 @@ main .hero {
 #mainContainer {
     display: flex;
     flex-direction: column;
-    margin: 2%;
+    margin: 3%;
 }
 
 .icon {
@@ -155,8 +155,8 @@ main .hero {
 
 .description a {
     text-decoration: none;
-    color: #e1b3a5;
-    text-shadow: 1px 1px 1px white;
+    color: white;
+    text-shadow: 1px 1px 1px #e1b3a5;
 }
 
 /* trying the clearfix element to see if it helps with the floats */

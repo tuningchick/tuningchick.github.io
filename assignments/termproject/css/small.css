@@ -141,6 +141,10 @@ nav ul.hide {
     padding: 1% 0;
 }
 
+.description {
+    margin: 0 4%;
+}
+
 /* trying the clearfix element to see if it helps with the floats */
 .clearfix::after {
     content: "";

@@ -11,37 +11,45 @@
     <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
     <script type="text/javascript" language="javascript" src="scripts/townweatherapi.js"></script>
     <script type="text/javascript" language="javascript" src="scripts/events.js"></script>
-    <title>CIT 230 | Weather Site Preston Page | Laura Lykins | BYU-Idaho</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>CIT 230 | Term Project Nauvoo Page | Laura Lykins | BYU-Idaho</title>
+    <link href="https://fonts.googleapis.com/css?family=Buenard" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
     <body>
         <!--   Header Code  -->
         <header id="headerContainer">
-            <img src="images/logolarge.png" alt="Weather Check logo">
+            <img src="images/logolarge.png" alt="Temple Inn & Suites Logo">
             <section class="headings">
-                <h1>Weather Check</h1>
+                <h1>Temple Inn & Suites</h1>
                 <div class="motto">
-                    <p>Your Forecast. Now.</p>
+                    <p>Focus on Service</p>
                 </div>
             </section>
+            <!-- contact info section -->
+            <section id="contact">
+                <div>
+                <h5>Email: contact@weathercheckidaho.com</h5>
+                <h5>Address: 1234 Main St., Preston, ID 22222</h5>
+                <h5>Call: 800-888-4567</h5>
+                </div>
+            </section>
+            <!-- Navigation code -->
+            <nav class="navContainer">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="selected"><a href="#">Temples</a></li>
+                    <li><a href="#">Reservations</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>  
+        </header>
             <aside id="currenttemp" class="clearfix">
                 <!-- container for api weather info -->
             </aside>
-        </header>
-        <!-- Navigation code -->
-        <nav class="navContainer">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="hide">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="preston.html">Preston</a></li>
-                <li class="selected"><a href="sodasprings.html">Soda&nbsp;Springs</a></li>
-                <li><a href="fishhaven.html">Fish&nbsp;Haven</a></li>
-                <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-        <!-- Main section hero image, weather summary, and heading -->
+        <!-- Main section temple info and summaries -->
         <main class="clearfix">
             <h1>Soda&nbsp;Springs, Idaho</h1>
             <aside id="summary" class="clearfix">
@@ -112,15 +120,7 @@
                 <!-- created for upcoming events api call-->
                 </div>
             </section>
-            <!-- contact info section and map -->
-            <section id="contact">
-                <div>
-                <h5>Email: contact@weathercheckidaho.com</h5>
-                <h5>Address: 1234 Main St., Preston, ID 22222</h5>
-                <h5>Call: 800-888-4567</h5>
-                </div>
-                <img src="images/sodaspringsmap.png" alt="map of Soda Springs, Idaho and surrounding area">
-            </section>
+            
         </main>
         <!-- footer, including actual date display -->
         <footer>

@@ -150,6 +150,7 @@ main .hero {
     margin: 2% 8%;
     padding: 2%;
     background-color: rgba(255, 255, 255, 0.2);
+    border-radius: .3rem;
 }
 
 /* trying the clearfix element to see if it helps with the floats */

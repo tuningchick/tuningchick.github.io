@@ -24,7 +24,7 @@ p {
     display: flex;
     justify-content: center;
     width: 100%;
-	margin: 10px auto;
+	margin: 0 auto;
 	background-color: #87768e;
 	box-shadow: 0 0 30px #777;
 	text-align: center;

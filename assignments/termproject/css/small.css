@@ -1,21 +1,21 @@
-/* CIT 230 Town Pages CSS */
+/* CIT 230 Term Project CSS */
 
 /* * is a wildcard referring to all elements. */
 * { margin: 0; box-sizing: border-box; } 
 
 body {
-    background-color: #73c058;
+    background-color: #ccdbd9;
 }
 /* general style h1, h2, etc */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Buenard', serif;
     text-align: center;
     text-shadow: 2px 2px 4px #777;
 }
 
 p {
     text-align: left;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: .9rem;
 }
 
@@ -25,8 +25,7 @@ p {
     justify-content: center;
     width: 100%;
 	margin: 10px auto;
-	background-color: #c2ca86;
-	border: 1px solid #bbb;
+	background-color: #87768e;
 	box-shadow: 0 0 30px #777;
 	text-align: center;
 }
@@ -38,12 +37,11 @@ p {
 }
 
 #headercontainer .headings {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2%;
 }
 
 .motto p { 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: .9em;
     color: white;
     text-align: right;
@@ -51,19 +49,17 @@ p {
     text-shadow: 1px 1px 2px #777; 
 }
 
-/* styling current temp block */
-#currenttemp {
-    display: none;
-    font-family: 'Lato', sans-serif;
-    background-color: #231f20;
-    opacity: 0.35;
-    box-shadow: 2px 2px 30px #f3f5e9;
-    padding: .3em .1em;
-    color: white;
-    margin-left: 4%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+/* styling contact section */
+
+#contact {
+    margin-right: 2%;
 }
+
+#contact h5 {
+    text-align: right;
+    color: #333736;
+}
+
 /* nav hamburger button styling */
 
 nav button {
@@ -72,17 +68,18 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #73c058;
+    color: #87768e;
 }
 
 /* styling navigation menu */
+
 .navContainer {
     display: flex;
     flex-direction: column;
     background-color: white;
     margin: 5px auto;
-    font-family: 'Lato', sans-serif;
-    color: #73c058;
+    font-family: 'Cabin', sans-serif;
+    color: #87768e;
 }
 
 .navContainer ul  {
@@ -101,7 +98,7 @@ nav button {
 }
 
 .navContainer a {
-    color: #73c058;
+    color: #87768e;
     padding: .8rem 2%;
     text-align: center;
     text-decoration: none;
@@ -110,12 +107,12 @@ nav button {
 }
 
 nav .selected {
-    background-color: #dddfd4;
-    text-shadow: 1px 1px 2px white;
+    background-color: #e1b3a5;
+    text-shadow: 1px 1px 2px #777;
 }
 
 nav ul li a:hover {
-    background-color: #c7c9bf;
+    background-color: #768e8b;
     color: white;
 }
 
@@ -124,184 +121,18 @@ nav ul.hide {
     display: none;
 }
 
-/*styling main h1 */
-main h1, #events h3 {
-    text-align: center;
-    color: white;
-    text-shadow: 1px 1px 2px #ee3229;
-}
+/* hide vertical hero image in mobile view */
 
-/* styling weather summary image */
-.center {
-    display: block;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
-    width: 100%;   
-}
-
-/* styling weather summary aside */
-
-#summary {
-    width: 20%;
-    position: absolute;
-    margin-top: 3%;
-    margin-left: 3%;
-    font-family: 'Lato', sans-serif;
-    background-color: #f3f5e9;
-    opacity: 0.7;
-    box-shadow: 0 0 30px #777;
-    padding: 1em .5em;
-    border-radius: .3rem;
-}
-
-#summary h4 {
-    padding: .2em;
-    color: #231f20;
-    text-align: left;
-}
-
-#summary span {
-    text-shadow: 1px 1px 2px #777;
-    background-color: #f3f5e9;
-}
-
-/* credit openweathermap.org format */
-
-#credit p {
-    width: 100%;
-    font-size: .7rem;
-    font-weight: lighter;
-    text-align: center;
-}
-
-/* 5 day forecast needs to not show in mobile view */
-
-.fiveday {
+#heroTabletView {
     display: none;
 }
 
-.currenttemp {
-    display: none;
-}
+/* main style icons and descriptions */
 
-/* Styling article image */
-
-#townPageArticle img {
-    width: 95%;
-    margin-left: 2%;
-    border-radius: .3rem;
-}
-
-/* Styling article */
-
-#townPageArticle {
-    width: 95%;
-    max-height: 350px;
-    overflow: auto;
-    background-color: #c2ca86;
-    border: 1px solid #dddfd4;
-    border-radius: .3rem;
-    margin: 2%;
-    padding: 1rem 2rem 1rem 2rem;
-}
-
-#townPageArticle div p {
-    font-family: 'Lato', sans-serif;
-    line-height: 1rem;
-    margin: .5em;
-}
-
-#townPageArticle div h2 {
-    margin-bottom: .5rem;
-}
-
-#townPageArticle div h4 {
-    padding: 1rem 0;
-}
-
-#townPageArticle h5 {
-    text-align: left;
-    text-shadow: none;
-    margin: .5rem 0; 
-}
-
-/* style upcoming events */
-
-#events {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 30px #777;
-    padding: 1.5%;
-    border-radius: .3em;
-}
-
-#events h3 {
-    padding-bottom: 1%;
-}
-
-#upcoming ul {
-    list-style-type: none;
-}
-
-#upcoming li {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-}
-
-/* styling contact section */
-
-#contact {
-    background-color: #73c058;
-    width: 100%;
-    padding-left: 2%;
-}
-
-#contact img {
-    float: right;
-    width: 42%;
-    margin: 2% 2% 2% 0;
-    border-radius: .3rem;
-}
-
-#contact div {
-    float: left;
-    width: 46%;
-    padding-top: 8%;
-}
-
-#contact div h5 {
-    text-align: left;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-/* grid styling for gallery page small view */
-
-#gallery {
+#mainContainer {
     display: flex;
     flex-direction: column;
     margin: 2%;
-}
-
-#gallery img{
-    margin: 2%;
-    width: 90%;
-    border-radius: .3rem;
-}
-
-#gallery figcaption {
-    width: 90%;
-    font-family: 'Lato', sans-serif;
-    font-size: .9em;
-    color: white;
-    text-align: center;
-}
-
-#gallery img:hover {
-    box-shadow: 0 0 4em #373334;
 }
 
 /* trying the clearfix element to see if it helps with the floats */
@@ -316,10 +147,10 @@ main h1, #events h3 {
 footer {
     width: 100%;
     display: inline-block;
-    background-color: #c2ca86;
+    background-color: #87768e;
     clear: both;
     padding: 1em 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 /* Storm Center form styling */
@@ -475,4 +306,138 @@ form input.submitButton {
 .currentArticles a {
     text-decoration: none;
     color: black;
+}
+
+/* styling current temp block */
+#currenttemp {
+    display: none;
+    font-family: 'Lato', sans-serif;
+    background-color: #231f20;
+    opacity: 0.35;
+    box-shadow: 2px 2px 30px #f3f5e9;
+    padding: .3em .1em;
+    color: white;
+    margin-left: 4%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+/* styling weather summary image */
+.center {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    width: 100%;   
+}
+
+/* styling weather summary aside */
+
+#summary {
+    width: 20%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-family: 'Lato', sans-serif;
+    background-color: #f3f5e9;
+    opacity: 0.7;
+    box-shadow: 0 0 30px #777;
+    padding: 1em .5em;
+    border-radius: .3rem;
+}
+
+#summary h4 {
+    padding: .2em;
+    color: #231f20;
+    text-align: left;
+}
+
+#summary span {
+    text-shadow: 1px 1px 2px #777;
+    background-color: #f3f5e9;
+}
+
+/* credit openweathermap.org format */
+
+#credit p {
+    width: 100%;
+    font-size: .7rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* 5 day forecast needs to not show in mobile view */
+
+.fiveday {
+    display: none;
+}
+
+.currenttemp {
+    display: none;
+}
+
+/* Styling article image */
+
+#townPageArticle img {
+    width: 95%;
+    margin-left: 2%;
+    border-radius: .3rem;
+}
+
+/* Styling article */
+
+#townPageArticle {
+    width: 95%;
+    max-height: 350px;
+    overflow: auto;
+    background-color: #c2ca86;
+    border: 1px solid #dddfd4;
+    border-radius: .3rem;
+    margin: 2%;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+#townPageArticle div p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1rem;
+    margin: .5em;
+}
+
+#townPageArticle div h2 {
+    margin-bottom: .5rem;
+}
+
+#townPageArticle div h4 {
+    padding: 1rem 0;
+}
+
+#townPageArticle h5 {
+    text-align: left;
+    text-shadow: none;
+    margin: .5rem 0; 
+}
+
+/* style upcoming events */
+
+#events {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 30px #777;
+    padding: 1.5%;
+    border-radius: .3em;
+}
+
+#events h3 {
+    padding-bottom: 1%;
+}
+
+#upcoming ul {
+    list-style-type: none;
+}
+
+#upcoming li {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }

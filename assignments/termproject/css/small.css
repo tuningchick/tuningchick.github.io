@@ -156,7 +156,7 @@ main .hero {
 .description a {
     text-decoration: none;
     color: #e1b3a5;
-    text-shadow: 1px 1px 1px #777;
+    text-shadow: 1px 1px 1px white;
 }
 
 /* trying the clearfix element to see if it helps with the floats */

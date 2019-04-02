@@ -135,6 +135,10 @@ nav ul.hide {
     margin: 2%;
 }
 
+#mainContainer div {
+    align: center;
+}
+
 /* trying the clearfix element to see if it helps with the floats */
 .clearfix::after {
     content: "";

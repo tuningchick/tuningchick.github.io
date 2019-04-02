@@ -135,8 +135,10 @@ nav ul.hide {
     margin: 2%;
 }
 
-#mainContainer div {
-    align-content: center;
+#icon #description {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* trying the clearfix element to see if it helps with the floats */

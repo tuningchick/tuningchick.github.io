@@ -17,6 +17,7 @@ p {
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-size: .9rem;
+    color: #333736;
 }
 
 /* styling header */
@@ -147,7 +148,8 @@ main .hero {
 
 .description {
     margin: 2% 8%;
-    background-color: #ffffff 0.2;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* trying the clearfix element to see if it helps with the floats */

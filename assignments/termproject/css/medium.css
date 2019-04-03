@@ -54,6 +54,7 @@ nav button {
 /* right justify nav menu */
 
 .navContainer {
+    width: 100;
     float: right;
 } 
 
@@ -92,10 +93,12 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 /* change the link text color on hover */
 nav ul li a:hover {
     color: #333736;
 }
+
 /* active page background color on menu */
 .selected {
     background-color: #e1b3a5;
@@ -110,11 +113,14 @@ nav ul li a:hover {
 .heroTabletView {
     display: block;
     float: left;
+    width: 20%;
 }
 
 #mainContainer {
     float: right;
+    width: 80%;
 }
+
 /* styling the 5-day forecast */
 aside h3 {
     text-align: center;

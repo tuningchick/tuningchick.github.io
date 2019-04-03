@@ -1,4 +1,4 @@
-/* set media query for medium screens. Thanks kimi for the breakpoint */
+/* set media query for tablet view.  */
 @media only screen and (min-width: 501px) {
 
     /*current temperature style */
@@ -51,10 +51,16 @@ nav button {
     display: none;
 }
 
+/* right justify nav menu */
+
+.navContainer {
+    float: right;
+} 
+
 /* narrow up the horizontal navigation bar */
 
 nav ul li a {
-    padding: .6rem 1rem;
+    padding: .6rem 2%;
 }
 
 /* change flex direction from column to row for larger views */
@@ -62,8 +68,7 @@ nav ul li a {
 nav #primaryNav {
     display: flex;
     flex-flow: row wrap;
-    padding-left: 1em;
-    padding-right: 1em;   
+    padding-left: 1em;   
 }
 
 /* show menu in large view */
@@ -77,28 +82,38 @@ nav ul  {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: white;
-}
-/* position menu items to the left and add border right to menu items color #f3f5e9 */
- nav li {
-    float: left;   
 }
 
 nav li a {
     display: block;
-    color: #73c058;
-    text-align: center;
+    color: #87768e;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
 }
-/* change the link text color to #231f20 on hover */
+/* change the link text color on hover */
 nav ul li a:hover {
-    color: #231f20;
+    color: #333736;
 }
 /* active page background color on menu */
 .selected {
-    background-color: #f3f5e9;
+    background-color: #e1b3a5;
+}
+
+/* hide horizontal hero image and display vertical one */
+
+.hero {
+    display: none;
+}
+
+.heroTabletView {
+    display: block;
+    float: left;
+}
+
+#mainContainer {
+    float: right;
 }
 /* styling the 5-day forecast */
 aside h3 {

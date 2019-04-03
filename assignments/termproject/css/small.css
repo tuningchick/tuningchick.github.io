@@ -124,7 +124,7 @@ nav ul.hide {
 
 /* hide vertical hero image in mobile view */
 
-#heroTabletView {
+.heroTabletView {
     display: none;
 }
 

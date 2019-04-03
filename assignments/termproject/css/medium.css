@@ -57,12 +57,15 @@ nav button {
     width: 100%;
 } 
 
-/* change flex direction from column to row for larger views */
+/* change flex direction from column to row for larger views and style nav */
 
-nav #primaryNav {
+.navContainer #primaryNav {
     display: flex;
     flex-flow: row wrap;
-    padding-left: 1em;   
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    background-color: white;  
 }
 
 /* show menu in large view */
@@ -71,16 +74,8 @@ nav ul.hide {
     display: block;
 }
 
-/*navigation menu styling */
-#primaryNav li  {
-    float: right;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
-
 nav li a {
+    list-style-type: none;
     display: block;
     color: #87768e;
     text-align: right;

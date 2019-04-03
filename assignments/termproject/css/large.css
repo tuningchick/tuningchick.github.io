@@ -46,6 +46,10 @@ nav .selected {
     margin-bottom: 4%;
 }
 
+.mainContainer {
+    width: 100%;
+}
+
 /* change gallery hover setting to comply with assignment */
 
 #gallery img:hover {

@@ -54,7 +54,7 @@ nav button {
 /* right justify nav menu */
 
 .navContainer {
-    width: 100;
+    width: 100%;
     float: right;
 } 
 
@@ -118,7 +118,7 @@ nav ul li a:hover {
 
 #mainContainer {
     float: right;
-    width: 80%;
+    width: 70%;
 }
 
 /* styling the 5-day forecast */

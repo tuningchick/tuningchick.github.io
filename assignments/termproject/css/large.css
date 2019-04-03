@@ -29,10 +29,6 @@ nav .selected {
     text-shadow: 1px 1px 2px #333736;
 }
 
-nav ul li a:hover {
-    color: white;
-}
-
 /* hide vertical hero image and show horizontal hero image */
 
 .heroTabletView {

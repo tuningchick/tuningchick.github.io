@@ -13,11 +13,11 @@
 
 .navContainer #primaryNav {
     background-color: #87768e;
+    padding: 0 2% 2% 2%;
 }
 
 .navContainer a {
-    color: white;
-    padding: 0 2% 2% 2%;
+    color: white;  
 }
 
 nav .selected {

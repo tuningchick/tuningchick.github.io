@@ -110,7 +110,7 @@ nav ul li a:hover {
     display: none;
 }
 
-.heroTabletView img{
+.heroTabletView {
     display: block;
     float: left;
     width: 20%;

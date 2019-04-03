@@ -54,7 +54,6 @@ nav li a {
 /* change the link text color on hover */
 nav ul li a:hover {
     color: #333736;
-    padding: 0 1em;
 }
 
 /* active page background color on menu */

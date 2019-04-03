@@ -24,6 +24,18 @@ nav .selected {
     color: #333736;
 }
 
+/* hide vertical hero image and show horizontal hero image */
+
+.heroTabletView {
+    display: none;
+}
+
+.hero {
+    display: block;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
 /* gallery grid layout for large views */
 
 #gallery {

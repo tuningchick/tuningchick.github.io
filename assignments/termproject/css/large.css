@@ -20,6 +20,10 @@
     color: white;  
 }
 
+.navContainer li {
+    border-top: none;
+}
+
 nav .selected {
     color: #333736;
 }

@@ -72,7 +72,7 @@ nav ul.hide {
 }
 
 /*navigation menu styling */
-.navContainer ul  {
+#primaryNav li  {
     float: right;
     list-style-type: none;
     margin: 0;

@@ -3,6 +3,27 @@
 
 /* css for only the largest view screens */
 
+/* get rid of header bottom padding to make nav bar look right */
+
+#headerContainer {
+    padding: 2% 2% 0 2%;
+}
+
+/* change nav bar styling */
+
+.navContainer {
+    background-color: #87768e;
+}
+
+.navContainer a {
+    color: white;
+    padding: 0 2% 1% 2%;
+}
+
+nav .selected {
+    color: #333736;
+}
+
 /* gallery grid layout for large views */
 
 #gallery {

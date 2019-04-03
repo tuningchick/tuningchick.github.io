@@ -99,7 +99,7 @@ nav button {
 
 .navContainer a {
     color: #87768e;
-    padding: .2rem 2%;
+    padding: .3rem 2%;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -114,6 +114,7 @@ nav .selected {
 nav ul li a:hover {
     background-color: #768e8b;
     color: white;
+    padding: .3rem 2%;
 }
 
 /* functionality of hamburger icon */

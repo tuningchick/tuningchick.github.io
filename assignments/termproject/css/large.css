@@ -30,7 +30,8 @@ nav .selected {
 }
 
 nav ul li a:hover {
-    color: #e1b3a5;
+    color: #768e8b;
+    background-color: white;
 }
 
 /* hide vertical hero image and show horizontal hero image */

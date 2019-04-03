@@ -55,14 +55,7 @@ nav button {
 
 .navContainer {
     width: 100%;
-    float: right;
 } 
-
-/* narrow up the horizontal navigation bar */
-
-nav ul li a {
-    padding: .6rem 2%;
-}
 
 /* change flex direction from column to row for larger views */
 
@@ -79,7 +72,8 @@ nav ul.hide {
 }
 
 /*navigation menu styling */
-nav ul  {
+.navContainer ul  {
+    float: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -90,7 +84,7 @@ nav li a {
     display: block;
     color: #87768e;
     text-align: right;
-    padding: 14px 16px;
+    padding: 14px 0;
     text-decoration: none;
 }
 

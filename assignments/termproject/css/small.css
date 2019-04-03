@@ -133,26 +133,26 @@ main .hero {
     margin-bottom: 2%;
 }
 
-#mainContainer {
+.mainContainer {
     display: flex;
     flex-direction: column;
     margin: 3%;
 }
 
-.group .icon {
+.icon {
     margin-left: auto;
     margin-right: auto;
     padding: 1% 0;
 }
 
-.group .description {
+.description {
     margin: 2% 8%;
     padding: 4%;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: .3rem;
 }
 
-.group .description a {
+.description a {
     text-decoration: none;
     color: #768e8b;
     text-shadow: 1px 1px 2px white;

@@ -75,7 +75,7 @@ function runShowTemples() {
                 myArticle.appendChild(myH4);
                 myArticle.appendChild(templeDates);
                 myArticle.appendChild(templeStreet);
-                myArticle.appendChild(tmpleCity);
+                myArticle.appendChild(templeCity);
                 myArticle.appendChild(templeCountry);
                 myArticle.appendChild(phone);
                 myArticle.appendChild(templePhone);

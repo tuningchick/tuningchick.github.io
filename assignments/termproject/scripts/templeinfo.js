@@ -55,18 +55,18 @@ function runShowTemples() {
             var closuresList = document.createElement('ul');
 
         /* loop to determine services and add them to list */
-        for (var s = 0; s < event.length; s++) {
+        for (var s = 0; s < services.length; s++) {
             var templeServices = document.createElement('li');
 
-            templeServices.innerHTML = event[e];
+            templeServices.innerHTML = services[s];
             servicesList.appendChild(myDiv);
         }
 
-        /* loop to determine services and add them to list */
-        for (var c = 0; c < event.length; c++) {
+        /* loop to determine closures and add them to list */
+        for (var c = 0; c < closures.length; c++) {
             var templeClosures = document.createElement('li');
 
-            templeClosures.innerHTML = event[e];
+            templeClosures.innerHTML = closures[c];
             closuresList.appendChild(myDiv);
         }
     

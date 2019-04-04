@@ -40,7 +40,7 @@ function runShowTemples() {
                 templeImg.setAttribute('src', templeImgName);
                 templeImg.setAttribute('alt', 'Photo of ' + templeName[i]);
                 myH4.textContent = templeName[i].name;
-                templeDates.textContent = townName[i].motto;
+                templeDates.textContent = templeName[i].motto;
                 templeStreet.textContent = templeName[i].address.street;
                 templeCity.textContent = templeName[i].address.cityStateZip;
                 templeCountry.textContent = templeName[i].address.country;

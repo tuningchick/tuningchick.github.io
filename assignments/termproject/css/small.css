@@ -23,32 +23,11 @@ p {
 /* styling header */
 #headerContainer {
     display: flex;
-    justify-content: flex-start;
     width: 100%;
 	margin: 0 auto;
 	background-color: #87768e;
 	box-shadow: 0 0 30px #777;
-    text-align: center;
     padding: 2%;
-}
-
-#headerContainer h1 {
-    margin-bottom: 0;
-    text-shadow: 2px 2px 4px #777;
-    margin-right: 15px;
-}
-
-#headercontainer .headings {
-    margin-left: 2%;
-}
-
-.motto p { 
-    font-family: 'Cabin', sans-serif;
-    font-size: .9em;
-    color: white;
-    text-align: right;
-    margin-right: 4%;
-    text-shadow: 1px 1px 2px #777; 
 }
 
 /* styling contact section */

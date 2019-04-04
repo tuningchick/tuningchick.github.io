@@ -3,14 +3,14 @@
 
 /* header settings */
 
-#headerContainer img {
+#headerContainer .logo {
     float: left;
-    width: 40%;
+    width: 45%;
 }
 
 #contact {
     float: right;
-    width: 40%;
+    width: 45%;
 }
 
 

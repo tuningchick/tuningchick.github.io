@@ -41,6 +41,7 @@ p {
 #contact h5 {
     text-align: right;
     color: #ccdbd9;
+    text-shadow: none;
 }
 
 /* nav hamburger button styling */
@@ -110,6 +111,10 @@ nav ul.hide {
 }
 
 /* main style icons and descriptions */
+
+main h2 {
+    padding-bottom: 2%;
+}
 
 main .hero {
     margin-bottom: 2%;

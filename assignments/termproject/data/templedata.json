@@ -2,6 +2,7 @@
     "temples": [
         {
             "name": "Indianapolis",
+            "dates": "Groundbreaking: Sept. 29, 2012; Dedication: Aug. 23, 2015",
             "address": {
                 "street": "11565 Temple Dr",
                 "cityStateZip": "Indianapolis, IN 46032-8859",
@@ -15,6 +16,8 @@
                 "patronHousing": "No patron housing available.",
                 "distributionCenter": "No distribution center nearby."
             },
+            "sessions": "Tues.-Sat.: 6pm & 7:30pm; Wed.: 10am & 11:30am",
+            "ordinances": "For baptisms, living ordinances and group sessions, please call.",
             "closures": [
                 "Saturday, April 6, 2019",
                 "Thursday, July 4, 2019",

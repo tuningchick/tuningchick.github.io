@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
+    <script type="text/javascript" language="javascript" src="scripts/templeinfo.js"></script>
     <title>CIT 230 | Weather Site Home Page | Laura Lykins | BYU-Idaho</title>
     <link href="https://fonts.googleapis.com/css?family=Buenard" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
@@ -50,43 +51,12 @@
                 <img src="images/herovertical.jpg" alt="Collage of temple activities">
             </figure>
             <h2>Temple Locations We Serve</h2>
-            <section id="containerBox">
-            <section class="mainContainer">
-                <div class="icon">
-                    <a href="#"><img src="images/templeicon.png" alt="temple silhouette icon"></a>
-                </div>
-                <div class="description">
-                    <p>Groundbreaking for the rebuilding of the historic Nauvoo temple occured Oct. 24, 1999,
-                        with the dedication following on June 27, 2002. This beautiful building stands on a bluff 
-                        overlooking a bend in the Mississippi River. <a href="#">See more</a> about the temples we 
-                        serve.
-                    </p> 
-                </div>
-            </section>
-            <section class="mainContainer">
-                <div class="icon">
-                    <a href="#"><img src="images/reservationicon.png" alt="hotel reservation icon"></a>
-                </div>
-                <div class="description">
-                    <p>Make a reservation now for accommodations convenient to the temple you will be visiting. 
-                        Ammenities include: breakfast, workout room, wifi and smart TV's, pool, temple shuttle 
-                        service, family history services, short-term child care. <a href="#">see more...</a>
-                    </p> 
-                </div>
-            </section>
-            <section class="mainContainer">    
-                <div class="icon">
-                    <a href="#"><img src="images/servicesicon.png" alt="additional services icon"></a>
-                </div>
-                <div class="description">
-                    <p>Other services include: long-term accomodations for missionary couples; wedding reception 
-                        hall with catering and kitchen access; family history center; free access to bathrooms 
-                        and changing area for temple patrons; temple history themed reception and sitting area. 
-                        <a href="#">See more...</a>
-                    </p> 
-                </div>
-            </section>
-            </section>
+            <div id="templeContainer">
+                <!-- create section to occupy temple json -->
+                <section id="temples">
+                
+                </section>
+            </div>
         </main>
         <!-- footer, including actual date display -->
         <footer>
@@ -96,5 +66,6 @@
             BYU-I Online Learning</a></p>
         </footer>
         <script>actualDate();</script>
+        <script>runShowTowns();</script>
     </body>
 </html>

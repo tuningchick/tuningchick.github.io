@@ -5,12 +5,12 @@
 
 #headerContainer .logo {
     float: left;
-    width: 48%;
+    width: 50%;
 }
 
 #contact {
     float: right;
-    width: 48%;
+    width: 50%;
     margin-right: 0;
 }
 

@@ -6,7 +6,7 @@
 #headerContainer {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    align-content: stretch;
 }
 
 /* hide hamburger icon */

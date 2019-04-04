@@ -1,13 +1,19 @@
 /* set media query for tablet view.  */
 @media only screen and (min-width: 501px) {
 
-/* header flex settings */
+/* header settings */
 
-#headerContainer {
-    display: flex;
-    flex-direction: row;
-    align-content: stretch;
+#headerContainer img {
+    float: left;
+    width: 40%;
 }
+
+#contact {
+    float: right;
+    width: 40%;
+}
+
+
 
 /* hide hamburger icon */
 

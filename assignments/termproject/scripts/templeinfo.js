@@ -31,7 +31,7 @@ function runShowTemples() {
                 var templePhone = document.createElement('p');
                 var email = document.createElement('h5');
                 var templeEmail = document.createElement('p');
-    
+
                 var simplename = templeName[i].name.replace(/\s/g, '').toLowerCase();
                 var templeImgName= 'images/' + simplename + '.jpg';
 
@@ -55,9 +55,9 @@ function runShowTemples() {
             var closuresList = document.createElement('ul');
             var services = templeName[i].services;
             var closures = templeName[i].closures;
-            var closuresTitle = document.createElement(h5);
-            var servicesTitle = document.createElement(h5);
-
+            var closuresTitle = document.createElement('h5');
+            var servicesTitle = document.createElement('h5');
+            
         /* loop to determine services and add them to list */
         for (var s = 0; s < services.length; s++) {
             var servicesAvailable = document.createElement('li');

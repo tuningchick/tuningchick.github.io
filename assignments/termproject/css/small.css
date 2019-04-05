@@ -133,7 +133,7 @@ main .hero {
     display: block;
 }
 
-.mainContainer .description {
+.description p {
     margin: 2% 8%;
     padding: 4%;
     background-color: rgba(255, 255, 255, 0.3);

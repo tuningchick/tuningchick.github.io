@@ -65,7 +65,7 @@ nav li a {
     display: none;
 }
 
-.heroTabletView img {
+.heroTabletView {
     display: block;
     float: left;
     width: 20%;

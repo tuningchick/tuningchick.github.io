@@ -168,7 +168,7 @@ footer {
 #temple img {
     border-radius: .3rem;
     width: 90%;
-    max-width: 400px;
+    display: block;
 }
 
 #temple article, div {
@@ -185,7 +185,7 @@ footer {
     margin: .2em 0;
 }
 
-#temple div ul li{
+#temple ul li{
     background-color: rgba(255, 255, 255, 0.3);
     font-family: 'Cabin', sans-serif;
     font-size: .8rem;

@@ -58,10 +58,10 @@ function runShowTemples() {
 
         /* loop to determine services and add them to list */
         for (var s = 0; s < services.length; s++) {
-            var templeServices = document.createElement('li');
+            var servicesAvailable = document.createElement('li');
 
-            templeServices.innerHTML = services[s];
-            servicesList.appendChild(templeServices);
+            servicesAvailable.innerHTML = services[s];
+            servicesList.appendChild(servicesAvailable);
         }
 
         /* loop to determine closures and add them to list */

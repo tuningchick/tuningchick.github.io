@@ -63,6 +63,11 @@ nav ul li a:hover {
 
 /* layout for temple page */
 
+#templeContainer {
+    float: none;
+    width: 100%;
+}
+
 #temples {
     width: 95%;
 }

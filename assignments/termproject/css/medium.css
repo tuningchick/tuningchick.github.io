@@ -65,7 +65,7 @@ nav li a {
     display: none;
 }
 
-.heroTabletView {
+.heroTabletView img {
     display: block;
     float: left;
     width: 20%;
@@ -81,7 +81,7 @@ nav li a {
 /* temples page */
 
 #templeContainer {
-    float: left;
+    float: right;
     width: 70%;
 }
 

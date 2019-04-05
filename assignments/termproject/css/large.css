@@ -72,6 +72,11 @@ nav ul li a:hover {
     width: 95%;
 }
 
+#temples article {
+    display: flex;
+    flex-direction: row;
+}
+
 /* change gallery hover setting to comply with assignment */
 
 #gallery img:hover {

@@ -126,7 +126,7 @@ main .hero {
     margin: 3%;
 }
 
-.icon {
+.mainContainer .icon img{
     margin-left: auto;
     margin-right: auto;
     padding: 1% 0;

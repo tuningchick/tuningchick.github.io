@@ -165,28 +165,38 @@ footer {
 
 /* temple page temple info styling */
 
-#temple article img {
-    border-radius: .3rem;
-    width: 90%;
-    display: block;
-}
-
-#temple article, div {
+#temples {
+    display: flex;
+    flex-direction: column;
     width: 90%;
     margin: 0 auto;
 }
 
-#temple article h3 {
+#temples article img {
+    border-radius: .3rem;
+    width: 100%;
+    display: block;
+}
+
+#temples article, div {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#temples article h3 {
     margin: .3em 0;
 } 
 
-#temple article h5, div h5 {
+#temples article h5, div h5 {
     text-align: left;
     margin: .2em 0;
 }
 
-#temple article div ul li{
+#temple div {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+#temples div li{
     font-family: 'Cabin', sans-serif;
     font-size: .8rem;
     color: #333736;

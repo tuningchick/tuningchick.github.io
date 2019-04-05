@@ -165,7 +165,7 @@ footer {
 
 /* temple page temple info styling */
 
-#temple article {
+#temple {
     display: flex;
     flex-direction: column;
     width: 94%;

@@ -22,14 +22,14 @@ function runShowTemples() {
                 var myArticle = document.createElement('article');
                 var myDiv = document.createElement('div');
                 var templeImg = document.createElement('img');
-                var myH4 = document.createElement('h4');
-                var templeDates = document.createElement('h6');
+                var myH3 = document.createElement('h3');
+                var templeDates = document.createElement('h5');
                 var templeStreet = document.createElement('p');
                 var templeCity = document.createElement('p');
                 var templeCountry = document.createElement('p');
-                var phone = document.createElement('h6');
+                var phone = document.createElement('h5');
                 var templePhone = document.createElement('p');
-                var email = document.createElement('h6');
+                var email = document.createElement('h5');
                 var templeEmail = document.createElement('p');
     
                 var simplename = templeName[i].name.replace(/\s/g, '').toLowerCase();
@@ -74,7 +74,7 @@ function runShowTemples() {
     
                 myArticle.appendChild(templeImg);
     
-                myArticle.appendChild(myH4);
+                myArticle.appendChild(myH3);
                 myArticle.appendChild(templeDates);
                 myArticle.appendChild(templeStreet);
                 myArticle.appendChild(templeCity);

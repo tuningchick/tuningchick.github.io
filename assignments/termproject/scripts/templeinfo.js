@@ -55,6 +55,8 @@ function runShowTemples() {
             var closuresList = document.createElement('ul');
             var services = templeName[i].services;
             var closures = templeName[i].closures;
+            var closuresTitle = document.createElement(h5);
+            var servicesTitle = document.createElement(h5);
 
         /* loop to determine services and add them to list */
         for (var s = 0; s < services.length; s++) {
@@ -84,7 +86,12 @@ function runShowTemples() {
                 myArticle.appendChild(email);
                 myArticle.appendChild(templeEmail);
 
+                servicesTitle.textContent = "Services Available: ";
+                closuresTitle.textContent = "Temple Closures: ";
+
+                myDiv.appendChild(servicesTitle);
                 myDiv.appendChild(servicesList);
+                myDiv.appendChild(closuresTitle);
                 myDiv.appendChild(closuresList);
                 
                 section.appendChild(myArticle);

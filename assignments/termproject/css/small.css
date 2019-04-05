@@ -172,6 +172,7 @@ footer {
 
 #temple article, div {
     width: 90%;
+    margin: 0 auto;
 }
 
 #temple article h3 {

@@ -38,12 +38,12 @@
             },
             "phone": "847-299-6500",
             "email": "chicagotemple@lds.org",
-            "services": {
-                "clothing": "No clothing rental available.",
-                "cafeteria": "No cafeteria.",
-                "patronHousing": "No patron housing available.",
-                "distributionCenter": "Distribution center nearby."
-            },
+            "services": [
+                "No clothing rental available.",
+                "No cafeteria.",
+                "No patron housing available.",
+                "Distribution center nearby."
+            ],
             "sessions": "Endowment sessions: Tues.-Sat.: 9am, 10:30am, 12pm, 4:30pm, 6pm, 7:30pm",
             "ordinances": "Other ordinances: For baptisms, living ordinances and group sessions, please call.",
             "closures": [
@@ -66,12 +66,12 @@
             },
             "phone": "217-453-6252",
             "email": "nauvootemple@lds.org",
-            "services": {
-                "clothing": "Clothing rental available.",
-                "cafeteria": "No cafeteria.",
-                "patronHousing": "No patron housing available.",
-                "distributionCenter": "No distribution center nearby."
-            },
+            "services": [
+                "Clothing rental available.",
+                "No cafeteria.",
+                "No patron housing available.",
+                "No distribution center nearby."
+            ],
             "sessions": "Endowment sessions: Tues.-Sat.: 9am, 10:30am, 12pm, 4:30pm, 6pm, 7:30pm",
             "ordinances": "Other ordinances: For baptisms, living ordinances and group sessions, please call.",
             "closures": [
@@ -94,12 +94,12 @@
             },
             "phone": "314-514-1122",
             "email": "stlouistemple@lds.org",
-            "services": {
-                "clothing": "Clothing rental available.",
-                "cafeteria": "No cafeteria.",
-                "patronHousing": "No patron housing available.",
-                "distributionCenter": "Distribution center nearby."
-            },
+            "services": [
+                "Clothing rental available.",
+                "No cafeteria.",
+                "No patron housing available.",
+                "Distribution center nearby."
+            ],
             "sessions": "Endowment sessions: Tues.-Fri.: 9am, 10:30am, 12pm, 4:30pm, 6pm, 7:30pm; Sat.: 9am, 10:30am, 12pm",
             "ordinances": "Other ordinances: For baptisms, living ordinances and group sessions, please call.",
             "closures": [

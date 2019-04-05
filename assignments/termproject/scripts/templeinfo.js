@@ -23,7 +23,8 @@ function runShowTemples() {
                 var myDiv = document.createElement('div');
                 var templeImg = document.createElement('img');
                 var myH3 = document.createElement('h3');
-                var templeDates = document.createElement('h5');
+                var templeDates = document.createElement('p');
+                var address = document.createElement('h5');
                 var templeStreet = document.createElement('p');
                 var templeCity = document.createElement('p');
                 var templeCountry = document.createElement('p');
@@ -40,7 +41,8 @@ function runShowTemples() {
                 templeImg.setAttribute('src', templeImgName);
                 templeImg.setAttribute('alt', 'Photo of ' + templeName[i]);
                 myH3.textContent = templeName[i].name;
-                templeDates.textContent = templeName[i].motto;
+                templeDates.textContent = templeName[i].dates;
+                address.textContent = "Address: ";
                 templeStreet.innerHTML = templeName[i].address.street;
                 templeCity.textContent = templeName[i].address.cityStateZip;
                 templeCountry.textContent = templeName[i].address.country;
@@ -78,6 +80,7 @@ function runShowTemples() {
     
                 myArticle.appendChild(myH3);
                 myArticle.appendChild(templeDates);
+                myArticle.appendChild(address);
                 myArticle.appendChild(templeStreet);
                 myArticle.appendChild(templeCity);
                 myArticle.appendChild(templeCountry);

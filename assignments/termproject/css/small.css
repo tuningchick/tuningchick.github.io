@@ -124,6 +124,7 @@ main .hero {
     display: flex;
     flex-direction: column;
     margin: 3% auto;
+    justify-content: center;
 }
 
 .mainContainer .icon {

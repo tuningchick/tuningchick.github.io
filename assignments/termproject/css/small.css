@@ -165,15 +165,13 @@ footer {
 
 /* temple page temple info styling */
 
-#temple {
-    display: flex;
-    flex-direction: column;
-    width: 94%;
-    margin: 0 auto;
-}
-
 #temple img {
     border-radius: .3rem;
+    width: 90%;
+}
+
+#temple article, div {
+    width: 90%;
 }
 
 #temple article h3 {
@@ -185,11 +183,8 @@ footer {
     margin: .2em 0;
 }
 
-#temple div {
+#temple div ul {
     background-color: rgba(255, 255, 255, 0.3);
-}
-
-#temple div li {
     font-family: 'Cabin', sans-serif;
     font-size: .8rem;
     color: #333736;

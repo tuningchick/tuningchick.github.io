@@ -71,8 +71,17 @@ nav li a {
     width: 20%;
 }
 
+/* home page */
+
 .mainContainer {
     float: right;
+    width: 70%;
+}
+
+/* temples page */
+
+#templeContainer {
+    float: left;
     width: 70%;
 }
 

@@ -123,10 +123,10 @@ main .hero {
 .mainContainer {
     display: flex;
     flex-direction: column;
-    margin: 3%;
+    margin: 3% auto;
 }
 
-.mainContainer .icon img{
+.icon img{
     margin-left: auto;
     margin-right: auto;
     padding: 1% 0;

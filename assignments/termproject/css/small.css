@@ -163,6 +163,33 @@ footer {
     font-family: 'Cabin', sans-serif;
 }
 
+/* temple page temple info styling */
+
+#temple {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+}
+
+#temple img {
+    border-radius: .3rem;
+}
+
+#temple article h3 {
+    margin: .3em 0;
+} 
+
+#temple article h5, div h5 {
+    text-align: left;
+    margin: .2em 0;
+}
+
+#temple div li {
+    font-family: 'Cabin', sans-serif;
+    font-size: .8rem;
+    color: #333736;
+}
+
 /* Storm Center form styling */
 
 form fieldset {

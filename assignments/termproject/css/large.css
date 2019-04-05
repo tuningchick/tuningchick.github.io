@@ -61,6 +61,12 @@ nav ul li a:hover {
     margin: 3% 0;
 }
 
+/* layout for temple page */
+
+#temples {
+    width: 95%;
+}
+
 /* change gallery hover setting to comply with assignment */
 
 #gallery img:hover {

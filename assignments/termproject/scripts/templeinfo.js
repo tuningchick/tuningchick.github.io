@@ -61,7 +61,7 @@ function runShowTemples() {
             var templeServices = document.createElement('li');
 
             templeServices.innerHTML = services[s];
-            servicesList.appendChild(myDiv);
+            servicesList.appendChild(servicesList);
         }
 
         /* loop to determine closures and add them to list */
@@ -69,7 +69,7 @@ function runShowTemples() {
             var templeClosures = document.createElement('li');
 
             templeClosures.innerHTML = closures[c];
-            closuresList.appendChild(myDiv);
+            closuresList.appendChild(closuresList);
         }
     
                 myArticle.appendChild(templeImg);
@@ -83,6 +83,9 @@ function runShowTemples() {
                 myArticle.appendChild(templePhone);
                 myArticle.appendChild(email);
                 myArticle.appendChild(templeEmail);
+
+                myDiv.appendChild(servicesList);
+                myDiv.appendChild(closuresList);
                 
                 section.appendChild(myArticle);
                 section.appendChild(myDiv);

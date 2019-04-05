@@ -16,8 +16,8 @@
                 "patronHousing": "No patron housing available.",
                 "distributionCenter": "No distribution center nearby."
             },
-            "sessions": "Tues.-Sat.: 6pm & 7:30pm; Wed.: 10am & 11:30am",
-            "ordinances": "For baptisms, living ordinances and group sessions, please call.",
+            "sessions": "Endowment sessions: Tues.-Fri.: 6pm & 7:30pm; Wed.: 10am & 11:30am; Sat.: 9am, 10:30am, 12pm",
+            "ordinances": "Other ordinances: For baptisms, living ordinances and group sessions, please call.",
             "closures": [
                 "Saturday, April 6, 2019",
                 "Thursday, July 4, 2019",
@@ -44,6 +44,8 @@
                 "patronHousing": "No patron housing available.",
                 "distributionCenter": "Distribution center nearby."
             },
+            "sessions": "Endowment sessions: Tues.-Sat.: 9am, 10:30am, 12pm, 4:30pm, 6pm, 7:30pm",
+            "ordinances": "Other ordinances: For baptisms, living ordinances and group sessions, please call.",
             "closures": [
                 "Saturday, April 6, 2019",
                 "Sunday, June 23, 2019 - Monday, September 2, 2019",
@@ -70,6 +72,8 @@
                 "patronHousing": "No patron housing available.",
                 "distributionCenter": "No distribution center nearby."
             },
+            "sessions": "Endowment sessions: Tues.-Sat.: 9am, 10:30am, 12pm, 4:30pm, 6pm, 7:30pm",
+            "ordinances": "Other ordinances: For baptisms, living ordinances and group sessions, please call.",
             "closures": [
                 "Saturday, April 6, 2019",
                 "Monday, April 29, 2019 - Sunday, May 12, 2019",
@@ -82,7 +86,7 @@
             ]
         },
         {
-            "name": "St. Louis",
+            "name": "Saint Louis",
             "address": {
                 "street": "12555 N Outer Forty Dr",
                 "cityStateZip": "St. Louis MO 63141-8620",
@@ -96,6 +100,8 @@
                 "patronHousing": "No patron housing available.",
                 "distributionCenter": "Distribution center nearby."
             },
+            "sessions": "Endowment sessions: Tues.-Fri.: 9am, 10:30am, 12pm, 4:30pm, 6pm, 7:30pm; Sat.: 9am, 10:30am, 12pm",
+            "ordinances": "Other ordinances: For baptisms, living ordinances and group sessions, please call.",
             "closures": [
                 "Tuesday, March 12 - Monday, April 8, 2019",
                 "Thursday, July 4, 2019",

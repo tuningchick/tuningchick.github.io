@@ -10,12 +10,12 @@
             },
             "phone": "317-993-3100",
             "email": "indytemple@lds.org",
-            "services": {
-                "clothing": "No clothing rental available.",
-                "cafeteria": "No cafeteria.",
-                "patronHousing": "No patron housing available.",
-                "distributionCenter": "No distribution center nearby."
-            },
+            "services": [
+                "No clothing rental available.",
+                "No cafeteria.",
+                "No patron housing available.",
+                "No distribution center nearby."
+            ],
             "sessions": "Endowment sessions: Tues.-Fri.: 6pm & 7:30pm; Wed.: 10am & 11:30am; Sat.: 9am, 10:30am, 12pm",
             "ordinances": "Other ordinances: For baptisms, living ordinances and group sessions, please call.",
             "closures": [

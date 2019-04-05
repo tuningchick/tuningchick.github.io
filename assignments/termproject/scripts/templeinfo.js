@@ -53,6 +53,8 @@ function runShowTemples() {
 
             var servicesList = document.createElement('ul');
             var closuresList = document.createElement('ul');
+            var services = templeName[i].services;
+            var closures = templeName[i].closures;
 
         /* loop to determine services and add them to list */
         for (var s = 0; s < services.length; s++) {

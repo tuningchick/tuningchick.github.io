@@ -28,7 +28,7 @@
                 "Tuesday, December 31, 2019",
                 "Wednesday, January 1, 2020"
             ],
-            "history": ""
+            "history": "The Indianapolis Indiana Temple stands on the southwest corner of West 116th Street and Spring Mill Road in Carmel, Indiana—a picturesque suburb located just north of Indianapolis. The temple is easily accessible from U.S. 31, two miles north of its interchange with I-465. Sharing the temple site is a beautiful meetinghouse with an open courtyard. The design of the stately spire of the Indianapolis Indiana Temple draws inspiration from the historic memorials and monuments found in the heart of Indianapolis, such as the Indiana World War Memorial and the Soldiers' and Sailors' Monument.",
         },
         {
             "name": "Chicago",
@@ -57,7 +57,8 @@
                 "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
                 "Tuesday, December 31, 2019",
                 "Wednesday, January 1, 2020"
-            ]
+            ],
+            "history": "The Chicago Illinois Temple is the thirty-fifth temple of The Church of Jesus Christ of Latter-day Saints. It is the second of three church temples that have been built in Illinois (The first and the third being the Nauvoo Temple and the Nauvoo Illinois Temple). Located in the Chicago suburb of Glenview, the site of Chicago Illinois Temple was dedicated on August 13, 1985 by Gordon B. Hinckley, a member of the church's First Presidency. The structure itself was constructed in Gray buff marble and its roof features gray slate. Architects used a revolutionary design for LDS temples, adapting the traditional six-spire design and adding modern motifs.",
         },
         {
             "name": "Nauvoo",
@@ -86,7 +87,8 @@
                 "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
                 "Tuesday, December 31, 2019",
                 "Wednesday, January 1, 2020"
-            ]
+            ],
+            "history": "The Nauvoo Temple was the first in which ordinances such as eternal marriage and baptism for the dead were performed. This temple, which was such an integral part of the Lord's work, was not completed before Joseph Smith died a martyr. After the Saints left Illinois, the temple was destroyed by fire and a tornado. The Church reacquired the temple lot in 1937 and rebuilt the Nauvoo Temple on its original site in 2002. I looked upon the temple and city as they receded from view and asked the Lord to remember the sacrifices of His Saints.' —Wilford Woodruff, May 26, 1848",
         },
         {
             "name": "Saint Louis",
@@ -114,7 +116,8 @@
                 "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
                 "Tuesday, December 31, 2019",
                 "Wednesday, January 1, 2020"
-            ]
+            ],
+            "history": "The St. Louis Missouri Temple is the 50th operating temple of The Church of Jesus Christ of Latter-day Saints. It is located in Town and Country, Missouri; a St. Louis suburb. LDS Church president Gordon B. Hinckley broke ground for the temple on October 30, 1993, a public open house was held April 26 – May 17, 1997, and it was dedicated on June 1, 1997. The temple has a total of 58,749 square feet (5,458.0 m2), four ordinance rooms, and four sealing rooms. It has a white granite exterior and a 150-foot (46 m) spire topped with a gold-leafed statue of the angel Moroni."
         }
     ]
 }

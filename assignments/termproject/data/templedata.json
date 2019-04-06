@@ -27,10 +27,12 @@
                 "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
                 "Tuesday, December 31, 2019",
                 "Wednesday, January 1, 2020"
-            ]
+            ],
+            "history": ""
         },
         {
             "name": "Chicago",
+            "dates": "Groundbreaking: Aug. 13, 1983; Dedication: Aug. 9, 1985",
             "address": {
                 "street": "4151 W Lake Ave",
                 "cityStateZip": "Glenview IL 60025-1240",
@@ -59,6 +61,7 @@
         },
         {
             "name": "Nauvoo",
+            "dates": "Groundbreaking: Oct. 24, 1999; Rededication: June 27, 2002",
             "address": {
                 "street": "50 N Wells St",
                 "cityStateZip": "Nauvoo IL 62354",
@@ -87,6 +90,7 @@
         },
         {
             "name": "Saint Louis",
+            "dates": "Groundbreaking: Oct. 30, 1993; Dedication: June 1, 1997",
             "address": {
                 "street": "12555 N Outer Forty Dr",
                 "cityStateZip": "St. Louis MO 63141-8620",

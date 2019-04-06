@@ -74,6 +74,10 @@ nav ul li a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
+#temples article {
+    margin: 2% 2% 6% 2%;
+}
+
 /* change gallery hover setting to comply with assignment */
 
 #gallery img:hover {

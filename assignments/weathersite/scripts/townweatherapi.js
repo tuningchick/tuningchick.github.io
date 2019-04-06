@@ -1,171 +1,18 @@
-/* thanks, Kimi, for pointing out that I could use the town ID to call the function so that this code 
-will work for each town. Sometimes I am a little slow to the draw!! */
-function outputConditions(townID) {
-    /* create and open new request */
-    var span = document.querySelector('#weatherSummary');
-    var headerBox = document.querySelector('#currenttemp');
-    let weatherRequest = new XMLHttpRequest();
-        weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/weather?id=" + 
-        townID + "&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
-    /* send the request */
-    weatherRequest.responseType = 'json';
-    weatherRequest.send();
-    
-    /* get response from server and do something with it */
-    
-    weatherRequest.onload = function() {
-        var weatherData = weatherRequest.response;
-        console.log(weatherData);
-    
-    /* display temp, humidity, wind, current conditions and wind chill in weather summary */
-    
-        var outputDesc = weatherData.weather[0].main;
-        var outputTemp = parseFloat(weatherData.main.temp);
-        var outputHumid = weatherData.main.humidity;
-        var outputWind = parseFloat(weatherData.wind.speed);
-    
-        // create variable for wind chill in degrees F
-        var chill = windChill(outputTemp, outputWind);
-        //calculating wind chill
-        function windChill(temp, speed) {
-            var f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16))
-                + (0.4275 * temp * Math.pow(speed, 0.16));
-            return f;
-        }
-    
-        var myConditions = document.createElement('article');
-        var myDesc = document.createElement('p');
-        var myTemp = document.createElement('p');
-        var myHumidity = document.createElement('p');
-        var myWind = document.createElement('p');
-        var myChill = document.createElement('p');
-    
-        myDesc.innerHTML = 'Currently: ' + outputDesc;
-        myTemp.innerHTML = 'Temp: ' + outputTemp + '&deg; F';
-        myHumidity.innerHTML = 'Humidity: ' + outputHumid + '%';
-        myWind.innerHTML = 'Wind: ' + outputWind + 'mph';
-        if ((outputTemp>50) || (outputWind<3)) {
-            myChill.innerHTML = "Wind Chill: --";
-            }
-        else {
-            myChill.innerHTML = 'Wind Chill: ' + chill.toFixed(0) + '&deg; F';
-        }
-    
-        myConditions.appendChild(myDesc);
-        myConditions.appendChild(myTemp); 
-        myConditions.appendChild(myHumidity);
-        myConditions.appendChild(myWind);
-        myConditions.appendChild(myChill);
-    
-        span.appendChild(myConditions);
-    
-        /* populate the current temp box in the header of the town pages */
-    
-    /* display "current temp:", the temp, and the weather icon */
-    
-        var outputTemp = parseFloat(weatherData.main.temp).toFixed(0);
-        var imgArray = weatherData.weather[0].icon;
-    
-        var iconURL = 'https://openweathermap.org/img/w/'+ imgArray + '.png';
-    
-        var myHeaderBox = document.createElement('article');
-        var myText = document.createElement('h5');
-        var myTemp = document.createElement('div');
-        var myImg = document.createElement('img');
-        var myP = document.createElement('p');
-    
-        myText.innerHTML = 'Current Temp:';
-        myTemp.innerHTML = outputTemp + '&deg;F';
-        myImg.setAttribute('src', iconURL);
-        myImg.setAttribute('alt', "weather icon");
-        myP.innerHTML = weatherData.weather[0].description;
-    
-        myHeaderBox.appendChild(myText);
-        myHeaderBox.appendChild(myTemp);
-        myHeaderBox.appendChild(myImg);
-        myHeaderBox.appendChild(myP);
-    
-        headerBox.appendChild(myHeaderBox);
-    }
-    }
-    
-    /* 5 day forecast function */
-    
-    function outputFiveDay(townID) {
-        /* create and open new request */
-        var table = document.querySelector('#forecastTable');
-        let forecastRequest = new XMLHttpRequest();
-        forecastRequest.open ("GET", "https://api.openweathermap.org/data/2.5/forecast?id=" + 
-        townID + "&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
-        /* send the request */
-        forecastRequest.responseType = 'json';
-        forecastRequest.send();
-    
-    /* create function to get the 5 day forecast and display it in a table */
-    
-    forecastRequest.onload = function() {
-        var forecastData = forecastRequest.response;
-        console.log(forecastData);
-    
-        var dayRow = document.createElement('tr');
-        var d = new Date();
-        var c = [d.getDay()];
-        day = [];
-        /*create loop to populate table header row */
-        for (i=0; i<5; i++) {
-            day[i] = document.createElement('th');
-            var weekdays = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
-            day[i].innerHTML = weekdays[c];
-            c++;
-            if (c>6) {
-                c = 0;
-            }
-            dayRow.appendChild(day[i]);
-        }
-        table.appendChild(dayRow);
-    
-        /* create loop to populate table data row */
-    
-        var tempRow = document.createElement('tr');
-        var temp = [];
-        var time = 0;
-        for (i=0; i<forecastData.list.length; i++) {
-            var timeSearch = forecastData.list[i].dt_txt;
-            /* Kimi recommended looking up the string search on w3schools to look for a partial string match*/
-            if (timeSearch.search('18:00:00') != -1) {
-                temp[time] = document.createElement('td');
-                temp[time].innerHTML = forecastData.list[i].main.temp_max.toFixed(0) + '&deg; F';
-                tempRow.appendChild(temp[time]);
-                time++;
-            }
-            
-        }
-        table.appendChild(tempRow);  
-        
-        /* create loop to populate table icon row */
-    
-        var iconRow = document.createElement('tr');
-        var icon = [];
-        var time = 0;
-        var myIcon = [];
-        for (i=0; i<forecastData.list.length; i++) {
-            var timeSearch = forecastData.list[i].dt_txt;
-            if (timeSearch.search('18:00:00') != -1) {
-                icon[time] = document.createElement('td');
-                myIcon = document.createElement('img');
-                var iconArray = forecastData.list[i].weather[0].icon;
-                var iconURL = 'https://openweathermap.org/img/w/'+ iconArray + '.png'; 
-    
-                myIcon.setAttribute('src', iconURL);
-                myIcon.setAttribute('alt', "weather icon");
-                icon[time].appendChild(myIcon);
-                iconRow.appendChild(icon[time]);
-                time++;
-            }
-        }
-        table.appendChild(iconRow);
-    }
-    
-    
-    }
-    
+function outputConditions(e){var t=document.querySelector("#weatherSummary"),n=document.querySelector("#currenttemp");
+let a=new XMLHttpRequest;a.open("GET","https://api.openweathermap.org/data/2.5/weather?id="+e+"&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d",!0)
+,a.responseType="json",a.send(),a.onload=function(){var e=a.response;console.log(e);var i,r,d=e.weather[0].main,
+p=parseFloat(e.main.temp),o=e.main.humidity,l=parseFloat(e.wind.speed),c=(r=l,35.74+.6215*(i=p)-35.75*Math.pow(r,.16)+.4275*i*Math.pow(r,.16));
+var m=document.createElement("article"),u=document.createElement("p"),h=document.createElement("p"),s=document.createElement("p"),
+C=document.createElement("p"),w=document.createElement("p");u.innerHTML="Currently: "+d,h.innerHTML="Temp: "+p+"&deg; F",s.innerHTML="Humidity: "+o+"%",
+C.innerHTML="Wind: "+l+"mph",w.innerHTML=p>50||l<3?"Wind Chill: --":"Wind Chill: "+c.toFixed(0)+"&deg; F",m.appendChild(u),m.appendChild(h),m.appendChild(s),
+m.appendChild(C),m.appendChild(w),t.appendChild(m);p=parseFloat(e.main.temp).toFixed(0);var E="https://openweathermap.org/img/w/"+e.weather[0].icon+".png",
+g=document.createElement("article"),T=document.createElement("h5"),f=(h=document.createElement("div"),document.createElement("img")),y=document.createElement("p");
+T.innerHTML="Current Temp:",h.innerHTML=p+"&deg;F",f.setAttribute("src",E),f.setAttribute("alt","weather icon"),y.innerHTML=e.weather[0].description,g.appendChild(T),
+g.appendChild(h),g.appendChild(f),g.appendChild(y),n.appendChild(g)}}function outputFiveDay(e){var t=document.querySelector("#forecastTable");let n=new XMLHttpRequest;
+n.open("GET","https://api.openweathermap.org/data/2.5/forecast?id="+e+"&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d",!0),n.responseType="json",n.send(),n.onload=function()
+{var e=n.response;console.log(e);var a=document.createElement("tr"),r=[(new Date).getDay()];for(day=[],i=0;i<5;i++){day[i]=document.createElement("th");
+day[i].innerHTML=["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"][r],++r>6&&(r=0),a.appendChild(day[i])}t.appendChild(a);var d=document.createElement("tr"),
+p=[],o=0;for(i=0;i<e.list.length;i++){-1!=e.list[i].dt_txt.search("18:00:00")&&(p[o]=document.createElement("td"),p[o].innerHTML=e.list[i].main.temp_max.toFixed(0)+"&deg; F",d.appendChild(p[o]),o++)}
+t.appendChild(d);var l=document.createElement("tr"),c=[],m=(o=0,[]);for(i=0;i<e.list.length;i++){if(-1!=e.list[i].dt_txt.search("18:00:00")){c[o]=document.createElement("td"),
+m=document.createElement("img");var u="https://openweathermap.org/img/w/"+e.list[i].weather[0].icon+".png";m.setAttribute("src",u),m.setAttribute("alt","weather icon"),
+c[o].appendChild(m),l.appendChild(c[o]),o++}}t.appendChild(l)}}

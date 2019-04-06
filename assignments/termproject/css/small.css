@@ -180,7 +180,7 @@ footer {
     margin: 2% 0;
 }
 
-#temples article, div {
+#temples article, div, span {
     width: 95%;
     margin: 0 auto;
 }

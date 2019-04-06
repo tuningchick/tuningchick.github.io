@@ -70,11 +70,12 @@ nav ul li a:hover {
 
 #temples {
     width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-#temples article {
-    display: flex;
-    flex-direction: row;
+#temples div {
+    grid-area: 2 / 1 / 3 / 3;
 }
 
 /* change gallery hover setting to comply with assignment */

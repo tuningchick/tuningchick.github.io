@@ -21,6 +21,7 @@ function runShowTemples() {
         for (var i = 0; i < templeName.length; i++) {
                 var myArticle = document.createElement('article');
                 var myDiv = document.createElement('div');
+                var imageSpan = document.createElement('span');
                 var templeImg = document.createElement('img');
                 var myH3 = document.createElement('h3');
                 var templeDates = document.createElement('p');
@@ -76,7 +77,7 @@ function runShowTemples() {
             closuresList.appendChild(templeClosures);
         }
     
-                myArticle.appendChild(templeImg);
+                imageSpan.appendChild(templeImg);
     
                 myArticle.appendChild(myH3);
                 myArticle.appendChild(templeDates);
@@ -96,7 +97,8 @@ function runShowTemples() {
                 myDiv.appendChild(servicesList);
                 myDiv.appendChild(closuresTitle);
                 myDiv.appendChild(closuresList);
-                
+
+                section.appendChild(imageSpan);
                 section.appendChild(myArticle);
                 section.appendChild(myDiv);
                

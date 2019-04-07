@@ -91,6 +91,15 @@ nav li a {
     width: 70%;
 }
 
+/* reservation page styling */
+
+form {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
 /* styling the 5-day forecast */
 aside h3 {
     text-align: center;

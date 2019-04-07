@@ -216,48 +216,54 @@ footer {
     padding-top: 2%;
 }
 
-/* Storm Center form styling */
+/* Reservation form styling */
+
+form {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+}
 
 form fieldset {
     margin: 1rem 2%;
-    background-color: #c2ca86;
-    border: 1px solid #dddfd4;
-    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 3px solid #768e8b;
+    border-radius: .3rem;
     padding: .5rem 2%;
 }
 
 form legend {
-    font-family: 'Lato', sans-serif;
-    color: white;
+    font-family: 'Cabin', sans-serif;
+    color: #6a6d6c;
     padding: 0 .5rem;
     margin: 0 1rem;
-    text-shadow: 1px 1px 2px #777;
+    text-shadow: 1px 1px 2px white;
 }
 
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Buenard', serif;
     font-size: .8rem;
 }
 
 form label.top input, form label.top select {
     -webkit-appearance: none;
     font-size: 1rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cabin', sans-serif;
     border: 1px white;
-    border-radius: 4px;
+    border-radius: .3rem;
     padding: .75rem;
     width: 100%;
     max-width: 20rem;
-    background-color: #f3f5e9;
+    background-color: #e1b3a5;
 }
 
 form textarea {
     width: 100%;
     max-width: 50rem;
     font-size: 1rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cabin', sans-serif;
     text-align: justify;
     background-color: #f3f5e9;
     border: 1px white;
@@ -268,25 +274,25 @@ form label.sbs {
     display: block;
     padding: .75rem 0;
     font-size: 1rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
-#region, #ratingvalue {
+#templeLocation, #partyNumber {
     font-size: 1rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 form input.submitButton {
     border: none;
-    background-color: white;
-    border-radius: .75rem;
+    background-color: #e1b3a5;
+    border-radius: .5rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 100%;
     max-width: 20rem;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Buenard', serif;
     font-size: 1rem;
-    text-shadow: 2px 2px 4px #ee3229;
+    text-shadow: 2px 2px 4px #87768e;
 }
 
 /* thank you message format */

@@ -9,48 +9,46 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
-    <script type="text/javascript" language="javascript" src="scripts/windchill.js"></script>
-    <title>CIT 230 | Weather Site Gallery Page | Laura Lykins | BYU-Idaho</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script type="text/javascript" language="javascript" src="scripts/templeinfo.js"></script>
+    <title>CIT 230 | Term Project Temples Page | Laura Lykins | BYU-Idaho</title>
+    <link href="https://fonts.googleapis.com/css?family=Buenard" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
     <body>
-        <!--   Header Code  -->
-        <header id="headerContainer">
-            <img src="images/logolarge.png" alt="Weather Check logo">
-            <section class="headings">
-                <h1>Weather Check</h1>
-                <div class="motto">
-                    <p>Your Forecast. Now.</p>
-                </div>
-            </section>
-            <aside class="currenttemp">
-                    <h5>Current Temp:</h5>
-                    <div>72&deg</div>
-                    <p>sunny</p>
-            </aside>
-        </header>
-        <!-- Navigation code -->
-        <nav class="navContainer">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="hide">
-                <li><a href="index.html">Home</a></li>
-                <li class=><a href="preston.html">Preston</a></li>
-                <li><a href="sodasprings.html">Soda&nbsp;Springs</a></li>
-                <li><a href="fishhaven.htl">Fish&nbsp;Haven</a></li>
-                <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
+            <!--   Header Code  -->
+            <header id="headerContainer">
+                <figure class="logo">
+                    <img src="images/logowhitelargeB.png" alt="Temple Inn & Suites Logo">
+                </figure>
+                <!-- contact info section -->
+                <section id="contact">
+                    <div>
+                    <h4>contact@templeiands.com</h4>
+                    <h4>800-888-4567</h4>
+                    </div>
+                </section>
+            </header>
+            <!-- Navigation code -->
+            <nav class="navContainer">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="selected"><a href="temples.html">Temples</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>  
         <!-- Main section for thank you for submitting the form -->
         <main class="clearfix">
-           <h2 id="thanks">Thank you for helping keep our storm information current.</h2>
+           <h2 id="thanks">Thank you. We will contact you with your reservation details shortly.</h2>
         </main>   
         <!-- footer, including actual date display -->
         <footer>
             <span id="displayDate"></span>
-            <p>&copy;2019 | Weather Site | BYUI-CIT230 | Laura Lykins<a href="http://www.byui.edu/online">
-            BYU-I Online Learning</a></p>
+            <p>&copy;2019 | Term Project | Laura Lykins | BYUI-CIT230 |<a href="http://www.byui.edu/online">
+             BYU-I Online Learning</a></p>
         </footer>
         <script>actualDate();</script>
     </body>

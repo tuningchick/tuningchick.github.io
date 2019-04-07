@@ -83,15 +83,12 @@ nav ul li a:hover {
     margin: 0 0 2% 0;
 }
 
-/* change gallery hover setting to comply with assignment */
-
-#gallery img:hover {
-    box-shadow: none;
+form {
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    margin: 0 auto;
 }
-#gallery figure:hover {
-    box-shadow: 0 0 4em #373334;
-}
-
 /* change fish haven view to normal for large display */
 
 #fishHaven .navContainer {

@@ -244,7 +244,7 @@ form label.top, form div {
     display: block;
     padding-top: 1rem;
     font-family: 'Buenard', serif;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 form label.top input, form label.top select {
@@ -256,7 +256,7 @@ form label.top input, form label.top select {
     padding: .75rem;
     width: 100%;
     max-width: 20rem;
-    background-color: #e1b3a5;
+    background-color: white;
 }
 
 form textarea {
@@ -292,7 +292,7 @@ form input.submitButton {
     max-width: 20rem;
     font-family: 'Buenard', serif;
     font-size: 1rem;
-    text-shadow: 2px 2px 4px #87768e;
+    text-shadow: 2px 2px 4px white;
 }
 
 /* thank you message format */

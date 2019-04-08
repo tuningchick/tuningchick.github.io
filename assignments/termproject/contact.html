@@ -39,7 +39,7 @@
                     <li class="selected"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>  
-        <!-- Main section for thank you for submitting the form -->
+        <!-- Main section contact us page with form -->
         <main class="clearfix">
             <figure id="reservation" class="hero">
                 <img src="images/hotelroom900.jpg" alt="Door opening to show hotel room" class="center"
@@ -65,17 +65,19 @@
                      width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </section>
-            <form class="personalInfo">
-                    <legend>Contact Us form: <em>("*" = required)</em></legend>
-                    <label class="top" for="guestName">Full Name*:
-                    <input type="text" id="guestName" name="fullName" required></label>
-                    <label class="top" for="email">Email Address:
-                    <input type="email" id="email" name="email" placeholder="user@email.org" 
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></label>
-                    <label for="other" class="top">Type here. 1000 characters max</label>
-                        <textarea id="other" name="other" maxlength="1000">
-                        </textarea>
-                    </div>
+            <form method="get" action="thanks.html">
+                <fieldset class="personalInfo">
+                        <legend>Contact Us form: <em>("*" = required)</em></legend>
+                        <label class="top" for="guestName">Full Name*:
+                        <input type="text" id="guestName" name="fullName" required></label>
+                        <label class="top" for="email">Email Address:
+                        <input type="email" id="email" name="email" placeholder="user@email.org" 
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></label>
+                        <label for="other" class="top">Type here. 1000 characters max</label>
+                            <textarea id="other" name="other" maxlength="1000">
+                            </textarea>
+                        </div>
+                </fieldset>
             </form>
         </main>   
         <!-- footer, including actual date display -->

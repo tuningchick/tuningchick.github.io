@@ -94,7 +94,7 @@ form {
 
 /* contact info page */
 
-.contactContainer {
+#contactContainer {
     display: inline-block;
 }
 

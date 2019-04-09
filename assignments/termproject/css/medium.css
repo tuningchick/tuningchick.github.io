@@ -103,15 +103,15 @@ form {
 /* contact info page */
 
 .contactContainer {
-    display: block;
+    display: inline-block;
 }
 
-.contactContainer .contactInfo map {
+.contactInfo .map {
     float: left;
     width: 45%;
 }
 
-.contactContainer .contactInfo ul {
+.contactInfo ul {
     float: right;
     width: 45%;
 }

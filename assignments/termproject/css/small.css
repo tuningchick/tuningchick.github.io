@@ -312,11 +312,11 @@ form input.submitButton {
     padding-top: 2%;
 }
 
-.contactContainer .contactInfo map {
+.contactInfo .map {
     width: 95%;
 }
 
-.contactContainer .contactInfo ul {
+.contactInfo ul {
     width: 95%;
     padding: 2% 0;
 }

@@ -313,7 +313,7 @@ form input.submitButton {
     padding-top: 2%;
 }
 
-.contactInfo {
+.contactInfo .map {
     display: block;
     width: 95%;
     margin: 0 auto;
@@ -324,6 +324,8 @@ form input.submitButton {
     list-style-type: none;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
+    margin: 0 auto;
+    width: 95%;
 }
 
 /* style home page town summaries for mobile view */

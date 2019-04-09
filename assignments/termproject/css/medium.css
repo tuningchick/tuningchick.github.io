@@ -109,11 +109,12 @@ form {
 }
 
 .contactInfo .map {
-    padding-left: 4%;
+    justify-self: end;
     margin: 0 0 0 2%;
 }
 
 .contactInfo li {
+    justify-items: start;
     margin: 0 2% 0 0;
 }
 

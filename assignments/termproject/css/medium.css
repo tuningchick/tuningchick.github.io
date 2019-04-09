@@ -114,10 +114,14 @@ form {
     width: 100%;
 }
 
-.contactInfo li {
+.contactInfo {
     justify-items: start;
     margin: 0 2% 0 0;
-    width: 100%;
+    width: 100%;   
+}
+
+.contactInfo li {
+    padding-top: 50%;
 }
 
 #contactPage {

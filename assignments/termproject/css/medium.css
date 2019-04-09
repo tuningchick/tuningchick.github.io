@@ -100,33 +100,6 @@ form {
     margin: 0 auto;
 }
 
-/* contact info page */
-
-#contactContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 95%;
-    grid-gap: .2rem;
-}
-
-#contactContainer .map {
-    justify-self: end;
-    margin: 0;
-    padding-left: 8%;
-}
-
-.contactInfo {
-    justify-items: start;
-    margin: 0 2% 0 0;
-    padding-top: 45%;  
-}
-
-#contactPage {
-    width: 80%;
-    margin: 2% auto;
-}
-
-
 /* styling the 5-day forecast */
 aside h3 {
     text-align: center;

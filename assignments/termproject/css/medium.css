@@ -111,12 +111,14 @@ form {
 #contactContainer .map {
     justify-self: end;
     margin: 0;
+    padding-left: 10%;
 }
 
 .contactInfo {
     justify-items: start;
     margin: 0 2% 0 0;
-    padding-top: 45%;  
+    padding-top: 45%;
+    padding-left: 0;  
 }
 
 #contactPage {

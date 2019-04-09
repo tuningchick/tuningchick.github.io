@@ -110,12 +110,14 @@ form {
 
 .contactInfo .map {
     justify-self: end;
-    margin: 0 0 0 2%;
+    margin: 0;
+    width: 100%;
 }
 
 .contactInfo li {
     justify-items: start;
     margin: 0 2% 0 0;
+    width: 100%;
 }
 
 #contactPage {

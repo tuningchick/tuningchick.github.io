@@ -95,7 +95,8 @@ form {
 /* contact info page */
 
 #contactContainer {
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
 }
 
@@ -109,7 +110,7 @@ form {
     margin: 0 2% 0 0;
 }
 
-#contactPage fieldset {
+#contactPage {
     width: 80%;
     margin: 2% auto;
 }

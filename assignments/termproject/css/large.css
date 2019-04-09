@@ -92,28 +92,6 @@ form {
     margin: 0 auto;
 }
 
-/* contact info page */
-
-#contactContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-}
-
-.contactInfo .map {
-    width: 48%;
-    padding-left: 4%;
-}
-
-.contactInfo li {
-    width: 48%;
-}
-
-#contactPage {
-    width: 80%;
-    margin: 2% auto;
-}
-
 /* change fish haven view to normal for large display */
 
 #fishHaven .navContainer {

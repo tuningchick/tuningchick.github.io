@@ -87,8 +87,8 @@ function runShowTemples() {
             closuresTitle.textContent = "Temple Closures: ";
             sessionsTitle.textContent = "Session Schedule: ";
             sessions.innerHTML = templeName[i].sessions;
-            ordinancesTitle.textContent = "Ordinances Schedule: ";
-            ordinances.innterHTML = templeName[i].ordinances;
+            ordinancesTitle.textContent = "Ordinance Schedule: ";
+            ordinances.innerHTML = templeName[i].ordinances;
             historyTitle.textContent = "History: ";
             templeHistory.innerHTML = templeName[i].history;
     

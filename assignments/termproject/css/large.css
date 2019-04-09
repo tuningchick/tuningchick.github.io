@@ -102,12 +102,11 @@ form {
 
 .contactInfo .map {
     width: 48%;
-    margin: 0 0 0 2%;
+    padding-left: 4%;
 }
 
 .contactInfo li {
     width: 48%;
-    margin: 0 2% 0 0;
 }
 
 #contactPage {

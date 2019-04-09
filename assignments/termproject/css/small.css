@@ -313,11 +313,15 @@ form input.submitButton {
     padding-top: 2%;
 }
 
-#contactContainer .map {
+#contactContainer iframe {
     display: block;
     width: 95%;
     margin: 0 auto;
     padding: 2% 0;
+}
+
+.contactInfo {
+    padding-top: 2%;
 }
 
 .contactInfo li {
@@ -326,7 +330,6 @@ form input.submitButton {
     font-size: 1.2rem;
     margin: 0 auto;
     width: 95%;
-    padding-top: 2%;
 }
 
 /* style home page town summaries for mobile view */

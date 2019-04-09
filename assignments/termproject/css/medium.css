@@ -14,8 +14,6 @@
     margin-right: 0;
 }
 
-
-
 /* hide hamburger icon */
 
 nav button { 
@@ -63,6 +61,12 @@ nav li a {
 
 .hero {
     display: none;
+}
+
+/* position call to action */
+
+span#callToAction {
+    top: 30%;
 }
 
 #reservation {

@@ -95,16 +95,14 @@ form {
 /* contact info page */
 
 #contactContainer {
-    display: inline-block;
+    flex-direction: row-reverse;
 }
 
 .contactInfo .map {
-    float: left;
     width: 45%;
 }
 
 .contactInfo li {
-    float: right;
     width: 45%;
 }
 

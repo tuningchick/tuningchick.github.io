@@ -100,12 +100,12 @@ form {
 
 .contactInfo .map {
     float: left;
-    width: 40%;
+    width: 45%;
 }
 
 .contactInfo ul {
     float: right;
-    width: 40%;
+    width: 45%;
 }
 
 /* change fish haven view to normal for large display */

@@ -308,7 +308,7 @@ form input.submitButton {
 .contactContainer {
     display: flex;
     flex-direction: column;
-    margin: 2%;
+    margin: 2% auto;
     padding-top: 2%;
 }
 

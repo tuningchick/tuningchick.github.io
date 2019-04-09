@@ -305,7 +305,7 @@ form input.submitButton {
 
 /* contact page formatting */
 
-.contactInfo {
+.contactContainer {
     display: flex;
     flex-direction: column;
     margin: 2%;

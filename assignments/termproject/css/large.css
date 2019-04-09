@@ -46,6 +46,12 @@ nav ul li a:hover {
     margin-bottom: 2%;
 }
 
+/* adjust call to action position */
+
+span#callToAction {
+    top: 50%;
+}
+
 /* grid layout for main containers */
 
 #containerBox {

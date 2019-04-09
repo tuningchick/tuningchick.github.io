@@ -317,11 +317,11 @@ form input.submitButton {
     margin: 2%;
 }
 
-.contactInfo map {
+.contactContainer map {
     width: 95%;
 }
 
-.contactInfo ul {
+.contactContainer ul {
     width: 95%;
 }
 

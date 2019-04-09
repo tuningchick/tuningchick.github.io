@@ -103,7 +103,15 @@ form {
 /* contact info page */
 
 .contactInfo {
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.contactInfo map {
+    width: 45%
+}
+
+.contactInfo ul {
+    width: 45%;
 }
 
 /* styling the 5-day forecast */

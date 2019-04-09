@@ -100,22 +100,6 @@ form {
     margin: 0 auto;
 }
 
-/* contact info page */
-
-.contactContainer {
-    display: inline-block;
-}
-
-.contactInfo .map {
-    float: left;
-    width: 40%;
-}
-
-.contactInfo ul {
-    float: right;
-    width: 40%;
-}
-
 /* styling the 5-day forecast */
 aside h3 {
     text-align: center;

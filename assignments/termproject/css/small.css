@@ -308,6 +308,7 @@ form input.submitButton {
 .contactContainer {
     display: flex;
     flex-direction: column;
+    width: 100%;
     margin: 2% auto;
     padding-top: 2%;
 }

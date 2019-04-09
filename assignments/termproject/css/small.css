@@ -314,11 +314,13 @@ form input.submitButton {
 
 .contactInfo .map {
     width: 95%;
+    margin: 0 auto;
 }
 
 .contactInfo ul {
     width: 95%;
     padding: 2% 0;
+    margin: 0 auto;
 }
 
 .contactInfo li {

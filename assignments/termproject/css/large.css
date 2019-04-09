@@ -109,6 +109,11 @@ form {
     margin: 0 2% 0 0;
 }
 
+#contactPage fieldset {
+    width: 80%;
+    margin: 2% auto;
+}
+
 /* change fish haven view to normal for large display */
 
 #fishHaven .navContainer {

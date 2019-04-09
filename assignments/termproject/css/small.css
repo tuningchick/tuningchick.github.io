@@ -32,6 +32,10 @@ p {
     padding: 2%;
 }
 
+.logo {
+    margin-left: 2%;
+}
+
 /* styling contact section */
 
 #contact {
@@ -115,17 +119,19 @@ nav ul.hide {
 span#callToAction {
     position: fixed;
     right: 0;
-    top: 1;
-    width: 15%;
-    padding: 2%;
+    top: 0;
+    width: 20%;
+    padding: 1%;
     background-color: #768e8b;
     box-shadow: 0 0 30px #777;
 }
 
 #callToAction a {
+    text-align: left;
     color: white;
     font-family: 'Cabin', sans-serif;
     text-decoration: none;
+    text-shadow: 1px 1px 2px #333736;
 }
 
 main h2 {

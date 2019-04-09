@@ -59,8 +59,13 @@ function runShowTemples() {
             var closures = templeName[i].closures;
             var closuresTitle = document.createElement('h5');
             var servicesTitle = document.createElement('h5');
+            var sessionsTitle = document.createElement('h5');
+            var sessions = templeName[i].sessions;
+            var ordinancesTitle = document.createElement('h5');
+            var ordinances = templeName[i].ordinances;
             var historyTitle = document.createElement('h5');
             var templeHistory = document.createElement('p');
+            
             
         /* loop to determine services and add them to list */
         for (var s = 0; s < services.length; s++) {
@@ -96,11 +101,18 @@ function runShowTemples() {
 
                 servicesTitle.textContent = "Services Available: ";
                 closuresTitle.textContent = "Temple Closures: ";
+                sessionsTitle.textContent = "Session Schedule: ";
+                ordinancesTitle.textContent = "Ordinances Schedule: ";
 
                 myDiv.appendChild(servicesTitle);
                 myDiv.appendChild(servicesList);
                 myDiv.appendChild(closuresTitle);
-                myDiv.appendChild(closuresList);
+                myDiv.appendChild(closuresList)
+                myDiv.appendChild(sessionsTitle);
+                myDiv.appendChild(sessions);
+                myDiv.appendChild(ordinancesTitle);
+                myDiv.appendChild(ordinances);
+
                 myDiv.appendChild(historyTitle);
                 myDiv.appendChild(templeHistory);
 

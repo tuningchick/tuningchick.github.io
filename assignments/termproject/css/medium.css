@@ -106,11 +106,11 @@ form {
     display: flex;
 }
 
-.contactInfo map {
+.contactContainer .contactInfo map {
     width: 45%;
 }
 
-.contactInfo ul {
+.contactContainer .contactInfo ul {
     width: 45%;
 }
 

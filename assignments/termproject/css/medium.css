@@ -104,11 +104,10 @@ form {
 
 .contactContainer {
     display: flex;
-    flex-direction: row;
 }
 
 .contactInfo map {
-    width: 45%
+    width: 45%;
 }
 
 .contactInfo ul {

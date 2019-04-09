@@ -105,17 +105,16 @@ form {
 #contactContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    width: 95%;
 }
 
 .contactInfo .map {
-    width: 48%;
     padding-left: 4%;
+    margin: 0 0 0 2%;
 }
 
 .contactInfo li {
-    width: 48%;
-    margin: 0 0 0 2%;
+    margin: 0 2% 0 0;
 }
 
 #contactPage {

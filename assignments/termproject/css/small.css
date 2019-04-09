@@ -314,7 +314,7 @@ form input.submitButton {
 
 .contactInfo h3 {
     text-align: left;
-    padding-top: 2%;
+    margin: 2%;
 }
 
 .contactInfo map {

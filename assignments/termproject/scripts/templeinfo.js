@@ -60,9 +60,9 @@ function runShowTemples() {
             var closuresTitle = document.createElement('h5');
             var servicesTitle = document.createElement('h5');
             var sessionsTitle = document.createElement('h5');
-            var sessions = templeName[i].sessions;
+            var sessions = document.createElement('p');
             var ordinancesTitle = document.createElement('h5');
-            var ordinances = templeName[i].ordinances;
+            var ordinances = document.createElement('p');
             var historyTitle = document.createElement('h5');
             var templeHistory = document.createElement('p');
             
@@ -83,6 +83,12 @@ function runShowTemples() {
             closuresList.appendChild(templeClosures);
         }
 
+            servicesTitle.textContent = "Services Available: ";
+            closuresTitle.textContent = "Temple Closures: ";
+            sessionsTitle.textContent = "Session Schedule: ";
+            sessions.innerHTML = templeName[i].sessions;
+            ordinancesTitle.textContent = "Ordinances Schedule: ";
+            ordinances.innterHTML = templeName[i].ordinances;
             historyTitle.textContent = "History: ";
             templeHistory.innerHTML = templeName[i].history;
     
@@ -98,11 +104,6 @@ function runShowTemples() {
                 myArticle.appendChild(templePhone);
                 myArticle.appendChild(email);
                 myArticle.appendChild(templeEmail);
-
-                servicesTitle.textContent = "Services Available: ";
-                closuresTitle.textContent = "Temple Closures: ";
-                sessionsTitle.textContent = "Session Schedule: ";
-                ordinancesTitle.textContent = "Ordinances Schedule: ";
 
                 myDiv.appendChild(servicesTitle);
                 myDiv.appendChild(servicesList);

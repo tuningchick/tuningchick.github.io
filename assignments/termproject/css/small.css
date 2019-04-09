@@ -313,7 +313,7 @@ form input.submitButton {
     padding-top: 2%;
 }
 
-.contactInfo .map {
+#contactContainer .map {
     display: block;
     width: 95%;
     margin: 0 auto;

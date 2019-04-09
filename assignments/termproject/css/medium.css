@@ -108,12 +108,12 @@ form {
 
 .contactInfo .map {
     float: left;
-    width: 45%;
+    width: 40%;
 }
 
 .contactInfo ul {
     float: right;
-    width: 45%;
+    width: 40%;
 }
 
 /* styling the 5-day forecast */

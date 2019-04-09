@@ -305,13 +305,13 @@ form input.submitButton {
 
 /* contact page formatting */
 
-#contactInfo {
+.contactInfo {
     display: flex;
     flex-direction: column;
     margin: 2%;
 }
 
-#contactInfo li {
+.contactInfo li {
     list-style-type: none;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;

@@ -96,14 +96,17 @@ form {
 
 #contactContainer {
     flex-direction: row-reverse;
+    width: 100%;
 }
 
 .contactInfo .map {
     width: 45%;
+    margin: 0 0 0 2%;
 }
 
 .contactInfo li {
     width: 45%;
+    margin: 0 2% 0 0;
 }
 
 /* change fish haven view to normal for large display */

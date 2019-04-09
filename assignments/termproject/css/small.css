@@ -312,7 +312,7 @@ form input.submitButton {
     padding-top: 2%;
 }
 
-.contactInfo h3 {
+#leftJustify h3 {
     text-align: left;
     margin: 2%;
 }

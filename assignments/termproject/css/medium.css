@@ -103,6 +103,7 @@ form {
 /* contact info page */
 
 .contactContainer {
+    display: flex;
     flex-direction: row;
 }
 

@@ -116,13 +116,16 @@ span#callToAction {
     position: fixed;
     right: 0;
     top: 1;
+    width: 15%;
+    padding: 2%;
     background-color: #768e8b;
+    box-shadow: 0 0 30px #777;
 }
 
 #callToAction a {
     color: white;
     font-family: 'Cabin', sans-serif;
-    padding: 2%;
+    text-decoration: none;
 }
 
 main h2 {

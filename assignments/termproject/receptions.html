@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Term Project Receptions and Catering Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
+    <title>CIT 230 | Term Project Receptions and Catering Page | Laura Lykins | BYU-Idaho</title>
+    <link href="https://fonts.googleapis.com/css?family=Buenard" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    </head>
+    <body>
+        <!--   Header Code  -->
+        <header id="headerContainer">
+            <figure class="logo">
+                <img src="images/logowhitelargeB.png" alt="Temple Inn & Suites Logo">
+            </figure>
+            <!-- contact info section -->
+            <section id="contact">
+                <div>
+                <h4>contact@templeiands.com</h4>
+                <h4>800-888-4567</h4>
+                </div>
+            </section>
+        </header>
+        <!-- Navigation code -->
+        <nav class="navContainer">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li class="selected"><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>  
+        <!-- Main section title and long term stay info and contact sheet and photo gallery -->
+        <main class="clearfix">
+            <figure class="subPages" class="hero">
+                <img src="images/receptionhero.jpg" alt="buffet table with flowers and dishes" class="center"
+                    sizes="100vw" srcset="images/receptionhero400.jpg 400w,
+                    images/receptionhero.jpg 900w">
+            </figure>
+            <h1 class="servicesTitle">Receptions and Catering</h1>
+            <div id="longTermContainer">
+                <section class="services">
+                    <h3>For Couples Serving Temple Missions:</h3>
+                    <p>Suites designed for long-term stays are affordable and convenient. They include:</p>
+                    <ul>
+                        <li>Furnished.</li>
+                        <li>All first floor.</li>
+                        <li>Kitchenette.</li>
+                        <li>Dining area.</li>
+                        <li>Comfortable living area.</li>
+                        <li>Bedroom with ample closet space.</li>
+                        <li>Spacious bathroom.</li>
+                    </ul>
+                    <p>Please fill out the form for information on availablilty and pricing.</p>
+                </section>
+                <form method="get" action="thanks.html">
+                    <fieldset class="personalInfo">
+                        <legend>Inquire About Availability and Pricing: <em>("*" = required)</em></legend>
+                        <label class="top" for="guestName">Full Name*:
+                        <input type="text" id="guestName" name="fullName" required></label>
+                        <label class="top" for="email">Email Address*:
+                        <input type="email" id="email" name="email" placeholder="user@email.org" 
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required></label>
+                        <label class="top" for="templeLocation">Where will you be serving?:
+                        <input list="templeLocation" name="location"></label>
+                            <datalist id="templeLocation">
+                                <option value="">Select City &#9662;</option>
+                                <option value="Chicago">
+                                <option value="Indianapolis">
+                                <option value="Nauvoo">
+                                <option value="Saint Louis">  
+                            </datalist>
+                        <label class="top" for="arrivalDate">Estimated Arrival Date:
+                        <input type="date" id="arrivalDate" name="arrivalDate"></label>
+                        <label class="top" for="departureDate">Estimaged Departure Date:
+                        <input type="date" id="departureDate" name="depatureDate"></label>
+                        <label for="other" class="top">Other comments or questions. 600 characters max</label>
+                        <textarea id="other" name="other" maxlength="600">
+                        </textarea>
+                    </fieldset>
+                    <input type="submit" value="Send Comments or Questions" class="submitButton">
+                </form>
+            </div>
+            <section class="gallery">
+                    <figure>
+                        <img src="images/kitchenette.jpg" alt="small kitchen with dining area"
+                        sizes="100vw" srcset="images/kitchenettesmall.jpg 400w,
+                        images/kitchenettemed.jpg 501w, images/kitchenette.jpg 992w">
+                        <figcaption>Sample kitchen/dining area.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/livingarea.jpg" alt="modest living area"
+                        sizes="100vw" srcset="images/livingareasmall.jpg 400w,
+                        images/livingareamed.jpg 501w, images/livingarea.jpg 992w">
+                        <figcaption>Sample living area.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/bedroom.jpg" alt="bedroom"
+                        sizes="100vw" srcset="images/bedroomsmall.jpg 400w,
+                        images/bedroommed.jpg 501w, images/bedroom.jpg 992w">
+                        <figcaption>Sample bedroom.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/bathroom.jpg" alt="modest living area"
+                        sizes="100vw" srcset="images/bathroomsmall.jpg 400w,
+                        images/bathroommed.jpg 501w, images/bathroom.jpg 992w">
+                        <figcaption>Sample bathroom.</figcaption>
+                    </figure>
+            </section>
+        </main>
+        <!-- footer, including actual date display -->
+        <footer>
+            <a href="#">Sources Cited Page</a>
+            <span id="displayDate"></span>
+            <p>&copy2019 | Laura Lykins | Term Project | <a href="http://www.byui.edu/online">
+            BYU-I Online Learning</a></p>
+        </footer>
+        <script>actualDate();</script>
+    </body>
+</html>

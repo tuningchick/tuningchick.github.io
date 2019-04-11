@@ -417,6 +417,7 @@ form input.submitButton {
     background-color: #87768e;
     color: #ccdbd9;
     text-shadow: 1px 1px 2px #e1b3a5;
+    margin-bottom: 3%;
 }
 
 #longTermContainer li {
@@ -430,7 +431,7 @@ form input.submitButton {
 }
 
 #longTermContainer .services {
-    margin: 4% 0 2% 4%;
+    margin: 4% 0 2% 6%;
 }
 
 /* style home page town summaries for mobile view */

@@ -104,6 +104,17 @@ form {
     margin: 0 auto;
 }
 
+/* styling long term stay images view */
+
+.gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3%;
+    padding-bottom: 6%;
+    margin-bottom: 4%;
+}
+
 /* styling the 5-day forecast */
 aside h3 {
     text-align: center;

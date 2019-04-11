@@ -434,6 +434,25 @@ form input.submitButton {
     margin: 4% 0 2% 6%;
 }
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.gallery img{
+    margin: 2%;
+    width: 90%;
+    border-radius: .3rem;
+}
+
+.gallery figcaption {
+    width: 90%;
+    font-family: 'Cabin', sans-serif;
+    font-size: .9em;
+    color: #87768e;
+    text-align: center;
+}
 /* style home page town summaries for mobile view */
 
 #homeTowns article{

@@ -391,7 +391,8 @@ form input.submitButton {
 }
 
 #specialized {
-    margin: 2%;
+    width: 90%;
+    margin: 2% auto;
     padding: 2% 0;
 }
 
@@ -401,14 +402,12 @@ form input.submitButton {
 }
 
 #specialized a {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 2% auto;
 }
 
 #specialized img {
     border-radius: .3rem;
-    width: 90%;
-    margin: 0 auto;
 }
 
 #specialized img:hover {

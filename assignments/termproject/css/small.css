@@ -21,6 +21,11 @@ p {
     color: #333736;
 }
 
+li {
+    list-style-type: none;
+    font-family: 'Cabin', sans-serif;
+}
+
 /* styling header */
 #headerContainer {
     display: flex;
@@ -353,6 +358,21 @@ form input.submitButton {
     font-size: 1.2rem;
     margin: 0 auto;
     width: 95%;
+}
+
+/* services page formatting */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#guests {
+    padding: 4%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: .3rem;
 }
 
 /* style home page town summaries for mobile view */

@@ -402,8 +402,10 @@ form input.submitButton {
 }
 
 
-#specialized img {
+#specialized figure img {
     border-radius: .3rem;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #specialized img:hover {

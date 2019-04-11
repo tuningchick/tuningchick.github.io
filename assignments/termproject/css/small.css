@@ -443,7 +443,6 @@ form input.submitButton {
 .gallery {
     display: flex;
     flex-direction: column;
-    margin: 2%;
 }
 
 .gallery img{

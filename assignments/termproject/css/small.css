@@ -383,7 +383,11 @@ form input.submitButton {
 }
 
 #guests li {
-    line-height: 1rem;
+    padding: .2rem 0;
+}
+
+#specialized a:hover {
+    box-shadow: 0 0 4em #373334;
 }
 /* style home page town summaries for mobile view */
 

@@ -386,8 +386,22 @@ form input.submitButton {
     padding: .2rem 0;
 }
 
-#specialized a:hover {
-    box-shadow: 0 0 4em #373334;
+#specialized {
+    border-left: 2px solid #87768e;
+}
+
+#specialized h3 {
+    text-align: center;
+    padding: 1% 0;
+}
+
+#specialized img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#specialized img:hover {
+    box-shadow: 0 0 3em #373334;
 }
 /* style home page town summaries for mobile view */
 

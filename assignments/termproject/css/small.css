@@ -392,6 +392,7 @@ form input.submitButton {
 
 #specialized {
     margin: 2%;
+    padding: 2% 0;
 }
 
 #specialized h3 {
@@ -399,9 +400,12 @@ form input.submitButton {
     padding: 1% 0;
 }
 
-#specialized img {
+#specialized a {
     width: 90%;
     margin: 0 auto;
+}
+
+#specialized img {
     border-radius: .3rem;
 }
 

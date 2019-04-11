@@ -373,8 +373,18 @@ form input.submitButton {
     padding: 4%;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: .3rem;
+    color: #6a6d6c;
 }
 
+#guests h3 {
+    text-align: left;
+    padding: 1% 0;
+    margin: 2%
+}
+
+#guests li {
+    line-height: .2rem;
+}
 /* style home page town summaries for mobile view */
 
 #homeTowns article{

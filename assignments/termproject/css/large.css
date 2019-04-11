@@ -135,6 +135,9 @@ form {
     border-left: 2px solid #87768e;
 }
 
+#specialized img {
+    width: 75%;
+}
 /* change fish haven view to normal for large display */
 
 #fishHaven .navContainer {

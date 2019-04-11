@@ -407,6 +407,8 @@ form input.submitButton {
 
 #specialized img {
     border-radius: .3rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #specialized img:hover {

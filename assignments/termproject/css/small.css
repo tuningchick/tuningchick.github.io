@@ -424,13 +424,13 @@ form input.submitButton {
 }
 
 #longTermContainer p {
-    margin: 1% 2%;
+    margin: 2%;
     color: #333736;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 #longTermContainer .services {
-    margin: 4% 0 2% 2%;
+    margin: 4% 0 2% 4%;
 }
 
 /* style home page town summaries for mobile view */

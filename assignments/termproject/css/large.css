@@ -122,6 +122,19 @@ form {
     width: 80%;
     margin: 2% auto;
 }
+
+/* services page */
+
+#servicesContainer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+#specialized {
+    border-left: 2px solid #87768e;
+}
+
 /* change fish haven view to normal for large display */
 
 #fishHaven .navContainer {

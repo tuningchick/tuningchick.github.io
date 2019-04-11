@@ -55,6 +55,7 @@ a {
     text-align: right;
     color: #ccdbd9;
     text-shadow: none;
+    margin: 0;
 }
 
 /* nav hamburger button styling */

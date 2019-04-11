@@ -396,7 +396,7 @@ form input.submitButton {
     padding: 2% 0;
 }
 
-#specialized h3 h4 {
+#specialized h3, h4 {
     text-align: center;
     margin: 1% 0 3% 0;
 }

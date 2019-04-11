@@ -148,7 +148,11 @@ form {
 /* long term stay styling */
 
 #longTermContainer {
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 35% 65%;
+}
+
+#longTermContainer h3 {
+    text-align: left;
 }
 
 #longTermContainer form {

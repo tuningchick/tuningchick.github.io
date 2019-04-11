@@ -129,15 +129,13 @@ form {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 4%;
 }
 
 #specialized {
     border-left: 2px solid #87768e;
 }
 
-#specialized img {
-    width: 75%;
-}
 /* change fish haven view to normal for large display */
 
 #fishHaven .navContainer {

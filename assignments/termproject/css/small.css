@@ -423,6 +423,8 @@ form input.submitButton {
 
 #longTermContainer p {
     margin: 1% 2%;
+    color: #333736;
+    font-size: 1.2rem;
 }
 
 /* style home page town summaries for mobile view */

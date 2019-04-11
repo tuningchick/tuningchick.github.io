@@ -145,6 +145,14 @@ form {
     margin-left: 0;
 }
 
+/* long term stay styling */
+
+#longTermContainer form {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+}
+
 /* change fish haven view to normal for large display */
 
 #fishHaven .navContainer {

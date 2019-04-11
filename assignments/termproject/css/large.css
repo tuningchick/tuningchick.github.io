@@ -125,7 +125,7 @@ form {
 
 /* services page */
 
-#servicesContainer {
+#servicesContainer, #longTermContainer {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
@@ -144,6 +144,7 @@ form {
 #specialized {
     margin-left: 0;
 }
+
 /* change fish haven view to normal for large display */
 
 #fishHaven .navContainer {

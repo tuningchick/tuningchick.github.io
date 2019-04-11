@@ -410,6 +410,21 @@ form input.submitButton {
 #specialized img:hover {
     box-shadow: 0 0 3em #87768e;
 }
+
+/* styling for long term stays page */
+
+#longTermContainer h3 {
+    text-align: left;
+}
+
+#longTermContainer li {
+    color: #6a6d6c;
+}
+
+#longTermContainer p {
+    margin: 1% 2%;
+}
+
 /* style home page town summaries for mobile view */
 
 #homeTowns article{

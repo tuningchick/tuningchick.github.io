@@ -147,6 +147,10 @@ form {
 
 /* long term stay styling */
 
+#longTermContainer {
+    grid-template-columns: 40% 60%;
+}
+
 #longTermContainer form {
     display: block;
     width: 85%;

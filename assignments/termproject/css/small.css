@@ -26,6 +26,10 @@ li {
     font-family: 'Cabin', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* styling header */
 #headerContainer {
     display: flex;
@@ -387,7 +391,7 @@ form input.submitButton {
 }
 
 #specialized {
-    border-left: 2px solid #87768e;
+    margin: 2%;
 }
 
 #specialized h3 {
@@ -396,8 +400,9 @@ form input.submitButton {
 }
 
 #specialized img {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
+    border-radius: .3rem;
 }
 
 #specialized img:hover {

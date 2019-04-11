@@ -104,6 +104,12 @@ form {
     margin: 0 auto;
 }
 
+/* services page */
+
+#specialized {
+    border-left: 2px solid #87768e;
+}
+
 /* styling the 5-day forecast */
 aside h3 {
     text-align: center;

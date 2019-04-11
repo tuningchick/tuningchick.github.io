@@ -151,6 +151,12 @@ main .hero {
     margin-bottom: 2%;
 }
 
+/* sub pages hero image styling */
+
+.subPages {
+    margin-bottom: 0;
+}
+
 .mainContainer {
     display: flex;
     flex-direction: column;

@@ -496,6 +496,7 @@ form input.submitButton {
     text-align: center;
     font-family: 'Cabin', sans-serif;
     width: 100%;
+    margin-top: 1%;
 }
 
 #currenttemp img {

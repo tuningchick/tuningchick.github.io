@@ -473,7 +473,7 @@ form input.submitButton {
 
 #currenttemp {
     display: block;
-    width: 30%;
+    width: 25%;
     background-color: white;
     opacity: 0.5;
     box-shadow: 0 0 30px #777;
@@ -502,7 +502,7 @@ form input.submitButton {
 #currenttemp img {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    padding-left: 15%;
 }
 /* style home page town summaries for mobile view */
 

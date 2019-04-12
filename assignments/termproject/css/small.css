@@ -466,16 +466,16 @@ form input.submitButton {
 
 #weatherContainer {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1%;
+    display: block;
     background-color: #e1b3a5;
     padding-top: 1%;
 }
 
 #currenttemp {
-    display: block;
-    width: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1%;
+    width: 24%;
     background-color: white;
     opacity: 0.5;
     box-shadow: 0 0 30px #777;

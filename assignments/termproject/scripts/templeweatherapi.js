@@ -31,7 +31,7 @@ weatherRequest.onload = function() {
     var myImg = document.createElement('img');
     var myP = document.createElement('p');
 
-    myText.innerHTML = 'Current Temp:';
+    myText.innerHTML = 'Indianapolis:';
     myTemp.innerHTML = outputTemp + '&deg;F';
     myImg.setAttribute('src', iconURL);
     myImg.setAttribute('alt', "weather icon");

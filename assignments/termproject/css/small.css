@@ -461,6 +461,25 @@ form input.submitButton {
     text-align: center;
     margin-bottom: 3%;
 }
+
+/* styling current temp block */
+
+#weatherContainer {
+    width: 100%;
+    display: block;
+    background-color: #e1b3a5;
+}
+
+#currenttemp {
+    display: block;
+    width: 30%;
+    font-family: 'Cabin', sans-serif;
+    background-color: white;
+    opacity: 0.5;
+    box-shadow: 0 0 30px #777;
+    padding: .3em .1em;
+    color: #87768e;
+}
 /* style home page town summaries for mobile view */
 
 #homeTowns article{
@@ -537,19 +556,7 @@ form input.submitButton {
     color: black;
 }
 
-/* styling current temp block */
-#currenttemp {
-    display: none;
-    font-family: 'Lato', sans-serif;
-    background-color: #231f20;
-    opacity: 0.35;
-    box-shadow: 2px 2px 30px #f3f5e9;
-    padding: .3em .1em;
-    color: white;
-    margin-left: 4%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-}
+
 
 /* styling weather summary image */
 .center {

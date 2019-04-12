@@ -466,7 +466,9 @@ form input.submitButton {
 
 #weatherContainer {
     width: 100%;
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1%;
     background-color: #e1b3a5;
     padding-top: 1%;
 }

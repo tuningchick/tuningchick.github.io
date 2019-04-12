@@ -4,8 +4,8 @@ var zip = "46032";
 /* create and open new request */
 var headerBox = document.querySelector('#currenttemp');
 let weatherRequest = new XMLHttpRequest();
-    weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/weather?id=" + 
-    zip + "&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
+    weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/weather?zip=" + 
+    zip + ",us&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
 /* send the request */
 weatherRequest.responseType = 'json';
 weatherRequest.send();

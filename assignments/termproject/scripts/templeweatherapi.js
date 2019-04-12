@@ -44,7 +44,7 @@ for (i=0; i<4; i++) {
         myHeaderBox.appendChild(myImg);
         myHeaderBox.appendChild(myP);
 
-        headerBox.appendChild(myHeaderBox);
     }
+    headerBox.appendChild(myHeaderBox);
 }
 }

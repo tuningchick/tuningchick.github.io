@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script type="text/javascript" language="javascript" src="scripts/currentdate.js"></script>
+    <script type="text/javascript" language="javascript" src="scripts/templeweatherapi.js"></script>
     <script type="text/javascript" language="javascript" src="scripts/templeinfo.js"></script>
     <title>CIT 230 | Term Project Temples Page | Laura Lykins | BYU-Idaho</title>
     <link href="https://fonts.googleapis.com/css?family=Buenard" rel="stylesheet">
@@ -57,10 +58,12 @@
                 
                 </section>
             </div>
-            <!-- table created for api weather call for current conditions in cities served -->
-            <table id="weather">
+            <aside id="summary" class="clearfix">
+                    <!-- create span for weather summary info api call -->
+                    <article id="currenttemp">
 
-            </table>
+                    </article>
+            </aside>    
         </main>
         <!-- footer, including actual date display -->
         <footer>
@@ -70,6 +73,7 @@
             BYU-I Online Learning</a></p>
         </footer>
         <script>actualDate();</script>
+        <script>outputConditions()</script>
         <script>runShowTemples();</script>
     </body>
 </html>

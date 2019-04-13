@@ -136,4 +136,10 @@ form label.sbs {
     padding: .4rem 0;
 }
 
+/* tablet view weather container background */
+
+#weatherContainer {
+    background-color: #768e8b;
+}
+
 }

@@ -462,7 +462,7 @@ form input.submitButton {
     margin-bottom: 3%;
 }
 
-/* styling current temp block */
+/* styling current temp blocks */
 
 #weatherContainer {
     width: 100%;
@@ -510,119 +510,6 @@ form input.submitButton {
     margin: 0 auto;
     padding-left: 1%;
 }
-/* style home page town summaries for mobile view */
-
-#homeTowns article{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #dddfd4;
-    border-radius: .3rem;
-    background-color: #c2ca86;
-    margin: 5%;
-    text-align: center;
-    box-shadow: 0 0 30px #777;
-    padding-bottom: 1rem;
-}
-
-/* general home page styling for all views */
-
-#homeTowns article img {
-    width: 100%;
-    border-top-left-radius: .3rem;
-    border-top-right-radius: .3rem; 
-    padding-bottom: 2px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#homeTowns h6 {
-    font-family: 'Lato', sans-serif;
-    font-size: .7em;
-    font-style: italic;
-    color: #ee3229;
-    text-align: center;
-    text-shadow: none;
-    padding-top: .3rem;
-    padding-bottom: .3rem; 
-}
-
-#homeTowns p {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-size: .9rem;
-}
-
-.currentArticles, .contactHome {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #dddfd4;
-    border-radius: .3rem;
-    background-color: #c2ca86;
-    margin: 5%;
-    text-align: center;
-    box-shadow: 0 0 30px #777;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.contactHome p {
-    font-size: .8rem;
-    text-align: center;
-    padding-top: .3rem;
-}
-
-.currentArticles p {
-    margin-left: 1%;
-    padding-top: .3rem;
-    text-shadow: 1px 1px 2px white;
-    font-style: italic;
-}
-
-.currentArticles a {
-    text-decoration: none;
-    color: black;
-}
-
-
-
-/* styling weather summary image */
-.center {
-    display: block;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
-    width: 100%;   
-}
-
-/* styling weather summary aside */
-
-#summary {
-    width: 20%;
-    position: absolute;
-    margin-top: 3%;
-    margin-left: 3%;
-    font-family: 'Lato', sans-serif;
-    background-color: #f3f5e9;
-    opacity: 0.7;
-    box-shadow: 0 0 30px #777;
-    padding: 1em .5em;
-    border-radius: .3rem;
-}
-
-#summary h4 {
-    padding: .2em;
-    color: #231f20;
-    text-align: left;
-}
-
-#summary span {
-    text-shadow: 1px 1px 2px #777;
-    background-color: #f3f5e9;
-}
 
 /* credit openweathermap.org format */
 
@@ -630,80 +517,5 @@ form input.submitButton {
     width: 100%;
     font-size: .7rem;
     font-weight: lighter;
-    text-align: center;
-}
-
-/* 5 day forecast needs to not show in mobile view */
-
-.fiveday {
-    display: none;
-}
-
-.currenttemp {
-    display: none;
-}
-
-/* Styling article image */
-
-#townPageArticle img {
-    width: 95%;
-    margin-left: 2%;
-    border-radius: .3rem;
-}
-
-/* Styling article */
-
-#townPageArticle {
-    width: 95%;
-    max-height: 350px;
-    overflow: auto;
-    background-color: #c2ca86;
-    border: 1px solid #dddfd4;
-    border-radius: .3rem;
-    margin: 2%;
-    padding: 1rem 2rem 1rem 2rem;
-}
-
-#townPageArticle div p {
-    font-family: 'Lato', sans-serif;
-    line-height: 1rem;
-    margin: .5em;
-}
-
-#townPageArticle div h2 {
-    margin-bottom: .5rem;
-}
-
-#townPageArticle div h4 {
-    padding: 1rem 0;
-}
-
-#townPageArticle h5 {
-    text-align: left;
-    text-shadow: none;
-    margin: .5rem 0; 
-}
-
-/* style upcoming events */
-
-#events {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 30px #777;
-    padding: 1.5%;
-    border-radius: .3em;
-}
-
-#events h3 {
-    padding-bottom: 1%;
-}
-
-#upcoming ul {
-    list-style-type: none;
-}
-
-#upcoming li {
-    font-family: 'Lato', sans-serif;
     text-align: center;
 }

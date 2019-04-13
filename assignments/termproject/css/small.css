@@ -337,10 +337,12 @@ form input.submitButton {
 .checkList {
     font-family: 'Cabin', sans-serif;
     color: #87768e;
+    margin: 1% 0;
 }
 
 .checkList input {
     color:  #6a6d6c;
+    margin-left: 2%;
 }
 
 /* thank you message format */
@@ -470,6 +472,14 @@ form input.submitButton {
     color: #87768e;
     text-align: center;
     margin-bottom: 3%;
+}
+
+/* reception page styling */
+
+.subPages img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 /* styling current temp blocks */

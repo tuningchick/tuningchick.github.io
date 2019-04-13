@@ -472,8 +472,10 @@ form input.submitButton {
 }
 
 #currenttemp {
-    display: inline-block;
-    width: 24%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+    width: 100%;
     background-color: white;
     opacity: 0.5;
     box-shadow: 0 0 30px #777;

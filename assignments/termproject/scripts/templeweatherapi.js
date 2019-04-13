@@ -1,7 +1,7 @@
 
 function outputConditions() {
 var zip = ["46032", "60025", "62354", "63141"];
-
+var city = ["Indianapolis", "Chicago", "Nauvoo", "St. Louis"];
 var headerBox = [];
 /* create and open new request */
 for (i=0; i<4; i++) {
@@ -22,7 +22,6 @@ for (i=0; i<4; i++) {
         /* populate the current temp box at the bottom of the temple page */
 
     /* display "current temp:", the temp, and the weather icon */
-        var city = ["Indianapolis", "Chicago", "Nauvoo", "St. Louis"];
         var outputTemp = parseFloat(weatherData.main.temp).toFixed(0);
         var imgArray = weatherData.weather[0].icon;
 

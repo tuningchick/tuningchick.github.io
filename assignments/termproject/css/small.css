@@ -471,7 +471,7 @@ form input.submitButton {
     padding-top: 1%;
 }
 
-#currenttemp {
+#currenttemp article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1%;
@@ -497,6 +497,7 @@ form input.submitButton {
     font-size: 1em;
     text-align: center;
     font-family: 'Cabin', sans-serif;
+    color: #6a6d6c;
     width: 100%;
     margin-top: 1%;
 }

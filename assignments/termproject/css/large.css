@@ -161,4 +161,7 @@ form {
     margin: 0 auto;
 }
 
+#weatherContainer {
+    background-color: #e1b3a5;
+}
 }

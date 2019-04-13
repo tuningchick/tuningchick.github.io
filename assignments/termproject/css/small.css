@@ -513,9 +513,9 @@ form input.submitButton {
 
 /* credit openweathermap.org format */
 
-#credit p {
+#credit {
     width: 100%;
-    font-size: .7rem;
+    font-size: .5rem;
     font-weight: lighter;
     text-align: center;
 }

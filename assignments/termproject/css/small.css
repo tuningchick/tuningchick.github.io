@@ -476,11 +476,13 @@ form input.submitButton {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2%;
     width: 100%;
+}
+
+#currenttemp article {
     background-color: white;
     opacity: 0.5;
     box-shadow: 0 0 30px #777;
     padding: .3em .1em;
-    color: #87768e;
     margin: 2% 0;
     border-radius: .3em;
 }
@@ -505,7 +507,7 @@ form input.submitButton {
 #currenttemp img {
     display: block;
     margin: 0 auto;
-    padding-left: 8%;
+    padding-left: 1%;
 }
 /* style home page town summaries for mobile view */
 

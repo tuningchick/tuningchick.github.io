@@ -161,18 +161,4 @@ form {
     margin: 0 auto;
 }
 
-
-/* change fish haven view to normal for large display */
-
-#fishHaven .navContainer {
-    width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 6;
-    display: inline-block;
-}
-
-#fishHaven main {
-    grid-column-start: 1;
-    grid-column-end: 6;
-}
 }

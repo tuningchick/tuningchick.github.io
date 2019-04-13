@@ -241,25 +241,4 @@ form label.sbs {
     display: block;
 }
 
-/*current temperature style */
-
-
-
-
-#currenttemp div {
-    float: left;
-    width: 50%;
-    font-size: 1em;
-    text-align: left;
-    text-shadow: 1px 1px 2px #777;
-    padding-top: 10%;
-    padding-bottom: 5%;
-    padding-left: 4%;
-}
-
-#currenttemp img {
-    float: right;
-    width: 34%;
-    padding-top: 2%;
-}
 }

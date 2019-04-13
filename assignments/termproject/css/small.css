@@ -475,7 +475,8 @@ form input.submitButton {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2%;
-    width: 100%;
+    width: 96%;
+    margin: 0 auto;
 }
 
 #currenttemp article {

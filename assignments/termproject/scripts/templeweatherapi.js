@@ -1,10 +1,11 @@
 
 function outputConditions() {
 var zip = ["46032", "60025", "62354", "63141"];
-var city = ["Indianapolis", "Chicago", "Nauvoo", "St. Louis"];
+
 var headerBox = [];
 /* create and open new request */
 for (i=0; i<4; i++) {
+    var city = ["Indianapolis", "Chicago", "Nauvoo", "St. Louis"];
     headerBox = document.querySelector('#currenttemp');
     let weatherRequest = new XMLHttpRequest();
         weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/weather?zip=" + 

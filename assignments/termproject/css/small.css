@@ -334,6 +334,11 @@ form input.submitButton {
     text-shadow: 2px 2px 4px white;
 }
 
+.checkList {
+    font-family: 'Cabin', sans-serif;
+    color: #87768e;
+}
+
 /* thank you message format */
 
 #thanks {

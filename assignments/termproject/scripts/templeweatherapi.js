@@ -3,6 +3,7 @@ function outputConditions() {
 var zip = ["46032", "60025", "62354", "63141"];
 var city = ["Indianapolis", "Chicago", "Nauvoo", "St. Louis"];
 var headerBox = [];
+var a = 0
 /* create and open new request */
 for (i=0; i<4; i++) {
     
@@ -34,7 +35,7 @@ for (i=0; i<4; i++) {
         var myImg = document.createElement('img');
         var myP = document.createElement('p');
 
-        templeCity.textContent = city[i];
+        templeCity.textContent = city[a];
         myTemp.innerHTML = outputTemp + '&deg;F';
         myImg.setAttribute('src', iconURL);
         myImg.setAttribute('alt', "weather icon");
@@ -46,6 +47,8 @@ for (i=0; i<4; i++) {
         myHeaderBox.appendChild(myP);
 
         headerBox.appendChild(myHeaderBox);
+
+        a++;
     }
     
 }

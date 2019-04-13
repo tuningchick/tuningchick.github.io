@@ -471,10 +471,8 @@ form input.submitButton {
     padding-top: 1%;
 }
 
-#currenttemp article {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1%;
+#currenttemp {
+    display: inline-block;
     width: 24%;
     background-color: white;
     opacity: 0.5;

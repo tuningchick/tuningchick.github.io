@@ -339,6 +339,10 @@ form input.submitButton {
     color: #87768e;
 }
 
+.checkList input {
+    color:  #6a6d6c;
+}
+
 /* thank you message format */
 
 #thanks {

@@ -115,8 +115,6 @@ form {
     margin-bottom: 2%;
 }
 
-
-
 /* footer style for medium and large views */
 
 footer #displayDate {
@@ -136,54 +134,6 @@ footer p {
 
 form label.sbs {
     padding: .4rem 0;
-}
-
-/* home page town summaries format */
-
-#homeTowns {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 4%;
-}
-
-#trendingContact {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-}
-
-/* work on Fish Haven different middle view */
-
-#fishHaven {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 20% 80%;
-}
-
-#fishHaven .navContainer {
-    display: flex;
-    flex-direction: column;
-}
-
-#fishHaven .navContainer ul  {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#fishHaven .navContainer li {
-    border: none;
-    vertical-align: middle;
-    font-size: 1.2em;
-    padding-left: 1em;
-}
-
-#fishHaven .navContainer a {
-    padding: .8rem 2%;
-    text-align: left;
-    text-decoration: none;
-    display: block;
 }
 
 }

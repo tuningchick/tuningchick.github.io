@@ -54,7 +54,7 @@
                     <ul>
                         <li>Reception venue. Seating for up to 250.</li>
                         <li>Group rates for wedding guest accommodations.</li>
-                        <li>Catering Services.</li>
+                        <li>Catering services. Choice of menu items: appetizers, entrees, desserts, beverages.</li>
                         <li>Kitchen access for non-catered events.</li>
                         <li>Discounts for local florists, photographers and other services.</li>
                     </ul>
@@ -68,7 +68,7 @@
                         <label class="top" for="email">Email Address*:
                         <input type="email" id="email" name="email" placeholder="user@email.org" 
                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required></label>
-                        <label class="top" for="templeLocation">Where will you be serving?:
+                        <label class="top" for="templeLocation">Where will the wedding be?:
                         <input list="templeLocation" name="location"></label>
                             <datalist id="templeLocation">
                                 <option value="">Select City &#9662;</option>
@@ -77,8 +77,15 @@
                                 <option value="Nauvoo">
                                 <option value="Saint Louis">  
                             </datalist>
-                        <label class="top" for="arrivalDate">Estimated Wedding Date:
+                        <label class="top" for="arrivalDate">Wedding Date:
                         <input type="date" id="arrivalDate" name="arrivalDate"></label>
+                        <label class="top" for="infoRequested">Select the services you would like to know more 
+                            about:
+                            <input type="checkbox" id="infoRequested" name="reception" value="reception">Reception Venue<br>
+                            <input type="checkbox" id="infoRequested" name="groupRate" value="rates">Group Accommodation Rates<br>
+                            <input type="checkbox" id="infoRequested" name="catering" value="catering">Catering Services<br>
+                            <input type="checkbox" id="infoRequested" name="kitchen" value="kitchen">Kitchen Access<br>
+                            <input type="checkbox" id="infoRequested" name="discounts" value="vendors">Discount Vendors<br>
                         <label for="other" class="top">Other comments or questions. 600 characters max</label>
                         <textarea id="other" name="other" maxlength="600">
                         </textarea>

@@ -40,7 +40,7 @@ for (i=0; i<4; i++) {
         myImg.setAttribute('alt', "weather icon");
         myP.innerHTML = weatherData.weather[0].description;
 
-        myHeaderBox.appendChild(myText);
+        myHeaderBox.appendChild(templeCity);
         myHeaderBox.appendChild(myTemp);
         myHeaderBox.appendChild(myImg);
         myHeaderBox.appendChild(myP);

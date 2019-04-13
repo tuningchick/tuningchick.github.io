@@ -6,7 +6,7 @@ var headerBox = [];
 /* create and open new request */
 for (i=0; i<4; i++) {
     
-    headerBox[i] = document.querySelector('#currenttemp');
+    headerBox = document.querySelector('#currenttemp');
     let weatherRequest = new XMLHttpRequest();
         weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/weather?zip=" + 
         zip[i] + ",us&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);

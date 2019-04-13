@@ -1,12 +1,12 @@
 
 function outputConditions() {
 var zip = ["46032", "60025", "62354", "63141"];
-
+var city = ["Indianapolis", "Chicago", "Nauvoo", "St. Louis"];
 var headerBox = [];
 /* create and open new request */
 for (i=0; i<4; i++) {
-    var city = ["Indianapolis", "Chicago", "Nauvoo", "St. Louis"];
-    headerBox = document.querySelector('#currenttemp');
+    
+    headerBox[i] = document.querySelector('#currenttemp');
     let weatherRequest = new XMLHttpRequest();
         weatherRequest.open ("GET", "https://api.openweathermap.org/data/2.5/weather?zip=" + 
         zip[i] + ",us&units=imperial&APPID=93f7b5fbca8fc6183352adb88e36039d", true);
@@ -29,12 +29,12 @@ for (i=0; i<4; i++) {
         var iconURL = 'https://openweathermap.org/img/w/'+ imgArray + '.png';
 
         var myHeaderBox = document.createElement('article');
-        var myText = document.createElement('h5');
+        var templeCity = document.createElement('h5');
         var myTemp = document.createElement('div');
         var myImg = document.createElement('img');
         var myP = document.createElement('p');
 
-        myText.textContent = city[i];
+        templeCity.textContent = city[i];
         myTemp.innerHTML = outputTemp + '&deg;F';
         myImg.setAttribute('src', iconURL);
         myImg.setAttribute('alt', "weather icon");

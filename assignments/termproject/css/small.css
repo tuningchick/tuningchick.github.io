@@ -153,8 +153,9 @@ main .hero {
 
 /* sub pages hero image styling */
 
-.subPages {
+.subPages .hero {
     margin-bottom: 0;
+    width: 100%;
 }
 
 .mainContainer {

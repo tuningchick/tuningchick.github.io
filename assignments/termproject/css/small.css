@@ -468,7 +468,7 @@ form input.submitButton {
     width: 100%;
     display: block;
     background-color: #e1b3a5;
-    padding-top: 1%;
+    padding: 1% 0;
 }
 
 #currenttemp {
